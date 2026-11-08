@@ -1,0 +1,93 @@
+{
+  "schemaVersion": 1,
+  "stage": "functional",
+  "candidate": {
+    "sourceTreeHash": "a7be506771c6ecaf3188ca4db9e8ee6daf535ff41fec9ac7d51a2b5ccd038ca9",
+    "catalogRevision": "0216f5e78e9e09f6808f65655979b2d9e45b1dabaeee9f5f8266c6e039b1431f",
+    "configFingerprint": "a15c5bbaf877159311e339627815877acd5aaba4c51e38b37e75be5e0b9b3460"
+  },
+  "environment": {
+    "node": "v24.15.0",
+    "platform": "win32",
+    "culture": "en-US",
+    "profile": "local-functional",
+    "browser": "Chrome over loopback HTTPS",
+    "database": "isolated PostgreSQL",
+    "payment": "synthetic adapter and unconfigured live boundary"
+  },
+  "status": "passed",
+  "checks": [
+    {
+      "id": "source-preservation",
+      "status": "passed",
+      "evidencePath": "evidence/acceptance/source-preservation.json"
+    },
+    {
+      "id": "source-coverage",
+      "status": "passed",
+      "evidencePath": "evidence/acceptance/source-coverage.json"
+    },
+    {
+      "id": "unit",
+      "status": "passed",
+      "evidencePath": "evidence/acceptance/unit.json"
+    },
+    {
+      "id": "independent-references",
+      "status": "passed",
+      "evidencePath": "evidence/acceptance/independent-references.json"
+    },
+    {
+      "id": "integration",
+      "status": "passed",
+      "evidencePath": "evidence/acceptance/integration.json"
+    },
+    {
+      "id": "http-request-protection",
+      "status": "passed",
+      "evidencePath": "evidence/acceptance/http-request-protection.json"
+    },
+    {
+      "id": "workspace-assets",
+      "status": "passed",
+      "evidencePath": "evidence/acceptance/workspace-assets.json"
+    },
+    {
+      "id": "paid-reconciliation",
+      "status": "passed",
+      "evidencePath": "evidence/acceptance/paid-reconciliation.json"
+    },
+    {
+      "id": "trial-registry",
+      "status": "passed",
+      "evidencePath": "evidence/acceptance/trial-registry.json"
+    },
+    {
+      "id": "state-codec",
+      "status": "passed",
+      "evidencePath": "evidence/acceptance/state-codec.json"
+    },
+    {
+      "id": "workspace-preferences",
+      "status": "passed",
+      "evidencePath": "evidence/acceptance/workspace-preferences.json"
+    },
+    {
+      "id": "typecheck",
+      "status": "passed",
+      "evidencePath": "evidence/acceptance/typecheck.json"
+    },
+    {
+      "id": "build",
+      "status": "passed",
+      "evidencePath": "evidence/acceptance/build.json"
+    }
+  ],
+  "visualWaivers": [
+    "unverified-visual-nonblocking"
+  ],
+  "externalSetup": [
+    "Live merchant integration",
+    "Independent trial registry host resilience"
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 1,
+  "routeId": "Gpas4",
+  "classification": {
+    "dispatch": true,
+    "uiRoutes": true,
+    "search": true
+  },
+  "methods": [
+    {
+      "method": "Gpas4",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 49289,
+        "rva": 3733052,
+        "token": "[Method:0x07c7]"
+      },
+      "ilSha256": "142fc48fd9accef07b0f6767195df732f32f8fb0b19b6ec47f25c2003cb3ec21"
+    },
+    {
+      "method": "Gpas4_Headers",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 49461,
+        "rva": 3736280,
+        "token": "[Method:0x07cb]"
+      },
+      "ilSha256": "26a9f9e0c780c979fbd3e77a57426d624736eae23e32d47d32acc75fc7030be8"
+    },
+    {
+      "method": "GetTitle",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 37125,
+        "rva": 3570892,
+        "token": "[Method:0x0727]"
+      },
+      "ilSha256": "a93407a6e60c8b554f7a1217ee3e4e1695b0d3a167f33452a86000b983a2bdce"
+    },
+    {
+      "method": "GetSubTab",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 36818,
+        "rva": 3567640,
+        "token": "[Method:0x0726]"
+      },
+      "ilSha256": "7fe830d0baafcfd0edeec8ce30ecbba940c2a69a5e80748f2cd6cbd4e81097bb"
+    },
+    {
+      "method": "LoadDrawing",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 39778,
+        "rva": 3618160,
+        "token": "[Method:0x073a]"
+      },
+      "ilSha256": "a4e602de7b2af2893dbd39a118b8d4ebd85b4f3d38dccbc1a44448ce89d0d5a4"
+    },
+    {
+      "method": "DoDrawing",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 40913,
+        "rva": 3623668,
+        "token": "[Method:0x0744]"
+      },
+      "ilSha256": "4d38598296307a3a2f8469a15b80d8aa335ef9143465443ec4cbbe7965587171"
+    },
+    {
+      "method": "LoadDataBase1",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 36366,
+        "rva": 3562000,
+        "token": "[Method:0x0722]"
+      },
+      "ilSha256": "ccee075f3f89b6f20da1bccf2168f16e48890151dc055cc5012b349295ee1330"
+    },
+    {
+      "method": "ErrorCatch",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 58359,
+        "rva": 3849740,
+        "token": "[Method:0x085c]"
+      },
+      "ilSha256": "136b7b7f4cf539de61a4be939db8ed75ec51e1560b3f75f17623de716f67daad"
+    },
+    {
+      "method": "FormatDim",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 39366,
+        "rva": 3611568,
+        "token": "[Method:0x072c]"
+      },
+      "ilSha256": "2f4c7cfc01db4144198e24cf67ef7135cbee1331c480644077304bc5317aeaf9"
+    },
+    {
+      "method": "Gpas4_CalcSpacing",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 53359,
+        "rva": 3783304,
+        "token": "[Method:0x0803]"
+      },
+      "ilSha256": "f36cadf4391e5e358d7cbfb7e828e3870ae038ed162eed08b2bd22c802995819"
+    },
+    {
+      "method": "DesigBtn2ForPipe2Size",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 56524,
+        "rva": 3823816,
+        "token": "[Method:0x0848]"
+      },
+      "ilSha256": "288f99f72582b92d84b624ee06f024476fec11b423eba6ef95c0bf249a614a7b"
+    },
+    {
+      "method": "DesigBtn3ForPipe2Size",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 56795,
+        "rva": 3827940,
+        "token": "[Method:0x0849]"
+      },
+      "ilSha256": "377641f14da06178085b96ccc2c1d698f2f65e209309fd8ac027b1536a7addcf"
+    },
+    {
+      "method": "DesigBtn4ForPipe2Size",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 57066,
+        "rva": 3832064,
+        "token": "[Method:0x084a]"
+      },
+      "ilSha256": "c063bce0a9b18bd094ab2a315a0554539f894b1d0a096b4abfbea925a14bd0d4"
+    },
+    {
+      "method": "LoadSettingsGpas",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 8848,
+        "rva": 3238200,
+        "token": "[Method:0x0609]"
+      },
+      "ilSha256": "2dcc95abfae4b721bd14661318f9e81ce35254cae4d863529f074b5270108263"
+    }
+  ],
+  "sourceEvidenceReuse": "Retained REA managed source/MVID and all1481 IL body crosscheck; no executable or vendor assembly loaded",
+  "fixtures": {
+    "path": "tests/reference/calculators/Gpas4.json",
+    "hash": "589d4c21d9c384a325116cc959fabc75d2a427821c590f56e21ef47e5baa0b4e",
+    "cases": 709,
+    "unavailableCases": 18
+  },
+  "framework": {
+    "path": "tests/reference/calculators/framework.json",
+    "hash": "72b93441a7bd55b33b71dc9acc6b7803ffb3ed3ce58cf1c21cf167ae15ff1738"
+  },
+  "dataSources": [
+    {
+      "path": "Database/Flom/Flg150.csv",
+      "hash": "ba8b15ae6ff375e10cf4b6f1c5c60eafc8bd10f376a3e59787f2e09c3ee352e8"
+    },
+    {
+      "path": "Database/Flom/Flg1500.csv",
+      "hash": "36d399f4ea42ace3a01df316d393a6c9237ddaf158682cf86894ebca74ffb061"
+    },
+    {
+      "path": "Database/Flom/Flg2500.csv",
+      "hash": "d8efc0effbc225cc8fa60528b51800d3b18c18bc0cdf385fd4d1a7005866cf25"
+    },
+    {
+      "path": "Database/Flom/Flg300.csv",
+      "hash": "5281f52c37b58239bc15f822ec90d0bfa965fb5bde4e81f77d8bef0348f96934"
+    },
+    {
+      "path": "Database/Flom/Flg400.csv",
+      "hash": "64a8ddf5abd7b062226a01d12c8dd56ad4a9b43a0cbe8bf2c62c2649771d47a1"
+    },
+    {
+      "path": "Database/Flom/Flg600.csv",
+      "hash": "179644cbbddeb5c3d0575f86ae14c77f50660950f105d2ffca93d1f88dec6d21"
+    },
+    {
+      "path": "Database/Flom/Flg900.csv",
+      "hash": "26726b915e984de517a933e8e3ef0a4ec0782865355b0a8de0b535ed9b8e2015"
+    },
+    {
+      "path": "Database/Gpas/Gpas4.dxf",
+      "hash": "42e7d60cebfab6cd2c50aed858cff08f85f80ef6dd727888f6f8fb5562e40156"
+    },
+    {
+      "path": "Database/Pipe/PipeSTD.csv",
+      "hash": "065111ef98dbb1d277d75495d683f8bafca4551fa3abdc4efbd8c3af3cd71e64"
+    }
+  ],
+  "tests": [
+    "tests/legacy/calculators.test.ts",
+    "tests/legacy/calculator-recipes.test.ts",
+    "tests/legacy/task9-acceptance.test.ts"
+  ],
+  "review": "Primary agent self-review per user; no subagent",
+  "originalComparison": "unverified-visual-nonblocking"
+}

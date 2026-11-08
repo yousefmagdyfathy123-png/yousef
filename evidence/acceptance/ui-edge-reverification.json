@@ -1,0 +1,94 @@
+{
+  "candidate": {
+    "sourceTreeHash": "d78de872492f7a36d1aadabb064fe2f26b8af5c0c2d321c0437a0c94f7f2db2f",
+    "catalogRevision": "0216f5e78e9e09f6808f65655979b2d9e45b1dabaeee9f5f8266c6e039b1431f",
+    "configFingerprint": "1f00b1db4b11060908dcc6196594ef44a2bc5bbca46788581a6d883a4834f6f7"
+  },
+  "originalRun": "Q:\\data alfa\\alfadata\\.local\\ui-acceptance\\run-VgByNQ",
+  "failures": [
+    {
+      "file": "mobile.spec.ts",
+      "title": "narrow layout scrolls, zooms and remains operable without reordering controls",
+      "project": "edge-windows",
+      "status": "unexpected",
+      "browser": "156.0.4314.58"
+    }
+  ],
+  "rerun": ".local/ui-acceptance/edge-recheck",
+  "browser": "156.0.4314.58",
+  "tests": [
+    {
+      "file": "desktop.spec.ts",
+      "title": "all-route navigation, settings cancellation, search and public identity",
+      "status": "passed",
+      "project": "edge-windows",
+      "browser": "156.0.4314.58"
+    },
+    {
+      "file": "desktop.spec.ts",
+      "title": "source menus open calculator and parameter documents without private markup",
+      "status": "passed",
+      "project": "edge-windows",
+      "browser": "156.0.4314.58"
+    },
+    {
+      "file": "desktop.spec.ts",
+      "title": "wide source toolbar keeps its400px title and selector offset without wrapping",
+      "status": "passed",
+      "project": "edge-windows",
+      "browser": "156.0.4314.58"
+    },
+    {
+      "file": "full-journey.spec.ts",
+      "title": "protected text results match the drawing revision through copy, settings and reload",
+      "status": "passed",
+      "project": "edge-windows",
+      "browser": "156.0.4314.58"
+    },
+    {
+      "file": "mobile.spec.ts",
+      "title": "narrow layout scrolls, zooms and remains operable without reordering controls",
+      "status": "passed",
+      "project": "edge-windows",
+      "browser": "156.0.4314.58"
+    },
+    {
+      "file": "mobile.spec.ts",
+      "title": "two touch pointers zoom and release cleanly; pan preserves the selectors",
+      "status": "passed",
+      "project": "edge-windows",
+      "browser": "156.0.4314.58"
+    },
+    {
+      "file": "preferences.spec.ts",
+      "title": "account defaults persist and a stale form must reload the saved snapshot",
+      "status": "passed",
+      "project": "edge-windows"
+    },
+    {
+      "file": "print.spec.ts",
+      "title": "print snapshot has source width and notice, cancellation/failure restores live workspace",
+      "status": "passed",
+      "project": "edge-windows",
+      "browser": "156.0.4314.58"
+    },
+    {
+      "file": "workspace-network.spec.ts",
+      "title": "reconciles a lost committed response without dispatching the action again",
+      "status": "passed",
+      "project": "edge-windows"
+    },
+    {
+      "file": "workspace-recovery.spec.ts",
+      "title": "reload recovers the workspace, cloned tabs stay isolated, and guests and expired workspaces are denied",
+      "status": "passed",
+      "project": "edge-windows"
+    },
+    {
+      "file": "workspace-session-resume.spec.ts",
+      "title": "a new login can explicitly resume the same workspace and its confirmed revision",
+      "status": "passed",
+      "project": "edge-windows"
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "routeId": "Ftsc18",
+  "methods": [
+    {
+      "method": "Ftsc18",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 24792,
+        "rva": 3378516,
+        "token": "0x060006a1"
+      },
+      "ilSha256": "a4f8eff55586da739368b83e30213b1a393b790924971c6bf2d0a04543b3bea8"
+    },
+    {
+      "method": "Ftsc18_Headers",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 26751,
+        "rva": 3403960,
+        "token": "0x060006c9"
+      },
+      "ilSha256": "09eaccb3922619f236e6f89c9146b9c33fca0cd4b042af0574b306bfb3ec52f5"
+    },
+    {
+      "method": "LoadSettings",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 2959,
+        "rva": 3164984,
+        "token": "0x060005e8"
+      },
+      "ilSha256": "fcf15a655bebaf1ad8fb4e66b4b11563cf42388d397437af2e9a37ad047d4a87"
+    },
+    {
+      "method": "LoadDataBase1",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 36366,
+        "rva": 3562000,
+        "token": "0x06000722"
+      },
+      "ilSha256": "ccee075f3f89b6f20da1bccf2168f16e48890151dc055cc5012b349295ee1330"
+    },
+    {
+      "method": "GetTitle",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 37125,
+        "rva": 3570892,
+        "token": "0x06000727"
+      },
+      "ilSha256": "a93407a6e60c8b554f7a1217ee3e4e1695b0d3a167f33452a86000b983a2bdce"
+    },
+    {
+      "method": "GetSubTab",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 36818,
+        "rva": 3567640,
+        "token": "0x06000726"
+      },
+      "ilSha256": "7fe830d0baafcfd0edeec8ce30ecbba940c2a69a5e80748f2cd6cbd4e81097bb"
+    },
+    {
+      "method": "LoadDrawing",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 39778,
+        "rva": 3618160,
+        "token": "0x0600073a"
+      },
+      "ilSha256": "a4e602de7b2af2893dbd39a118b8d4ebd85b4f3d38dccbc1a44448ce89d0d5a4"
+    },
+    {
+      "method": "DoDrawing",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 40913,
+        "rva": 3623668,
+        "token": "0x06000744"
+      },
+      "ilSha256": "4d38598296307a3a2f8469a15b80d8aa335ef9143465443ec4cbbe7965587171"
+    },
+    {
+      "method": "FormatDim",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 39366,
+        "rva": 3611568,
+        "token": "0x0600072c"
+      },
+      "ilSha256": "2f4c7cfc01db4144198e24cf67ef7135cbee1331c480644077304bc5317aeaf9"
+    },
+    {
+      "method": "FractionizeIfNeccessary",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 58370,
+        "rva": 3849868,
+        "token": "0x0600085d"
+      },
+      "ilSha256": "7701d5c4581fc74c8fe9c6cffe720a1adeaaae1f8c225ddcd9f37a1978951026"
+    },
+    {
+      "method": "LoadSettingsFtsc",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 3412,
+        "rva": 3170184,
+        "token": "0x060005ea"
+      },
+      "ilSha256": "aef500298073f8b8c763d9635c8bbd04e1315aa666c114645f252436c7d9ce8b"
+    },
+    {
+      "method": "DesigBtn1ValuesForMainSize",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 34331,
+        "rva": 3532960,
+        "token": "0x06000713"
+      },
+      "ilSha256": "c011de74bc5b771a82a29e1ba75056e9afe1d0a5f2d428e16bb44c1ff9db4ed4"
+    },
+    {
+      "method": "DesigBtn2ForSmallSize",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 35197,
+        "rva": 3548184,
+        "token": "0x06000717"
+      },
+      "ilSha256": "f682d7d2c4b3e5298f0dec556129d690292b12116d01f2af33d7f6a211d65e18"
+    }
+  ],
+  "sourceEvidenceReuse": "evidence/catalog-load-evidence.json; matching artifact/MVID and all1481 IL-body crosscheck",
+  "fixtures": {
+    "path": "tests/reference/fittings-pipe-branches/Ftsc18.json",
+    "hash": "57fa5b91af3a691dbd9fde2593667fafb5909b522d81da106ad273232033ea49",
+    "cases": 56,
+    "unavailableCases": 0
+  },
+  "dataSources": [
+    {
+      "path": "Database/Ftsc/Ftsc1830_Inches.csv",
+      "hash": "4678dbc0a862e63166434fcadb24fbf7b5c6a3f4ba27695aaab46c5fbc3a242a"
+    },
+    {
+      "path": "Database/Ftsc/Ftsc1830_Millimetres.csv",
+      "hash": "6d3a11f99a402dda728e64bf864e0119adf464e17d964c6e99dc7daa3569e456"
+    },
+    {
+      "path": "Database/Ftsc/Ftsc1860_Inches.csv",
+      "hash": "a04d88e687abbb4b3a5caedb064d7b46474fb00ca6f6939830b732382b3886fa"
+    },
+    {
+      "path": "Database/Ftsc/Ftsc1860_Millimetres.csv",
+      "hash": "d268dd6613e79536da0eab01914289a4c7ccf701b0e48123e9fa7e702a71e3b7"
+    }
+  ],
+  "tests": [
+    "tests/legacy/fittings-pipe-branches.test.ts",
+    "tests/legacy/task7-acceptance.test.ts"
+  ],
+  "originalComparison": "unverified-visual-nonblocking"
+}

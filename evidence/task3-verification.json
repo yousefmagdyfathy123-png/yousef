@@ -1,0 +1,41 @@
+{
+  "recordedAt": "2026-11-01T14:02:29.303166+00:00",
+  "scope": "task3 only",
+  "baseCommit": "c819711",
+  "verification": {
+    "fullSuite": {
+      "command": "npm test",
+      "files": 7,
+      "passed": 595,
+      "failed": 0
+    },
+    "frameworkReferenceCases": 541,
+    "codecCases": 26,
+    "cultureCases": 2,
+    "typecheck": "passed",
+    "productionBuild": "passed",
+    "evidenceCheck": {
+      "cards": 496,
+      "pendingFunctional": 495,
+      "blocking": 0
+    },
+    "frameworkRegeneration": "identical fixture SHA256",
+    "sourcePreservation": {
+      "databaseFiles": 1634,
+      "changed": 0,
+      "executableUnchanged": true
+    },
+    "diffCheck": "passed"
+  },
+  "review": {
+    "independentReviewer": "task3_review",
+    "importantFindings": 3,
+    "fixedWithIndependentRedGreen": 3,
+    "deferredMinors": 0
+  },
+  "scopeLimits": [
+    "Task4/5 refine state schema/action continuation",
+    "Task19b verifies database persistence",
+    "No original runtime/pixel parity claimed"
+  ]
+}

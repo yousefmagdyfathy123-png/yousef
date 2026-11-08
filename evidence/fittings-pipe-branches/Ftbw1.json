@@ -1,0 +1,299 @@
+{
+  "schemaVersion": 1,
+  "routeId": "Ftbw1",
+  "methods": [
+    {
+      "method": "Ftbw1",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 23147,
+        "rva": 3362048,
+        "token": "0x06000685"
+      },
+      "ilSha256": "5490d88a66c70c9a5beaedc5b38ea7cda21e982ebc176d52a8b7d66564123c1a"
+    },
+    {
+      "method": "Ftbw1_Headers",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 28142,
+        "rva": 3426028,
+        "token": "0x060006ea"
+      },
+      "ilSha256": "9acc6f7f664ed791f13d5a7c252ba4dc7b24b96a0ebd1e10c4158a5bb18c8df6"
+    },
+    {
+      "method": "LoadSettings",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 2959,
+        "rva": 3164984,
+        "token": "0x060005e8"
+      },
+      "ilSha256": "fcf15a655bebaf1ad8fb4e66b4b11563cf42388d397437af2e9a37ad047d4a87"
+    },
+    {
+      "method": "LoadDataBase1",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 36366,
+        "rva": 3562000,
+        "token": "0x06000722"
+      },
+      "ilSha256": "ccee075f3f89b6f20da1bccf2168f16e48890151dc055cc5012b349295ee1330"
+    },
+    {
+      "method": "GetTitle",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 37125,
+        "rva": 3570892,
+        "token": "0x06000727"
+      },
+      "ilSha256": "a93407a6e60c8b554f7a1217ee3e4e1695b0d3a167f33452a86000b983a2bdce"
+    },
+    {
+      "method": "GetSubTab",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 36818,
+        "rva": 3567640,
+        "token": "0x06000726"
+      },
+      "ilSha256": "7fe830d0baafcfd0edeec8ce30ecbba940c2a69a5e80748f2cd6cbd4e81097bb"
+    },
+    {
+      "method": "LoadDrawing",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 39778,
+        "rva": 3618160,
+        "token": "0x0600073a"
+      },
+      "ilSha256": "a4e602de7b2af2893dbd39a118b8d4ebd85b4f3d38dccbc1a44448ce89d0d5a4"
+    },
+    {
+      "method": "DoDrawing",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 40913,
+        "rva": 3623668,
+        "token": "0x06000744"
+      },
+      "ilSha256": "4d38598296307a3a2f8469a15b80d8aa335ef9143465443ec4cbbe7965587171"
+    },
+    {
+      "method": "FormatDim",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 39366,
+        "rva": 3611568,
+        "token": "0x0600072c"
+      },
+      "ilSha256": "2f4c7cfc01db4144198e24cf67ef7135cbee1331c480644077304bc5317aeaf9"
+    },
+    {
+      "method": "FractionizeIfNeccessary",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 58370,
+        "rva": 3849868,
+        "token": "0x0600085d"
+      },
+      "ilSha256": "7701d5c4581fc74c8fe9c6cffe720a1adeaaae1f8c225ddcd9f37a1978951026"
+    },
+    {
+      "method": "LoadSettingsFtbw",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 3235,
+        "rva": 3167952,
+        "token": "0x060005e9"
+      },
+      "ilSha256": "a773d85b6a35ab23ba1d2dca39a541abc252048a83e7fab371c97fc3ea678dd5"
+    },
+    {
+      "method": "DesigBtn1ValuesForMainSize",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 34331,
+        "rva": 3532960,
+        "token": "0x06000713"
+      },
+      "ilSha256": "c011de74bc5b771a82a29e1ba75056e9afe1d0a5f2d428e16bb44c1ff9db4ed4"
+    },
+    {
+      "method": "DesigBtn2ForSmallSize",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 35197,
+        "rva": 3548184,
+        "token": "0x06000717"
+      },
+      "ilSha256": "f682d7d2c4b3e5298f0dec556129d690292b12116d01f2af33d7f6a211d65e18"
+    }
+  ],
+  "sourceEvidenceReuse": "evidence/catalog-load-evidence.json; matching artifact/MVID and all1481 IL-body crosscheck",
+  "fixtures": {
+    "path": "tests/reference/fittings-pipe-branches/Ftbw1.json",
+    "hash": "90f03e5bf762b07c27b6a6a2b0d2f9e4d241d7f66a52c13f486889f957f7a17b",
+    "cases": 396,
+    "unavailableCases": 206
+  },
+  "dataSources": [
+    {
+      "path": "Database/Ftbw/45Elbow10.csv",
+      "hash": "43e4946be802695e8acd395bebe373eaa3f74e609ce40b26804073f2a6f411fc"
+    },
+    {
+      "path": "Database/Ftbw/45Elbow100.csv",
+      "hash": "a35beb23f0596721e2bac55ded2d99e59cc6a4b3490bbeb7585c22afcd3cbc5a"
+    },
+    {
+      "path": "Database/Ftbw/45Elbow10s.csv",
+      "hash": "ff926aa85d2ed6995b5f72327884af423f59673b6964d1bacd6f3d9b217a99d9"
+    },
+    {
+      "path": "Database/Ftbw/45Elbow120.csv",
+      "hash": "21a46ae73803f5f10e03c31289a05970125c89613d8a17a6e72693613b0c0848"
+    },
+    {
+      "path": "Database/Ftbw/45Elbow140.csv",
+      "hash": "12b5f2fc66f161130d82295df046fbc570e0f8e93aaab9c0d542c286c3d03beb"
+    },
+    {
+      "path": "Database/Ftbw/45Elbow160.csv",
+      "hash": "c9947b70be4bb5deedd8592013f982f0cf463e7c596c1e0762b433fc832a0b6b"
+    },
+    {
+      "path": "Database/Ftbw/45Elbow20.csv",
+      "hash": "3a67970e919b2ea1de6bdbf967f19a326b8c0955c48b1800d6ec4228102559c3"
+    },
+    {
+      "path": "Database/Ftbw/45Elbow30.csv",
+      "hash": "368f5a1064fab8a1a0a34feedceea32cdc2db582faffcd63bf244dd41f6bb5f0"
+    },
+    {
+      "path": "Database/Ftbw/45Elbow40.csv",
+      "hash": "8b53b9c7a4dfe2f316b5a7acd6dfe8ce395c1e0383918298ccf035949f61978f"
+    },
+    {
+      "path": "Database/Ftbw/45Elbow40s.csv",
+      "hash": "28c499fbc919e580a95f30abc20e37f25a1983eba0fe19d8ceaf4aab2bf94164"
+    },
+    {
+      "path": "Database/Ftbw/45Elbow5s.csv",
+      "hash": "d60cc8795824a70372c1155055cde263dd092dfbf01b368c1be9e1748a67c444"
+    },
+    {
+      "path": "Database/Ftbw/45Elbow60.csv",
+      "hash": "a9a5303313e54e5e03c1b94ea8f8d58150f5cf75ff23f52af2a608e66b820b7e"
+    },
+    {
+      "path": "Database/Ftbw/45Elbow80.csv",
+      "hash": "8d11b09c13a565dee93e7b97e6bf1b86246c60ef75a9754d54d4ec74e947fad9"
+    },
+    {
+      "path": "Database/Ftbw/45Elbow80s.csv",
+      "hash": "8f05eee3d23afc7cfa16bde18a6ad13fb67e603c8aff507825679d1285f582fa"
+    },
+    {
+      "path": "Database/Ftbw/45ElbowSTD.csv",
+      "hash": "77ce8e7df0ab5d25f09edbd9175e391ec7a9b777b70c39308450e2a535e87712"
+    },
+    {
+      "path": "Database/Ftbw/45ElbowXS.csv",
+      "hash": "826df56980822ab50115fc10a6e0cbed12b853d49817e840a7ebe5430680a2a6"
+    },
+    {
+      "path": "Database/Ftbw/45ElbowXXS.csv",
+      "hash": "c78da45ed98f6325f8498a4bc1a3953006dbc9bcf753cdc38a92c168734c9880"
+    },
+    {
+      "path": "Database/Ftbw/45Elbow_Imperial_10.csv",
+      "hash": "0dfd6c3e10a3bccf716fa6fa50c08877b422298a756f29ed8771e065a658d38c"
+    },
+    {
+      "path": "Database/Ftbw/45Elbow_Imperial_100.csv",
+      "hash": "1276f84e9cf21d9aa6365409f1c9b52e21d922a46a2216308d3768ddb0051e2e"
+    },
+    {
+      "path": "Database/Ftbw/45Elbow_Imperial_10s.csv",
+      "hash": "2cd6ecedf2d36a953515cf3e0eace5f89233174139830453fad13aace43cfd1d"
+    },
+    {
+      "path": "Database/Ftbw/45Elbow_Imperial_120.csv",
+      "hash": "5f6088e0769028de3cd2dc2f18339feb91eebedf2f7ec88ed75fc1ef12c8c72c"
+    },
+    {
+      "path": "Database/Ftbw/45Elbow_Imperial_140.csv",
+      "hash": "5f9d5fa3c74cc618026901adcf31917eecb15ffbf55496ddc06ba58ed4d15051"
+    },
+    {
+      "path": "Database/Ftbw/45Elbow_Imperial_160.csv",
+      "hash": "a94d0967e8e27db8f1fa42f43703bd40462898477fc46057b51f724acb1b147d"
+    },
+    {
+      "path": "Database/Ftbw/45Elbow_Imperial_20.csv",
+      "hash": "a5a0f6de2a6530f710b248be9070d38de8e3f149c941085332c1e11b913677a2"
+    },
+    {
+      "path": "Database/Ftbw/45Elbow_Imperial_30.csv",
+      "hash": "6674f110b92c4eb5db89f7a0deb4d2f5e7b8a4e7d34be621c4180dc271009b0f"
+    },
+    {
+      "path": "Database/Ftbw/45Elbow_Imperial_40.csv",
+      "hash": "00c50628867d5e1fca0421cb2d941f6894510f96d4a25fbda0ad4c741138c930"
+    },
+    {
+      "path": "Database/Ftbw/45Elbow_Imperial_40s.csv",
+      "hash": "05063fc63d97f43d616538c5b6f22780fca834990d6ee16387462f9d1b70e20f"
+    },
+    {
+      "path": "Database/Ftbw/45Elbow_Imperial_5s.csv",
+      "hash": "7dd27b5f045fc0d6f3b3f82494d218c7c3e8da2df25a8d583169094eb0d0b850"
+    },
+    {
+      "path": "Database/Ftbw/45Elbow_Imperial_60.csv",
+      "hash": "e407bce2b03a28a6a5fb03c9eb11705d1537edefe7893ab24ec9f0df55439f5c"
+    },
+    {
+      "path": "Database/Ftbw/45Elbow_Imperial_80.csv",
+      "hash": "57ab3b0c21f7325bea8184e409b271a47f9d02e0068c001f1e3e284d13e9bea8"
+    },
+    {
+      "path": "Database/Ftbw/45Elbow_Imperial_80s.csv",
+      "hash": "e815a01d5f2306f4f20866ce85cb72e81f71be72c1e2b3e039d32769cd90dd51"
+    },
+    {
+      "path": "Database/Ftbw/45Elbow_Imperial_STD.csv",
+      "hash": "d584c5d3842bab9db50a7c811da8833f0a5d291c72a5edbd31855d180ea504c5"
+    },
+    {
+      "path": "Database/Ftbw/45Elbow_Imperial_XS.csv",
+      "hash": "04de9a3918b4bf637b36851076cb27c2068e1be82965d06015840f807fede5f5"
+    },
+    {
+      "path": "Database/Ftbw/45Elbow_Imperial_XXS.csv",
+      "hash": "105b5051f5ee007b29fa46aae9ff07e794dafdaadaeec9e26cf29694c2af1ae2"
+    }
+  ],
+  "tests": [
+    "tests/legacy/fittings-pipe-branches.test.ts",
+    "tests/legacy/task7-acceptance.test.ts"
+  ],
+  "originalComparison": "unverified-visual-nonblocking"
+}

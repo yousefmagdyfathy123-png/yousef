@@ -1,0 +1,242 @@
+{
+  "schemaVersion": 1,
+  "routeId": "Vlfl3",
+  "classification": {
+    "dispatch": true,
+    "uiRoutes": true,
+    "search": true
+  },
+  "methods": [
+    {
+      "method": "Vlfl3",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 27670,
+        "rva": 3421172,
+        "token": "0x060006e2"
+      },
+      "ilSha256": "879ecaf15fd14fba286a27b019a1eaebecec2c7a14d6a3cdbd776033c4887648"
+    },
+    {
+      "method": "Vlfl3Headers",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 28609,
+        "rva": 3436276,
+        "token": "0x060006f8"
+      },
+      "ilSha256": "1b984714512f8b8ee4d14af5e93c9b13e306afb097b1092828902f303de68383"
+    },
+    {
+      "method": "LoadSettingsVlfl",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 6424,
+        "rva": 3208148,
+        "token": "0x060005fb"
+      },
+      "ilSha256": "afd058e48832db94d30323efda343fcf8e43295150f799d5748cf9936d28a4bf"
+    },
+    {
+      "method": "LoadDataBase1",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 36366,
+        "rva": 3562000,
+        "token": "0x06000722"
+      },
+      "ilSha256": "ccee075f3f89b6f20da1bccf2168f16e48890151dc055cc5012b349295ee1330"
+    },
+    {
+      "method": "GetTitle",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 37125,
+        "rva": 3570892,
+        "token": "0x06000727"
+      },
+      "ilSha256": "a93407a6e60c8b554f7a1217ee3e4e1695b0d3a167f33452a86000b983a2bdce"
+    },
+    {
+      "method": "GetSubTab",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 36818,
+        "rva": 3567640,
+        "token": "0x06000726"
+      },
+      "ilSha256": "7fe830d0baafcfd0edeec8ce30ecbba940c2a69a5e80748f2cd6cbd4e81097bb"
+    },
+    {
+      "method": "LoadDrawing",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 39778,
+        "rva": 3618160,
+        "token": "0x0600073a"
+      },
+      "ilSha256": "a4e602de7b2af2893dbd39a118b8d4ebd85b4f3d38dccbc1a44448ce89d0d5a4"
+    },
+    {
+      "method": "DoDrawing",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 40913,
+        "rva": 3623668,
+        "token": "0x06000744"
+      },
+      "ilSha256": "4d38598296307a3a2f8469a15b80d8aa335ef9143465443ec4cbbe7965587171"
+    },
+    {
+      "method": "DesigBtn1ValuesForMainSize",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 34331,
+        "rva": 3532960,
+        "token": "0x06000713"
+      },
+      "ilSha256": "c011de74bc5b771a82a29e1ba75056e9afe1d0a5f2d428e16bb44c1ff9db4ed4"
+    },
+    {
+      "method": "FormatDim",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 39366,
+        "rva": 3611568,
+        "token": "0x0600072c"
+      },
+      "ilSha256": "2f4c7cfc01db4144198e24cf67ef7135cbee1331c480644077304bc5317aeaf9"
+    },
+    {
+      "method": "ImperialiseWereNecessary",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 28033,
+        "rva": 3424852,
+        "token": "0x060006e8"
+      },
+      "ilSha256": "3314564558279e1e6c05ef7030b7327ee1dbd00c8af12d4954305cb69aa9de8c"
+    },
+    {
+      "method": "ErrorCatch",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 58359,
+        "rva": 3849740,
+        "token": "0x0600085c"
+      },
+      "ilSha256": "136b7b7f4cf539de61a4be939db8ed75ec51e1560b3f75f17623de716f67daad"
+    },
+    {
+      "method": "ErrorMessageSizeClassFaceType",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 19269,
+        "rva": 3302128,
+        "token": "0x0600063a"
+      },
+      "ilSha256": "b7a5dbcf1b0ae9c5283a35d45a8927d6dea60465c548c980b5237e662b36675c"
+    }
+  ],
+  "sourceEvidenceReuse": "evidence/catalog-load-evidence.json; same EXE SHA256/MVID; retained REA all1481 IL-body crosscheck",
+  "fixtures": {
+    "path": "tests/reference/valves-strainers-fasteners/Vlfl3.json",
+    "hash": "e86fd82f4d5cc0a7066a9e04e8f7c778c0d7a2f50e6b5a3c46add5b950172b78",
+    "cases": 906,
+    "unavailableCases": 301
+  },
+  "dataSources": [
+    {
+      "path": "Database/Vlfl/Vlfl3.dxf",
+      "hash": "c63cfed126308cbf0e4c682685b3d4d353ef9c11da71a72ce25d26713ac649f3"
+    },
+    {
+      "path": "Database/Vlfl/Vlfl3a.dxf",
+      "hash": "250b18cb75cc4b0cd8f0c679f6c3f25270f703cb37d61c3700be479d64420c0f"
+    },
+    {
+      "path": "Database/Vlfl/Vlfl3b.dxf",
+      "hash": "6ce49186e42c22167e3d58f34399f49641acb3a9152fa7c26a672343385e0898"
+    },
+    {
+      "path": "Database/Vlfl/Vlfl3c.dxf",
+      "hash": "daa0637af879a7f6b11ca477c47260d537bd6c7b2a90ca2f2b32a2c91ddd1f61"
+    },
+    {
+      "path": "Database/Vlfl/Vlv3150.csv",
+      "hash": "03a2982d5dc32ff7cec2b0646a2ae873332dd4f26f08a9af52b5b7cbb910cc08"
+    },
+    {
+      "path": "Database/Vlfl/Vlv31500.csv",
+      "hash": "8f95f015eab005d1159cf95770f4237419f8e4dcb2c2d61e32b5a098b2ebe72a"
+    },
+    {
+      "path": "Database/Vlfl/Vlv32500.csv",
+      "hash": "d53a2931dd32c78636d2f19c80c9993de6233c2030933c48617885a9758d278c"
+    },
+    {
+      "path": "Database/Vlfl/Vlv3300.csv",
+      "hash": "58f9dc8d11b01b3c05b78919b23ae57aa06e35cb03508c2ffca9adec8ac8927c"
+    },
+    {
+      "path": "Database/Vlfl/Vlv3400.csv",
+      "hash": "3e19c2d594d7d64c2d6b03f4770a912101591d3c08eab406ad43cda8b893d53a"
+    },
+    {
+      "path": "Database/Vlfl/Vlv3600.csv",
+      "hash": "5da22a13010ebb39861d5436635289e9850bb20c3ed6c9c15b3a336375b426f2"
+    },
+    {
+      "path": "Database/Vlfl/Vlv3900.csv",
+      "hash": "d4fcbcb67b0fc5442886e55b331396397120adf593cf9169e26e5beeff247416"
+    },
+    {
+      "path": "Database/Vlfl/Vlv3_Imperial_150.csv",
+      "hash": "4928712210f1c7dec518b3bbcd64aa981294643fe70ca78f3203ec11400edabe"
+    },
+    {
+      "path": "Database/Vlfl/Vlv3_Imperial_1500.csv",
+      "hash": "fbee1a1bdd9c2cf04a8abe491a7bead30ea44fa83ba43c40244fe4f872a1608a"
+    },
+    {
+      "path": "Database/Vlfl/Vlv3_Imperial_2500.csv",
+      "hash": "76cfc5ab67d7f8cfdc21d9dac21de34817d865e54cd6a7ca027b8b8e24967165"
+    },
+    {
+      "path": "Database/Vlfl/Vlv3_Imperial_300.csv",
+      "hash": "6c382fba15bdb77551b32b4f2acb56e3e39a3e4839caee36d027a974da03d937"
+    },
+    {
+      "path": "Database/Vlfl/Vlv3_Imperial_400.csv",
+      "hash": "94919d06c3bc65c541d2e2344a24f33602b3c60bfdf9216c06760297b3e6825e"
+    },
+    {
+      "path": "Database/Vlfl/Vlv3_Imperial_600.csv",
+      "hash": "9afe1a1c731c38d387511cf3b29c6e4834d43d7dedbd3211a291f8250b0813af"
+    },
+    {
+      "path": "Database/Vlfl/Vlv3_Imperial_900.csv",
+      "hash": "bfa67531caa87657227bfa7283b4680f07af37669342e6d3e7102b83b3183810"
+    }
+  ],
+  "tests": [
+    "tests/legacy/valves-strainers-fasteners.test.ts",
+    "tests/legacy/task8-navigation.test.ts",
+    "tests/legacy/task8-acceptance.test.ts"
+  ],
+  "originalComparison": "unverified-visual-nonblocking",
+  "review": "Primary agent source/recipe review; no subagent per user request"
+}

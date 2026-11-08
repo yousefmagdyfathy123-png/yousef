@@ -1,0 +1,17 @@
+{
+  "evidence": {
+    "post-payment-reconciliation": [
+      "recurring paid review discovers omitted dispute and refund webhooks without erasing earlier facts",
+      "paid timeout preserves access and freshness, pauses at the retry limit, and resumes explicitly",
+      "history overlaps deduplicate, quarantine unmatched records, and retain coverage gaps",
+      "due workers prioritize old paid orders and skip a concurrent active lease"
+    ],
+    "payment-recovery": [
+      "workers share a provider request quota and recover when the window expires",
+      "lost create response and missed webhook recover by stable reference without creating another checkout",
+      "unknown outcome stays unresolved, exhausted work is visible and only an audited admin can resume it",
+      "manual verification checks session token, origin, body and ownership before lookup"
+    ]
+  },
+  "commands": []
+}

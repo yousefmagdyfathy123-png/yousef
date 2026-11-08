@@ -1,0 +1,11 @@
+import type { FeatureRoute } from '../../contracts';
+import { Gflt1 } from './gflt/Gflt1';
+import { Gflt2 } from './gflt/Gflt2';
+import { Gflt3 } from './gflt/Gflt3';
+import { Grtj1 } from './grtj/Grtj1';
+import { Grtj2 } from './grtj/Grtj2';
+import { Grtj3 } from './grtj/Grtj3';
+import { Gspr1 } from './gspr/Gspr1';
+import { Gspr2 } from './gspr/Gspr2';
+import { Gspr3 } from './gspr/Gspr3';
+export const gasketRoutes:FeatureRoute[]=[Gflt1,Gflt2,Gflt3,Grtj1,Grtj2,Grtj3,Gspr1,Gspr2,Gspr3];

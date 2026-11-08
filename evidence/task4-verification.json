@@ -1,0 +1,59 @@
+{
+  "recordedAt": "2026-11-01T14:40:31.406894+00:00",
+  "scope": "task4 shared state/selector/search only",
+  "baseCommit": "6b70aae",
+  "verification": {
+    "fullSuite": {
+      "command": "LEGACY_CULTURE=en-US npm test",
+      "files": 8,
+      "passed": 837,
+      "failed": 0
+    },
+    "stateTests": 242,
+    "earlierRegressionTests": 595,
+    "typecheck": "passed",
+    "productionBuild": "passed",
+    "evidenceCheck": {
+      "cards": 497,
+      "pendingFunctional": 495,
+      "blocking": 0
+    },
+    "framework": {
+      "searchQueries": 17,
+      "sourceSearchRows": 169,
+      "configurationCases": 8,
+      "regeneration": "identical byte hashes"
+    },
+    "sourceProvenance": {
+      "moduleMethods": 88,
+      "constructedHandlers": 7,
+      "databaseFiles": 1634,
+      "changed": 0,
+      "executableUnchanged": true,
+      "vendorAssemblyExecuted": false
+    },
+    "diffCheck": "passed"
+  },
+  "review": {
+    "reviewer": "task4_review_sol",
+    "model": "gpt-6.1-sol",
+    "importantFindings": 2,
+    "fixedWithRedGreen": 2,
+    "deferredMinors": 0,
+    "astra": "earlier review interrupted at explicit user request; no further use"
+  },
+  "stateFormat": {
+    "codecVersion": 1,
+    "stateSchemaVersions": [
+      1,
+      2
+    ],
+    "migration": "explicit caller-supplied settings/retained view, no fallback"
+  },
+  "scopeLimits": [
+    "Synthetic dispatch adapters verify mechanics, not engineering calculations",
+    "Task5 drawing/buffer refinement;task6a first real route integration",
+    "Task19b actual PostgreSQL persistence",
+    "Task11 final strict public projection/results-panel and UI QA"
+  ]
+}

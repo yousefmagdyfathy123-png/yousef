@@ -1,0 +1,92 @@
+{
+  "candidate": {
+    "sourceTreeHash": "4a8bc55b287fb5531a2d76413794054f7ddb084494ba721a84e40477a637d2a4",
+    "catalogRevision": "0216f5e78e9e09f6808f65655979b2d9e45b1dabaeee9f5f8266c6e039b1431f",
+    "configFingerprint": "605b5f1102b980e446c6a31533c09d5799852cf2d991101df3ed77a0213e5ac8"
+  },
+  "environment": "87324a34e9df1ab833f1aa9d3065d07e3b48d27c3314f4098adcd0f75ac2f6b5",
+  "metrics": {
+    "create": {
+      "samples": 15,
+      "p50": 928.3260000000009,
+      "p95": 973.3518999999942,
+      "max": 973.3518999999942,
+      "unit": "ms"
+    },
+    "changeClass": {
+      "samples": 15,
+      "p50": 866.8888000000006,
+      "p95": 884.1157999999996,
+      "max": 884.1157999999996,
+      "unit": "ms"
+    },
+    "search": {
+      "samples": 15,
+      "p50": 983.1059999999998,
+      "p95": 1614.6157999999996,
+      "max": 1614.6157999999996,
+      "unit": "ms"
+    },
+    "selectSearchHit": {
+      "samples": 15,
+      "p50": 914.6215999999986,
+      "p95": 933.7681000000011,
+      "max": 933.7681000000011,
+      "unit": "ms"
+    },
+    "reload": {
+      "samples": 15,
+      "p50": 328.83840000000055,
+      "p95": 464.4704000000056,
+      "max": 464.4704000000056,
+      "unit": "ms"
+    },
+    "loadLatency": {
+      "samples": 24,
+      "p50": 804.6999999997206,
+      "p95": 1025.1999999997206,
+      "max": 1067.1999999997206,
+      "unit": "ms"
+    },
+    "loadResponse": {
+      "samples": 24,
+      "p50": 108405,
+      "p95": 108411,
+      "max": 108411,
+      "unit": "bytes"
+    },
+    "resume": {
+      "samples": 1,
+      "p50": 981.7246999999916,
+      "p95": 981.7246999999916,
+      "max": 981.7246999999916,
+      "unit": "ms"
+    },
+    "rss": {
+      "samples": 133,
+      "p50": 482426880,
+      "p95": 505741312,
+      "max": 623816704,
+      "unit": "bytes"
+    },
+    "heap": {
+      "samples": 133,
+      "p50": 177036264,
+      "p95": 287241752,
+      "max": 405118176,
+      "unit": "bytes"
+    }
+  },
+  "semantics": {
+    "exactCandidate": true,
+    "restartAndResume": true,
+    "sourceDrawing": true,
+    "boundedLoad": true,
+    "receiptWindow": true
+  },
+  "failures": 0,
+  "result": {
+    "passed": true,
+    "failures": []
+  }
+}

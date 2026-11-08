@@ -1,0 +1,234 @@
+{
+  "schemaVersion": 1,
+  "routeId": "Vlbw1",
+  "classification": {
+    "dispatch": true,
+    "uiRoutes": true,
+    "search": true
+  },
+  "methods": [
+    {
+      "method": "Vlbw1",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 43689,
+        "rva": 3652836,
+        "token": "0x06000754"
+      },
+      "ilSha256": "d8f9d778ba8a1c21d9921238327a7470091c6f13c99f2d7f08aa530591dd51b1"
+    },
+    {
+      "method": "Vlbw1Headers",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 43917,
+        "rva": 3655028,
+        "token": "0x06000758"
+      },
+      "ilSha256": "ce9f6a556b873e0fb9636a8a3a82b3b9590a2b4dc737b354d5fd92f6f7ab5961"
+    },
+    {
+      "method": "LoadSettingsVlbw",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 6602,
+        "rva": 3210432,
+        "token": "0x060005fc"
+      },
+      "ilSha256": "c2240c05ab07b2472e13194a3eb69224ffad500e565faa5a149eff32be238e38"
+    },
+    {
+      "method": "LoadDataBase1",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 36366,
+        "rva": 3562000,
+        "token": "0x06000722"
+      },
+      "ilSha256": "ccee075f3f89b6f20da1bccf2168f16e48890151dc055cc5012b349295ee1330"
+    },
+    {
+      "method": "GetTitle",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 37125,
+        "rva": 3570892,
+        "token": "0x06000727"
+      },
+      "ilSha256": "a93407a6e60c8b554f7a1217ee3e4e1695b0d3a167f33452a86000b983a2bdce"
+    },
+    {
+      "method": "GetSubTab",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 36818,
+        "rva": 3567640,
+        "token": "0x06000726"
+      },
+      "ilSha256": "7fe830d0baafcfd0edeec8ce30ecbba940c2a69a5e80748f2cd6cbd4e81097bb"
+    },
+    {
+      "method": "LoadDrawing",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 39778,
+        "rva": 3618160,
+        "token": "0x0600073a"
+      },
+      "ilSha256": "a4e602de7b2af2893dbd39a118b8d4ebd85b4f3d38dccbc1a44448ce89d0d5a4"
+    },
+    {
+      "method": "DoDrawing",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 40913,
+        "rva": 3623668,
+        "token": "0x06000744"
+      },
+      "ilSha256": "4d38598296307a3a2f8469a15b80d8aa335ef9143465443ec4cbbe7965587171"
+    },
+    {
+      "method": "DesigBtn1ValuesForMainSize",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 34331,
+        "rva": 3532960,
+        "token": "0x06000713"
+      },
+      "ilSha256": "c011de74bc5b771a82a29e1ba75056e9afe1d0a5f2d428e16bb44c1ff9db4ed4"
+    },
+    {
+      "method": "FormatDim",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 39366,
+        "rva": 3611568,
+        "token": "0x0600072c"
+      },
+      "ilSha256": "2f4c7cfc01db4144198e24cf67ef7135cbee1331c480644077304bc5317aeaf9"
+    },
+    {
+      "method": "ImperialiseWereNecessary",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 28033,
+        "rva": 3424852,
+        "token": "0x060006e8"
+      },
+      "ilSha256": "3314564558279e1e6c05ef7030b7327ee1dbd00c8af12d4954305cb69aa9de8c"
+    },
+    {
+      "method": "ErrorCatch",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 58359,
+        "rva": 3849740,
+        "token": "0x0600085c"
+      },
+      "ilSha256": "136b7b7f4cf539de61a4be939db8ed75ec51e1560b3f75f17623de716f67daad"
+    },
+    {
+      "method": "ErrorMessageSizeClass",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 19291,
+        "rva": 3302336,
+        "token": "0x0600063b"
+      },
+      "ilSha256": "6d1c0abe41a13576c7a931f8dfec734c4a13330a25ca7c7ff2f53a9a621d220f"
+    }
+  ],
+  "sourceEvidenceReuse": "evidence/catalog-load-evidence.json; same EXE SHA256/MVID; retained REA all1481 IL-body crosscheck",
+  "fixtures": {
+    "path": "tests/reference/valves-strainers-fasteners/Vlbw1.json",
+    "hash": "bd35ea279e4576502b04d18d20d4bcfa8de094595c1df0f7da44d1641bbdad43",
+    "cases": 603,
+    "unavailableCases": 115
+  },
+  "dataSources": [
+    {
+      "path": "Database/Vlbw/Vlbw1.dxf",
+      "hash": "f25b7417c125d6ec9413af8a446fcb24cc32f8907f63319390c73c16f990ecee"
+    },
+    {
+      "path": "Database/Vlbw/Vlbw1a.dxf",
+      "hash": "4cd2357584a9d0d5c27f8e736e7898e1384829cb89943bb64ae741d06aff6668"
+    },
+    {
+      "path": "Database/Vlfl/Vlv1150.csv",
+      "hash": "dd5aef2edfbb810a5a797a7f9fea3281ad21323bc3e28897f7c21789c8d4aba3"
+    },
+    {
+      "path": "Database/Vlfl/Vlv11500.csv",
+      "hash": "2f1f1950f35c713e54340d105c19e61ea65298f0a52c559fe7394cc55cc23208"
+    },
+    {
+      "path": "Database/Vlfl/Vlv12500.csv",
+      "hash": "bffe769f99c923fc86041eecaeaae4d517188080441401c02ceb947d26e0637d"
+    },
+    {
+      "path": "Database/Vlfl/Vlv1300.csv",
+      "hash": "40ed04e1b40a78418e6c006b1884a8fc2d7ec164e82864ffb519b3519a950349"
+    },
+    {
+      "path": "Database/Vlfl/Vlv1400.csv",
+      "hash": "312d8568dee35b8d61edb679c278cfd8be9d5e0f64cdd36d7cb93d12e6f51d97"
+    },
+    {
+      "path": "Database/Vlfl/Vlv1600.csv",
+      "hash": "fcfabcb81376375081355f144b13afed4e4ada34ef24b0f617bd16faf6ad61f8"
+    },
+    {
+      "path": "Database/Vlfl/Vlv1900.csv",
+      "hash": "f346968df18d8ee985ab55e6df509c1be340d2920f12101111989dba45b1d071"
+    },
+    {
+      "path": "Database/Vlfl/Vlv1_Imperial_150.csv",
+      "hash": "03a0bd15436e5c9433c7a3d52e9d2c2fff69494e8cd3fd2e7405ee197335a3be"
+    },
+    {
+      "path": "Database/Vlfl/Vlv1_Imperial_1500.csv",
+      "hash": "111f86e7f0b5c0fee28b2cd2ba3321d4240dbb6a0677f883167f30f82e2c9876"
+    },
+    {
+      "path": "Database/Vlfl/Vlv1_Imperial_2500.csv",
+      "hash": "01b998ac1a80ca5d7faa8646b999dece2e645d54f1d723670a287b9461f0b924"
+    },
+    {
+      "path": "Database/Vlfl/Vlv1_Imperial_300.csv",
+      "hash": "fee5531bd14b74ef861560d72457838e02e6cac3bd349aaace7b7a4456a7298a"
+    },
+    {
+      "path": "Database/Vlfl/Vlv1_Imperial_400.csv",
+      "hash": "d236a7ce8b41808164b7f3311e400f513213c6f87cf137afb80ebfbc0ef205da"
+    },
+    {
+      "path": "Database/Vlfl/Vlv1_Imperial_600.csv",
+      "hash": "1fad26f9452433b0bcdfd7e203cc0c31b4402952e46a74a19478bf723356366b"
+    },
+    {
+      "path": "Database/Vlfl/Vlv1_Imperial_900.csv",
+      "hash": "a55867c25a328260746a7bbc6dd73af9861906df61090983740dc0ab9474d22a"
+    }
+  ],
+  "tests": [
+    "tests/legacy/valves-strainers-fasteners.test.ts",
+    "tests/legacy/task8-navigation.test.ts",
+    "tests/legacy/task8-acceptance.test.ts"
+  ],
+  "originalComparison": "unverified-visual-nonblocking",
+  "review": "Primary agent source/recipe review; no subagent per user request"
+}

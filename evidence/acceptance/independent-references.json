@@ -1,0 +1,63 @@
+{
+  "evidence": {
+    "referenceSuites": [
+      "tests/legacy/all-routes.test.ts",
+      "tests/legacy/task10-acceptance.test.ts",
+      "tests/legacy/navigation-sequences.test.ts",
+      "tests/legacy/valves-strainers-fasteners.test.ts",
+      "tests/legacy/task8-navigation.test.ts",
+      "tests/legacy/task8-acceptance.test.ts",
+      "tests/legacy/calculators.test.ts",
+      "tests/legacy/calculator-recipes.test.ts",
+      "tests/legacy/task9-acceptance.test.ts",
+      "tests/legacy/flanges-gaskets.test.ts",
+      "tests/workspace/public-result.test.ts",
+      "tests/workspace/canvas.test.ts",
+      "tests/legacy/state-codec.test.ts",
+      "tests/legacy/fittings-pipe-branches.test.ts",
+      "tests/legacy/task7-acceptance.test.ts",
+      "tests/legacy/gaskets.test.ts",
+      "tests/workspace/ui-routes.test.ts",
+      "tests/workspace/navigation.test.ts",
+      "tests/workspace/print.test.ts",
+      "tests/legacy/vb.test.ts",
+      "tests/legacy/culture.test.ts",
+      "tests/legacy/state.test.ts",
+      "tests/legacy/drawing.test.ts"
+    ],
+    "browserSpecs": [
+      "tests/e2e/core-acceptance.spec.ts",
+      "tests/e2e/flan1-checkpoint.spec.ts",
+      "tests/e2e/workspace.spec.ts"
+    ],
+    "calculatorRoutes": [
+      "Gpas1",
+      "Gpas2",
+      "Gpas3",
+      "Gpas4",
+      "Comp1",
+      "Span1",
+      "Span2",
+      "Fxly1",
+      "Fxly2",
+      "Psiz1"
+    ],
+    "calculatorCases": 6998
+  },
+  "commands": [
+    {
+      "command": "independent-extraction",
+      "exitCode": 0,
+      "seconds": 56.148,
+      "summary": []
+    },
+    {
+      "command": "test-e2e",
+      "exitCode": 0,
+      "seconds": 32.464,
+      "summary": [
+        "11 passed (30.4s)"
+      ]
+    }
+  ]
+}

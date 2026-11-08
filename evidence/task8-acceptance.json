@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "task": 8,
+  "status": "complete",
+  "date": "2026-11-02",
+  "recordedAt": "2026-11-02T16:32:30.927743+00:00",
+  "branch": "task/01-foundation",
+  "baseCommit": "ac7cc2ff01748d89203e9ae8f3e221b49ef6294f",
+  "scope": "38 engine routes; family/category exports for Task10 workspace assembly",
+  "routes": {
+    "valves": 22,
+    "strainers": 10,
+    "fasteners": 6,
+    "ids": [
+      "Blnu1",
+      "Blnu2",
+      "Blnu3",
+      "Blnu4",
+      "Nuts1",
+      "Nuts2",
+      "Srra1",
+      "Srra2",
+      "Srra3",
+      "Srra4",
+      "Srrb1",
+      "Srrb2",
+      "Srrb3",
+      "Srrc1",
+      "Srrd1",
+      "Srre1",
+      "Vlbw1",
+      "Vlbw2",
+      "Vlbw3",
+      "Vlbw4",
+      "Vlfl1",
+      "Vlfl2",
+      "Vlfl3",
+      "Vlfl4",
+      "Vlfl5",
+      "Vlfl6",
+      "Vlfl7",
+      "Vlfl8",
+      "Vlsc1",
+      "Vlsc2",
+      "Vlsc3",
+      "Vlsc4",
+      "Vlsc5",
+      "Vlsw1",
+      "Vlsw2",
+      "Vlsw3",
+      "Vlsw4",
+      "Vlsw5"
+    ]
+  },
+  "sourceClassification": {
+    "dispatch": 38,
+    "directMenu": 37,
+    "search": 38,
+    "directMenuExcluded": [
+      "Srrb3"
+    ],
+    "notAdded": [
+      "Blnd1",
+      "Blnd2",
+      "Blnd3",
+      "Blnd4"
+    ]
+  },
+  "independentReferences": {
+    "cases": 11765,
+    "unavailableCases": 2053,
+    "distinctTables": 192,
+    "distinctDrawings": 56,
+    "geometry": "Losslessly factored literal trailing line commands; independent source/data Python model; no production-generated expected outputs",
+    "byteIdentity": "LF-pinned fixture JSON and source/IL/data hash cards"
+  },
+  "verification": {
+    "routeBatches": [
+      {
+        "batch": "a",
+        "testsPassed": 3272,
+        "seconds": 882.51,
+        "log": ".task8-batch-a.log"
+      },
+      {
+        "batch": "b",
+        "testsPassed": 2606,
+        "seconds": 533.49,
+        "log": ".task8-batch-b.log"
+      },
+      {
+        "batch": "c",
+        "testsPassed": 3256,
+        "seconds": 636.04,
+        "log": ".task8-batch-c.log"
+      },
+      {
+        "batch": "d",
+        "testsPassed": 2387,
+        "seconds": 527.28,
+        "log": ".task8-batch-d.log"
+      }
+    ],
+    "additionalPersistedFace": {
+      "testsPassed": 244,
+      "seconds": 66.36,
+      "log": ".task8-persisted-face.log"
+    },
+    "coverage": "Exact unique case-id union equals current11765 fixture denominator. Additional244 RTJ cases append to unchanged Vlbw1/2 prefixes.",
+    "navigationAndProvenance": {
+      "testsPassed": 181,
+      "seconds": 98.24,
+      "log": ".task8-final-state.log"
+    },
+    "provenanceAfterReferenceExtension": {
+      "testsPassed": 77,
+      "seconds": 3.48,
+      "log": ".task8-provenance-final.log"
+    },
+    "coreRegression": {
+      "testsPassed": 1237,
+      "seconds": 22.67,
+      "log": ".task8-core-regression.log"
+    },
+    "sampledEarlierRoutes": {
+      "testsPassed": 110,
+      "seconds": 15.28,
+      "log": ".task8-prior-routes.log"
+    },
+    "build": {
+      "passed": true,
+      "log": ".task8-final-build.log"
+    },
+    "typecheck": {
+      "passed": true,
+      "log": ".task8-typecheck.log"
+    },
+    "chromeCheckpoint": {
+      "testsPassed": 4,
+      "seconds": 12.0,
+      "scope": "Retained Flan1 browser regression journeys; Task10 owns Task8 UI assembly",
+      "log": ".task8-browser.log"
+    },
+    "evidenceCheck": {
+      "blocking": 0,
+      "pendingGlobalFunctionalCards": 338,
+      "log": ".task8-evidence.log"
+    },
+    "uniqueUnitReferenceRegressionChecks": 13293
+  },
+  "review": {
+    "mode": "Primary-agent self-review; no subagents per user request",
+    "deferredFindings": [],
+    "verifiedCorrections": [
+      "Valve SubSubTab/SubSubSubTab scratch fields",
+      "Vlfl1 implicit numeric weight conversion",
+      "Selected drawing-subtab error identity",
+      "Independent Blnu2 reference preserves double Indicator Hole suffix on clamping reentry",
+      "Hidden persisted Vlbw1/2 face-dependent template branch covered separately"
+    ]
+  },
+  "sourcePreservation": {
+    "databaseFilesVerified": 1634,
+    "executableSha256": "55a55522875ad7131d1367a08667ae653416c9be2decbd3bd5c54a9b8c04d03c",
+    "mvid": "948a0d3b-1670-4555-9843-5e7ed73785db",
+    "decompiledModuleSha256": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+    "executableExecutedOrLoaded": false,
+    "originalImageComparison": "unverified-visual-nonblocking"
+  }
+}

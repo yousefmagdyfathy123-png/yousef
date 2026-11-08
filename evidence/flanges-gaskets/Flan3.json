@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "routeId": "Flan3",
+  "methods": [
+    {
+      "method": "Flan3",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 19436,
+        "rva": 3303736,
+        "token": "0x06000640"
+      },
+      "ilSha256": "ea712ea4d709cc4263886ef20aa4d125071e608f30dc7d60363300c948189f14"
+    },
+    {
+      "method": "Flan3_Headers",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 39310,
+        "rva": 3610200,
+        "token": "0x0600072b"
+      },
+      "ilSha256": "6046471d16ca3ae3b93b28778f98e14df8a810253b62f41828d4c795102ca91b"
+    },
+    {
+      "method": "LoadDataBase1",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 36366,
+        "rva": 3562000,
+        "token": "0x06000722"
+      },
+      "ilSha256": "ccee075f3f89b6f20da1bccf2168f16e48890151dc055cc5012b349295ee1330"
+    },
+    {
+      "method": "GetSubTab",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 36818,
+        "rva": 3567640,
+        "token": "0x06000726"
+      },
+      "ilSha256": "7fe830d0baafcfd0edeec8ce30ecbba940c2a69a5e80748f2cd6cbd4e81097bb"
+    },
+    {
+      "method": "DropSubTab",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 39170,
+        "rva": 3606504,
+        "token": "0x06000728"
+      },
+      "ilSha256": "9e51d3c158edda0de6a2e019191b0f088454a65ba2dd5cd7071575709a4a4e7c"
+    }
+  ],
+  "sourceEvidenceReuse": "evidence/catalog-load-evidence.json; matching artifact/MVID, all1481 IL-body crosscheck",
+  "fixtures": {
+    "path": "tests/reference/flanges-gaskets/Flan3.json",
+    "hash": "22572aa056d45ac21aa4a0b9dff30bfd5933463671e948cedd563a19499c9785",
+    "cases": 101,
+    "unavailableCases": 2
+  },
+  "tests": [
+    "tests/legacy/flanges-gaskets.test.ts"
+  ],
+  "originalComparison": "unverified-visual-nonblocking"
+}

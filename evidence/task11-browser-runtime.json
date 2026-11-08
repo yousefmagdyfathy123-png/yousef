@@ -1,0 +1,104 @@
+{
+  "recordedAt": "2026-11-02T21:38:05.895Z",
+  "os": "Microsoft Windows11 Pro10.0.26300 (build26300)",
+  "records": [
+    {
+      "project": "chrome-windows",
+      "version": "156.0.8078.74",
+      "platform": "win32",
+      "fonts": [
+        {
+          "family": "Tahoma",
+          "available": true,
+          "measuredWidth": 848.07421875,
+          "fallbackWidth": 633.375
+        },
+        {
+          "family": "Verdana",
+          "available": true,
+          "measuredWidth": 956.77734375,
+          "fallbackWidth": 633.375
+        }
+      ]
+    },
+    {
+      "project": "edge-windows",
+      "version": "156.0.4314.58",
+      "platform": "win32",
+      "fonts": [
+        {
+          "family": "Tahoma",
+          "available": true,
+          "measuredWidth": 848.07421875,
+          "fallbackWidth": 633.375
+        },
+        {
+          "family": "Verdana",
+          "available": true,
+          "measuredWidth": 956.77734375,
+          "fallbackWidth": 633.375
+        }
+      ]
+    },
+    {
+      "project": "chromium-windows",
+      "version": "156.0.8078.4",
+      "platform": "win32",
+      "fonts": [
+        {
+          "family": "Tahoma",
+          "available": true,
+          "measuredWidth": 848.07421875,
+          "fallbackWidth": 633.375
+        },
+        {
+          "family": "Verdana",
+          "available": true,
+          "measuredWidth": 956.77734375,
+          "fallbackWidth": 633.375
+        }
+      ]
+    },
+    {
+      "project": "firefox-windows",
+      "version": "157.0",
+      "platform": "win32",
+      "fonts": [
+        {
+          "family": "Tahoma",
+          "available": true,
+          "measuredWidth": 848.0833129882812,
+          "fallbackWidth": 633.3333129882812
+        },
+        {
+          "family": "Verdana",
+          "available": true,
+          "measuredWidth": 956.7333374023438,
+          "fallbackWidth": 633.3333129882812
+        }
+      ]
+    },
+    {
+      "project": "webkit-windows",
+      "version": "27.2",
+      "platform": "win32",
+      "fonts": [
+        {
+          "family": "Tahoma",
+          "available": true,
+          "measuredWidth": 848.07421875,
+          "fallbackWidth": 691.3125
+        },
+        {
+          "family": "Verdana",
+          "available": true,
+          "measuredWidth": 956.77734375,
+          "fallbackWidth": 691.3125
+        }
+      ]
+    }
+  ],
+  "physicalIPhone": "not tested \u00e2\u20ac\u201d approved WebKit/mobile emulation waiver",
+  "physicalAndroid": "not tested",
+  "manualScreenReader": "not tested; automated semantics and keyboard checks only"
+}

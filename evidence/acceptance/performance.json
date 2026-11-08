@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "stage": "performance",
+  "candidate": {
+    "sourceTreeHash": "4a8bc55b287fb5531a2d76413794054f7ddb084494ba721a84e40477a637d2a4",
+    "catalogRevision": "0216f5e78e9e09f6808f65655979b2d9e45b1dabaeee9f5f8266c6e039b1431f",
+    "configFingerprint": "605b5f1102b980e446c6a31533c09d5799852cf2d991101df3ed77a0213e5ac8"
+  },
+  "environment": {
+    "profile": "local-performance",
+    "fingerprint": "87324a34e9df1ab833f1aa9d3065d07e3b48d27c3314f4098adcd0f75ac2f6b5",
+    "browser": "Chrome 156.0.8078.74"
+  },
+  "status": "passed",
+  "checks": [
+    {
+      "id": "performance-budget",
+      "status": "passed",
+      "evidencePath": "evidence/acceptance/performance-budget.json"
+    }
+  ],
+  "visualWaivers": [],
+  "externalSetup": []
+}

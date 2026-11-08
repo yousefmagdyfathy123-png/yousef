@@ -1,0 +1,189 @@
+{
+  "schemaVersion": 1,
+  "scope": "Task6a Flan1 only; other38 Task6 routes pending",
+  "methods": [
+    {
+      "method": "Flan1",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 19174,
+        "rva": 3300972,
+        "token": "0x06000638"
+      },
+      "ilSha256": "1f7966bbf4df21ad23496c73f3c96ec57fcff64ce6bec4a5af8fb28860dab97e"
+    },
+    {
+      "method": "Flan1_Headers",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 39185,
+        "rva": 3606572,
+        "token": "0x06000729"
+      },
+      "ilSha256": "1c2bc3f370088012a0170804e5fd4b429155594abc2c9e9e999ff51730f6e015"
+    },
+    {
+      "method": "LoadDataBase1",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 36366,
+        "rva": 3562000,
+        "token": "0x06000722"
+      },
+      "ilSha256": "ccee075f3f89b6f20da1bccf2168f16e48890151dc055cc5012b349295ee1330"
+    },
+    {
+      "method": "LoadDataBase2",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 36538,
+        "rva": 3564288,
+        "token": "0x06000723"
+      },
+      "ilSha256": "2cbd82f8302a48bd26913c052161b4e8eef8c42da2ddaa2a4caffab1021d14de"
+    },
+    {
+      "method": "LoadDataBase3",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 36630,
+        "rva": 3565376,
+        "token": "0x06000724"
+      },
+      "ilSha256": "73d81574e607b3227c9f91cab8b88160c459e20c0ae4b67f96e704b4ab2b8cf9"
+    },
+    {
+      "method": "LoadDataBase4",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 36724,
+        "rva": 3566508,
+        "token": "0x06000725"
+      },
+      "ilSha256": "80addd647652abbd978bc1c11e593448426da8c22ce5d6f6196bde3a05e26739"
+    },
+    {
+      "method": "GetSubTab",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 36818,
+        "rva": 3567640,
+        "token": "0x06000726"
+      },
+      "ilSha256": "7fe830d0baafcfd0edeec8ce30ecbba940c2a69a5e80748f2cd6cbd4e81097bb"
+    },
+    {
+      "method": "DropSubTab",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 39170,
+        "rva": 3606504,
+        "token": "0x06000728"
+      },
+      "ilSha256": "9e51d3c158edda0de6a2e019191b0f088454a65ba2dd5cd7071575709a4a4e7c"
+    },
+    {
+      "method": "DesigBtns",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 35918,
+        "rva": 3559420,
+        "token": "0x0600071a"
+      },
+      "ilSha256": "1cfc4af3835dafcb0f369e4f6549e5153b19f280c49464e597e24f9278b88e5c"
+    },
+    {
+      "method": "DesigBtn1ValuesForMainSize",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 34331,
+        "rva": 3532960,
+        "token": "0x06000713"
+      },
+      "ilSha256": "c011de74bc5b771a82a29e1ba75056e9afe1d0a5f2d428e16bb44c1ff9db4ed4"
+    },
+    {
+      "method": "DesigBtn2ForASMEClass",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 51188,
+        "rva": 3762996,
+        "token": "0x060007e9"
+      },
+      "ilSha256": "d90f30400e34d0b24c28ddfcce2e328fcce9770b075a715a811955dd3df3966b"
+    },
+    {
+      "method": "DesigBtn3ForFace",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 49881,
+        "rva": 3741084,
+        "token": "0x060007d5"
+      },
+      "ilSha256": "909828b37f3be509cc7db82c7eb1b96689c6e69c9b8a43601fc3667b612c1204"
+    },
+    {
+      "method": "DesigBtn4ForSchedule",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 50381,
+        "rva": 3747916,
+        "token": "0x060007e3"
+      },
+      "ilSha256": "f5a9f95e971d845fd0d2e5122beed022db7ee3a764304895941fa85d5146163c"
+    },
+    {
+      "method": "GotoForm",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 39760,
+        "rva": 3618080,
+        "token": "0x06000739"
+      },
+      "ilSha256": "123c54641c4f4a862fd4f9fc3673783a89b7e6c9a6307a75b6c1dd8a13beb647"
+    }
+  ],
+  "independentFixtures": {
+    "path": "tests/reference/flanges-gaskets/Flan1.json",
+    "hash": "60fe1397b0d6294f986c35955d0f276271393a33be77e97e6e88ddd3b66f2c5f",
+    "cases": 111,
+    "unavailableCases": 2,
+    "assertions": "Entire private view (all commands/headers/controls), complete bank-cell fingerprint, source filename trace, row-count limits and MainSize"
+  },
+  "layout": {
+    "path": "tests/reference/flanges-gaskets/layout.json",
+    "hash": "448b2b4fcd41145c04e0c2d590c950adb50aded1466537e65c5ec89312ccd700",
+    "helperHash": "1ba50254d3f188e44530605ebac0e067daea0cbd3c3f4bdd8ef0d353c2f8a02a",
+    "runtime": "4.0.30319.42000",
+    "scope": "Isolated WinForms source toolbar sizes/order/margins; no original assembly loaded"
+  },
+  "reaReuse": {
+    "path": "evidence/catalog-load-evidence.json",
+    "scope": "matching artifact/MVID; existing all1481 IL body crosscheck"
+  },
+  "originalComparison": "unverified-visual-nonblocking",
+  "tests": [
+    "tests/legacy/flanges-gaskets.test.ts",
+    "tests/workspace/public-result.test.ts",
+    "tests/workspace/canvas.test.ts",
+    "tests/e2e/flan1-checkpoint.spec.ts"
+  ],
+  "refinement": {
+    "scope": "Eight real XXS fallback fixtures appended duringFlan7 re-entry investigation; original103 unchanged",
+    "derivedSettingsReload": "Clicker reloads ScheduleIndex8 after STD fallback"
+  }
+}

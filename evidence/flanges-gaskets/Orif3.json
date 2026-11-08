@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "routeId": "Orif3",
+  "methods": [
+    {
+      "method": "Orif3",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 20133,
+        "rva": 3311140,
+        "token": "0x0600064b"
+      },
+      "ilSha256": "ec0b790aead638d0e9d10f470c904b163280d901a50b423e8fa2144853583248"
+    },
+    {
+      "method": "Orif3_Headers",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 22932,
+        "rva": 3355892,
+        "token": "0x06000680"
+      },
+      "ilSha256": "b27b0285886a9a38b40d5447c91a842540e345cf9104700c7ef40f9d83dd2ac5"
+    },
+    {
+      "method": "LoadSettingsOrif",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 4497,
+        "rva": 3184328,
+        "token": "0x060005f0"
+      },
+      "ilSha256": "997bc85634af8565845158854046758acdc2dd58f612f50ed391cb3b13e8f662"
+    },
+    {
+      "method": "LoadDataBase1",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 36366,
+        "rva": 3562000,
+        "token": "0x06000722"
+      },
+      "ilSha256": "ccee075f3f89b6f20da1bccf2168f16e48890151dc055cc5012b349295ee1330"
+    },
+    {
+      "method": "GetSubTab",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 36818,
+        "rva": 3567640,
+        "token": "0x06000726"
+      },
+      "ilSha256": "7fe830d0baafcfd0edeec8ce30ecbba940c2a69a5e80748f2cd6cbd4e81097bb"
+    },
+    {
+      "method": "DropSubTab",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 39170,
+        "rva": 3606504,
+        "token": "0x06000728"
+      },
+      "ilSha256": "9e51d3c158edda0de6a2e019191b0f088454a65ba2dd5cd7071575709a4a4e7c"
+    },
+    {
+      "method": "WhiteBlock",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 28831,
+        "rva": 3441204,
+        "token": "0x060006fe"
+      },
+      "ilSha256": "571a5953df3c78a5da369b3c7d57c5265660c7b46c0dfd315d8bb118c961142f"
+    }
+  ],
+  "sourceEvidenceReuse": "evidence/catalog-load-evidence.json; matching artifact/MVID, all1481 IL-body crosscheck",
+  "fixtures": {
+    "path": "tests/reference/flanges-gaskets/Orif3.json",
+    "hash": "69ffdb245778dfd4dc3959b91ab8cba7b5639e4a8e8b1c63178ce0c84d5df6d8",
+    "cases": 125,
+    "unavailableCases": 0
+  },
+  "tests": [
+    "tests/legacy/flanges-gaskets.test.ts"
+  ],
+  "originalComparison": "unverified-visual-nonblocking"
+}

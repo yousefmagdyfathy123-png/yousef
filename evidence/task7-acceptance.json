@@ -1,0 +1,188 @@
+{
+  "schemaVersion": 1,
+  "task": 7,
+  "status": "complete",
+  "date": "2026-11-02",
+  "branch": "task/01-foundation",
+  "baseCommit": "fb1151a",
+  "scope": "80 engine routes; category exports for later Task10 assembly",
+  "routes": {
+    "fittingCount": 53,
+    "pipeCount": 2,
+    "branchCount": 25,
+    "ids": [
+      "Ftbw1",
+      "Ftbw2",
+      "Ftbw3",
+      "Ftbw4",
+      "Ftbw5",
+      "Ftbw6",
+      "Ftbw7",
+      "Ftbw8",
+      "Ftbw9",
+      "Ftbw10",
+      "Ftbw11",
+      "Ftsc1",
+      "Ftsc2",
+      "Ftsc3",
+      "Ftsc4",
+      "Ftsc5",
+      "Ftsc6",
+      "Ftsc7",
+      "Ftsc8",
+      "Ftsc9",
+      "Ftsc10",
+      "Ftsc11",
+      "Ftsc12",
+      "Ftsc13",
+      "Ftsc14",
+      "Ftsc15",
+      "Ftsc16",
+      "Ftsc17",
+      "Ftsc18",
+      "Ftsc19",
+      "Ftsc20",
+      "Ftsc21",
+      "Ftsc22",
+      "Ftsc23",
+      "Ftsc24",
+      "Ftsc25",
+      "Ftsw1",
+      "Ftsw2",
+      "Ftsw3",
+      "Ftsw4",
+      "Ftsw5",
+      "Ftsw6",
+      "Ftsw7",
+      "Ftsw8",
+      "Ftsw9",
+      "Ftsw10",
+      "Ftsw11",
+      "Ftsw12",
+      "Ftsw13",
+      "Ftsw14",
+      "Fswa1",
+      "Fswa2",
+      "Fswa3",
+      "Pipe1",
+      "Piwt1",
+      "Wbol1",
+      "Wbol2",
+      "Wbol3",
+      "Wbol4",
+      "Wbol5",
+      "Wbol6",
+      "Wbol7",
+      "Wbol8",
+      "Wbol9",
+      "Wbol10",
+      "Wbol11",
+      "Wbol12",
+      "Wbol13",
+      "Wbpi1",
+      "Wbpi2",
+      "Wbpi3",
+      "Wbpi4",
+      "Wbpi5",
+      "Wbpi6",
+      "Wbpi7",
+      "Wbpi8",
+      "Wbpi9",
+      "Wbpi10",
+      "Wbpi11",
+      "Wbpi12"
+    ]
+  },
+  "sourceClassification": {
+    "dispatch": 80,
+    "directMenu": 68,
+    "search": 79,
+    "notAdded": [
+      "Ftsc29",
+      "Ftsw15"
+    ],
+    "directMenuExcluded": [
+      "Wbpi1",
+      "Wbpi2",
+      "Wbpi3",
+      "Wbpi4",
+      "Wbpi5",
+      "Wbpi6",
+      "Wbpi7",
+      "Wbpi8",
+      "Wbpi9",
+      "Wbpi10",
+      "Wbpi11",
+      "Wbpi12"
+    ],
+    "searchExcluded": [
+      "Piwt1"
+    ]
+  },
+  "independentReferences": {
+    "cases": 11564,
+    "unavailableCases": 1524,
+    "distinctTableAndConverterFiles": 556,
+    "geometry": "Lossless hash-verified literal trailing line commands; no production output generation",
+    "byteIdentity": "LF-pinned JSON; all parsed values verified unchanged during normalization"
+  },
+  "recordedAt": "2026-11-02T12:02:52.105703+00:00",
+  "verification": {
+    "fullSuite": {
+      "command": "LEGACY_CULTURE=en-US npm test",
+      "filesPassed": 16,
+      "testsPassed": 19078,
+      "seconds": 1269.74,
+      "log": ".task7-final-suite.log"
+    },
+    "typecheck": {
+      "passed": true,
+      "log": ".task7-final-typecheck.log"
+    },
+    "build": {
+      "passed": true,
+      "log": ".task7-final-build.log"
+    },
+    "chromeCheckpoint": {
+      "passed": 4,
+      "seconds": 17.3,
+      "scope": "Retained Task6 browser regression journeys",
+      "log": ".task7-final-browser.log"
+    },
+    "task7ProvenanceChecks": {
+      "passed": 81,
+      "scope": "Repeated after metadata and LF stabilization",
+      "log": ".task7-acceptance-lf.log"
+    },
+    "evidenceCheck": {
+      "blocking": 0,
+      "pendingGlobalFunctionalCards": 376,
+      "log": ".task7-final-evidence.log"
+    }
+  },
+  "review": {
+    "mode": "Author self-review; no subagents per user request",
+    "deferredFindings": [],
+    "verifiedCorrections": [
+      "Ftbw10 intermediate FormatDim",
+      "Wbol2 whole-number intermediate",
+      "Wbol3/6/9 diagonal radius and whole-number rounding",
+      "Wbpi10/11/12 persisted class400 menu counter"
+    ]
+  },
+  "rulings": [
+    {
+      "decision": "Preserve active Pipe1 raw wall label0.065; test numeric formatter0.06-inch /1/16-inch separately",
+      "basis": "GetSubTab has no Pipe1 alternate switch; Pipe1.dxf markers are raw, Pipe1a numeric markers are inactive",
+      "costIfWrong": "Active drawing parity would differ; pinned source and drawing records support this decision"
+    }
+  ],
+  "previousTask6LedgerFlagsReconciled": 32,
+  "sourcePreservation": {
+    "databaseFilesVerified": 1634,
+    "executableSha256": "55a55522875ad7131d1367a08667ae653416c9be2decbd3bd5c54a9b8c04d03c",
+    "decompiledModuleSha256": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+    "executableExecutedOrLoaded": false,
+    "originalImageComparison": "unverified-visual-nonblocking"
+  }
+}

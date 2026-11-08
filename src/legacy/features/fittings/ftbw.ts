@@ -1,0 +1,12 @@
+import { Ftbw1 } from './ftbw/Ftbw1';
+import { Ftbw2 } from './ftbw/Ftbw2';
+import { Ftbw3 } from './ftbw/Ftbw3';
+import { Ftbw4 } from './ftbw/Ftbw4';
+import { Ftbw5 } from './ftbw/Ftbw5';
+import { Ftbw6 } from './ftbw/Ftbw6';
+import { Ftbw7 } from './ftbw/Ftbw7';
+import { Ftbw8 } from './ftbw/Ftbw8';
+import { Ftbw9 } from './ftbw/Ftbw9';
+import { Ftbw10 } from './ftbw/Ftbw10';
+import { Ftbw11 } from './ftbw/Ftbw11';
+export const ftbwRoutes=[Ftbw1,Ftbw2,Ftbw3,Ftbw4,Ftbw5,Ftbw6,Ftbw7,Ftbw8,Ftbw9,Ftbw10,Ftbw11];

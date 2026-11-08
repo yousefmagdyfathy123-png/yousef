@@ -1,0 +1,182 @@
+{
+  "schemaVersion": 1,
+  "routeId": "Srra3",
+  "classification": {
+    "dispatch": true,
+    "uiRoutes": true,
+    "search": true
+  },
+  "methods": [
+    {
+      "method": "Srra3",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 48287,
+        "rva": 3718272,
+        "token": "0x060007b2"
+      },
+      "ilSha256": "768536274d6a6c86408fdd99e9af1c2064fc2d49710355dfe21c5aa5cdc2bffa"
+    },
+    {
+      "method": "Srra3_Headers",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 48466,
+        "rva": 3720880,
+        "token": "0x060007b6"
+      },
+      "ilSha256": "a06358f12436be9ef5f342973269676628b6046f8b934c38796b2351c1461c45"
+    },
+    {
+      "method": "LoadSettingsSrra",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 7634,
+        "rva": 3223200,
+        "token": "0x06000602"
+      },
+      "ilSha256": "0f858bd74b11bc392f36609ade04ab0752a1ad4f188e4321772cfb91035610b4"
+    },
+    {
+      "method": "LoadDataBase1",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 36366,
+        "rva": 3562000,
+        "token": "0x06000722"
+      },
+      "ilSha256": "ccee075f3f89b6f20da1bccf2168f16e48890151dc055cc5012b349295ee1330"
+    },
+    {
+      "method": "GetTitle",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 37125,
+        "rva": 3570892,
+        "token": "0x06000727"
+      },
+      "ilSha256": "a93407a6e60c8b554f7a1217ee3e4e1695b0d3a167f33452a86000b983a2bdce"
+    },
+    {
+      "method": "GetSubTab",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 36818,
+        "rva": 3567640,
+        "token": "0x06000726"
+      },
+      "ilSha256": "7fe830d0baafcfd0edeec8ce30ecbba940c2a69a5e80748f2cd6cbd4e81097bb"
+    },
+    {
+      "method": "LoadDrawing",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 39778,
+        "rva": 3618160,
+        "token": "0x0600073a"
+      },
+      "ilSha256": "a4e602de7b2af2893dbd39a118b8d4ebd85b4f3d38dccbc1a44448ce89d0d5a4"
+    },
+    {
+      "method": "DoDrawing",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 40913,
+        "rva": 3623668,
+        "token": "0x06000744"
+      },
+      "ilSha256": "4d38598296307a3a2f8469a15b80d8aa335ef9143465443ec4cbbe7965587171"
+    },
+    {
+      "method": "DesigBtn1ValuesForMainSize",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 34331,
+        "rva": 3532960,
+        "token": "0x06000713"
+      },
+      "ilSha256": "c011de74bc5b771a82a29e1ba75056e9afe1d0a5f2d428e16bb44c1ff9db4ed4"
+    },
+    {
+      "method": "FormatDim",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 39366,
+        "rva": 3611568,
+        "token": "0x0600072c"
+      },
+      "ilSha256": "2f4c7cfc01db4144198e24cf67ef7135cbee1331c480644077304bc5317aeaf9"
+    },
+    {
+      "method": "ImperialiseWereNecessary",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 28033,
+        "rva": 3424852,
+        "token": "0x060006e8"
+      },
+      "ilSha256": "3314564558279e1e6c05ef7030b7327ee1dbd00c8af12d4954305cb69aa9de8c"
+    },
+    {
+      "method": "ErrorCatch",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 58359,
+        "rva": 3849740,
+        "token": "0x0600085c"
+      },
+      "ilSha256": "136b7b7f4cf539de61a4be939db8ed75ec51e1560b3f75f17623de716f67daad"
+    },
+    {
+      "method": "ErrorMessageNuts",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 48141,
+        "rva": 3716880,
+        "token": "0x060007af"
+      },
+      "ilSha256": "7e818812bbbddb8f07d8718e7a509aec05045c4b3d6efa792e5ac92a4a70387d"
+    }
+  ],
+  "sourceEvidenceReuse": "evidence/catalog-load-evidence.json; same EXE SHA256/MVID; retained REA all1481 IL-body crosscheck",
+  "fixtures": {
+    "path": "tests/reference/valves-strainers-fasteners/Srra3.json",
+    "hash": "f67bdefa84251950868817981d3c01c91c4e79ad7d1112127f84f2dcf58b2c55",
+    "cases": 36,
+    "unavailableCases": 0
+  },
+  "dataSources": [
+    {
+      "path": "Database/Srra/SrrA3_150.csv",
+      "hash": "adaafc8c11fa7db2511507a8fc7eda3af86c3356989c7252aa9c59c4fe828d86"
+    },
+    {
+      "path": "Database/Srra/SrrA3_Imperial_150.csv",
+      "hash": "3ca1f015d403952982f6af1ba2b6f3ebc25ede8cbf2c5324b64bc660788373fd"
+    },
+    {
+      "path": "Database/Srra/Srra3.dxf",
+      "hash": "9f3ca0e053aff67232dc3533f5907d160ef9277b72bba19af9e735af56724756"
+    }
+  ],
+  "tests": [
+    "tests/legacy/valves-strainers-fasteners.test.ts",
+    "tests/legacy/task8-navigation.test.ts",
+    "tests/legacy/task8-acceptance.test.ts"
+  ],
+  "originalComparison": "unverified-visual-nonblocking",
+  "review": "Primary agent source/recipe review; no subagent per user request"
+}

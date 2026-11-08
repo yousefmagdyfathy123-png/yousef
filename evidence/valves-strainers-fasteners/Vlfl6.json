@@ -1,0 +1,230 @@
+{
+  "schemaVersion": 1,
+  "routeId": "Vlfl6",
+  "classification": {
+    "dispatch": true,
+    "uiRoutes": true,
+    "search": true
+  },
+  "methods": [
+    {
+      "method": "Vlfl6",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 27846,
+        "rva": 3422932,
+        "token": "0x060006e5"
+      },
+      "ilSha256": "955f25e8f967868c65430d7935021c8d084aa72619e34d1c50c89a1edb22882c"
+    },
+    {
+      "method": "Vlfl6Headers",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 28718,
+        "rva": 3438452,
+        "token": "0x060006fb"
+      },
+      "ilSha256": "3125a1b874da72977fb1b7bc68a6e07f90b60f59fe49fd778d0caf8e1e43f3b6"
+    },
+    {
+      "method": "LoadSettingsVlfl",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 6424,
+        "rva": 3208148,
+        "token": "0x060005fb"
+      },
+      "ilSha256": "afd058e48832db94d30323efda343fcf8e43295150f799d5748cf9936d28a4bf"
+    },
+    {
+      "method": "LoadDataBase1",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 36366,
+        "rva": 3562000,
+        "token": "0x06000722"
+      },
+      "ilSha256": "ccee075f3f89b6f20da1bccf2168f16e48890151dc055cc5012b349295ee1330"
+    },
+    {
+      "method": "GetTitle",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 37125,
+        "rva": 3570892,
+        "token": "0x06000727"
+      },
+      "ilSha256": "a93407a6e60c8b554f7a1217ee3e4e1695b0d3a167f33452a86000b983a2bdce"
+    },
+    {
+      "method": "GetSubTab",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 36818,
+        "rva": 3567640,
+        "token": "0x06000726"
+      },
+      "ilSha256": "7fe830d0baafcfd0edeec8ce30ecbba940c2a69a5e80748f2cd6cbd4e81097bb"
+    },
+    {
+      "method": "LoadDrawing",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 39778,
+        "rva": 3618160,
+        "token": "0x0600073a"
+      },
+      "ilSha256": "a4e602de7b2af2893dbd39a118b8d4ebd85b4f3d38dccbc1a44448ce89d0d5a4"
+    },
+    {
+      "method": "DoDrawing",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 40913,
+        "rva": 3623668,
+        "token": "0x06000744"
+      },
+      "ilSha256": "4d38598296307a3a2f8469a15b80d8aa335ef9143465443ec4cbbe7965587171"
+    },
+    {
+      "method": "DesigBtn1ValuesForMainSize",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 34331,
+        "rva": 3532960,
+        "token": "0x06000713"
+      },
+      "ilSha256": "c011de74bc5b771a82a29e1ba75056e9afe1d0a5f2d428e16bb44c1ff9db4ed4"
+    },
+    {
+      "method": "FormatDim",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 39366,
+        "rva": 3611568,
+        "token": "0x0600072c"
+      },
+      "ilSha256": "2f4c7cfc01db4144198e24cf67ef7135cbee1331c480644077304bc5317aeaf9"
+    },
+    {
+      "method": "ImperialiseWereNecessary",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 28033,
+        "rva": 3424852,
+        "token": "0x060006e8"
+      },
+      "ilSha256": "3314564558279e1e6c05ef7030b7327ee1dbd00c8af12d4954305cb69aa9de8c"
+    },
+    {
+      "method": "ErrorCatch",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 58359,
+        "rva": 3849740,
+        "token": "0x0600085c"
+      },
+      "ilSha256": "136b7b7f4cf539de61a4be939db8ed75ec51e1560b3f75f17623de716f67daad"
+    },
+    {
+      "method": "ErrorMessageSizeClassFaceType",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 19269,
+        "rva": 3302128,
+        "token": "0x0600063a"
+      },
+      "ilSha256": "b7a5dbcf1b0ae9c5283a35d45a8927d6dea60465c548c980b5237e662b36675c"
+    }
+  ],
+  "sourceEvidenceReuse": "evidence/catalog-load-evidence.json; same EXE SHA256/MVID; retained REA all1481 IL-body crosscheck",
+  "fixtures": {
+    "path": "tests/reference/valves-strainers-fasteners/Vlfl6.json",
+    "hash": "2e4d75b00b059963d850a30acc24f917e3dbb8bd6619d989ae16b0f3b93861b5",
+    "cases": 834,
+    "unavailableCases": 322
+  },
+  "dataSources": [
+    {
+      "path": "Database/Vlfl/Vlfl6.dxf",
+      "hash": "cde438f5720f7509e0fb193753a453ee9011268c7c21fb7ace7840b3a356ea3c"
+    },
+    {
+      "path": "Database/Vlfl/Vlfl6a.dxf",
+      "hash": "5715c70d3af19203c5234dce97c9ff74fca9a0877ba4b19067b81e0fe1bdae7a"
+    },
+    {
+      "path": "Database/Vlfl/Vlv6150.csv",
+      "hash": "bc4aceddf674239b8bb404ce74478ee72002c31dbdc4b90b966421c0634222e9"
+    },
+    {
+      "path": "Database/Vlfl/Vlv61500.csv",
+      "hash": "05b8355aa182998d2329cb9efa6fd56319bb579de92bb28801ca57f19280215a"
+    },
+    {
+      "path": "Database/Vlfl/Vlv62500.csv",
+      "hash": "c835f221b634adcab97197d6f7b9a4ab33052c32c1008837ba1b4a43c8cf40ae"
+    },
+    {
+      "path": "Database/Vlfl/Vlv6300.csv",
+      "hash": "33b9469cccbae78444d3238b3ec6b84f48edfadddfc4888633ed2411e9f09c3a"
+    },
+    {
+      "path": "Database/Vlfl/Vlv6400.csv",
+      "hash": "bed5f1b196fc8c67d31f5e39b2010ebfb82deaefc21a36e00cdffadea4592c18"
+    },
+    {
+      "path": "Database/Vlfl/Vlv6600.csv",
+      "hash": "b7b0e16e68d6cd0ea4fbca17cefb33eec65b01a470f6aaf0eff0fbcd170641c9"
+    },
+    {
+      "path": "Database/Vlfl/Vlv6900.csv",
+      "hash": "080d89fdb6453a0ed77bb910a1f59cea38ff90433204dba3a7e1455b4647d1b2"
+    },
+    {
+      "path": "Database/Vlfl/Vlv6_Imperial_150.csv",
+      "hash": "36171f04b00e3b255c5c9b0f0fa2a7dbf8444ebca94176520d3395932d3ce876"
+    },
+    {
+      "path": "Database/Vlfl/Vlv6_Imperial_1500.csv",
+      "hash": "529deac1cc459e84c49089226977fd0ac4d37f405be9c36c9b0e03b6092ce2f7"
+    },
+    {
+      "path": "Database/Vlfl/Vlv6_Imperial_2500.csv",
+      "hash": "1fb9353504d00b6fc4090f978a5c2598b024581e89a5b9a485f5979b730acc14"
+    },
+    {
+      "path": "Database/Vlfl/Vlv6_Imperial_300.csv",
+      "hash": "00c26228ffab272b98def100e51ca94eee6c639640cfd32ae4aa54e4547c1128"
+    },
+    {
+      "path": "Database/Vlfl/Vlv6_Imperial_600.csv",
+      "hash": "83a4582d47b52ef56bddc8a24605637f5379daa624a6a9018edb71c63ae5c1e9"
+    },
+    {
+      "path": "Database/Vlfl/Vlv6_Imperial_900.csv",
+      "hash": "321d9c31e8765401f5b89f5bfcbc643f9ac4049f78139ea4ca6ab4b12e39e2dc"
+    }
+  ],
+  "tests": [
+    "tests/legacy/valves-strainers-fasteners.test.ts",
+    "tests/legacy/task8-navigation.test.ts",
+    "tests/legacy/task8-acceptance.test.ts"
+  ],
+  "originalComparison": "unverified-visual-nonblocking",
+  "review": "Primary agent source/recipe review; no subagent per user request"
+}

@@ -1,0 +1,129 @@
+{
+  "candidate": {
+    "sourceTreeHash": "d78de872492f7a36d1aadabb064fe2f26b8af5c0c2d321c0437a0c94f7f2db2f",
+    "catalogRevision": "0216f5e78e9e09f6808f65655979b2d9e45b1dabaeee9f5f8266c6e039b1431f",
+    "configFingerprint": "1f00b1db4b11060908dcc6196594ef44a2bc5bbca46788581a6d883a4834f6f7"
+  },
+  "evidence": [
+    {
+      "project": "chrome-windows",
+      "versions": [
+        "156.0.8078.74"
+      ],
+      "runnerErrors": 0,
+      "passed": true,
+      "tests": [
+        {
+          "file": "print.spec.ts",
+          "title": "print snapshot has source width and notice, cancellation/failure restores live workspace",
+          "project": "chrome-windows",
+          "status": "passed",
+          "browser": "156.0.8078.74"
+        }
+      ]
+    },
+    {
+      "project": "edge-windows",
+      "versions": [
+        "156.0.4314.58"
+      ],
+      "runnerErrors": 0,
+      "passed": true,
+      "tests": [
+        {
+          "file": "print.spec.ts",
+          "title": "print snapshot has source width and notice, cancellation/failure restores live workspace",
+          "status": "passed",
+          "project": "edge-windows",
+          "browser": "156.0.4314.58"
+        }
+      ],
+      "reverification": "evidence/acceptance/ui-edge-reverification.json"
+    },
+    {
+      "project": "chromium-windows",
+      "versions": [
+        "156.0.8078.4"
+      ],
+      "runnerErrors": 0,
+      "passed": true,
+      "tests": [
+        {
+          "file": "print.spec.ts",
+          "title": "print snapshot has source width and notice, cancellation/failure restores live workspace",
+          "project": "chromium-windows",
+          "status": "passed",
+          "browser": "156.0.8078.4"
+        }
+      ]
+    },
+    {
+      "project": "firefox-windows",
+      "versions": [
+        "157.0"
+      ],
+      "runnerErrors": 0,
+      "passed": true,
+      "tests": [
+        {
+          "file": "print.spec.ts",
+          "title": "print snapshot has source width and notice, cancellation/failure restores live workspace",
+          "project": "firefox-windows",
+          "status": "passed",
+          "browser": "157.0"
+        }
+      ]
+    },
+    {
+      "project": "webkit-windows",
+      "versions": [
+        "27.2"
+      ],
+      "runnerErrors": 0,
+      "passed": true,
+      "tests": [
+        {
+          "file": "print.spec.ts",
+          "title": "print snapshot has source width and notice, cancellation/failure restores live workspace",
+          "project": "webkit-windows",
+          "status": "passed",
+          "browser": "27.2"
+        }
+      ]
+    },
+    {
+      "project": "android-chrome-emulation",
+      "versions": [
+        "156.0.8078.74"
+      ],
+      "runnerErrors": 0,
+      "passed": true,
+      "tests": [
+        {
+          "file": "print.spec.ts",
+          "title": "print snapshot has source width and notice, cancellation/failure restores live workspace",
+          "project": "android-chrome-emulation",
+          "status": "passed",
+          "browser": "156.0.8078.74"
+        }
+      ]
+    },
+    {
+      "project": "iphone-webkit-emulation",
+      "versions": [
+        "27.2"
+      ],
+      "runnerErrors": 0,
+      "passed": true,
+      "tests": [
+        {
+          "file": "print.spec.ts",
+          "title": "print snapshot has source width and notice, cancellation/failure restores live workspace",
+          "project": "iphone-webkit-emulation",
+          "status": "passed",
+          "browser": "27.2"
+        }
+      ]
+    }
+  ]
+}

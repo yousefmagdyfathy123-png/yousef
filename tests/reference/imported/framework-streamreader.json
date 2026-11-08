@@ -1,0 +1,36 @@
+{
+  "runtime": "v4.0.30319",
+  "coreLibrary": "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+  "observations": [
+    {
+      "path": "Ftsw/Ftsw5_Socketwelded_Coupling_9000_Inches.csv",
+      "line": 13,
+      "column": 12,
+      "codepoints": [
+        65533
+      ],
+      "encoding": "utf-8",
+      "totalLines": 14
+    },
+    {
+      "path": "Ftsw/Ftsw6_Socketwelded_Half_Coupling_9000_Inches.csv",
+      "line": 13,
+      "column": 12,
+      "codepoints": [
+        65533
+      ],
+      "encoding": "utf-8",
+      "totalLines": 14
+    },
+    {
+      "path": "Ftsw/Ftsw7_Socketwelded_Cap_9000_Inches.csv",
+      "line": 13,
+      "column": 12,
+      "codepoints": [
+        65533
+      ],
+      "encoding": "utf-8",
+      "totalLines": 14
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "status": "incomplete",
+  "scope": "protected",
+  "sourceTreeHash": "d78de872492f7a36d1aadabb064fe2f26b8af5c0c2d321c0437a0c94f7f2db2f",
+  "reader": "Windows Narrator",
+  "readerVersion": "10.0.26100.8972",
+  "browser": "Chrome 156.0.8078.74",
+  "os": "Windows 11 Pro 10.0.26300",
+  "observations": {
+    "results": "Speech Recap announced the Weldneck Flange heading. The table navigation attempt said Not on table. Cell and header reading remain unverified.",
+    "forms": "The Units combo box was announced at the isolated checkpoint. The protected form was not confirmed.",
+    "messages": "Speech Recap announced Alfadata has finished loading in the protected browser. The unavailable engineering status remains unverified."
+  },
+  "recheck": {
+    "status": "blocked",
+    "authenticatedWorkspace": "opened",
+    "reason": "The Windows computer-use native pipe was unavailable, preventing input and Speech Recap capture.",
+    "cleanup": "The isolated browser was closed. Narrator was off."
+  }
+}

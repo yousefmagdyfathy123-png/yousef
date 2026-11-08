@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "scope": "Task6a Flan1 only",
+  "status": "passed",
+  "referenceCases": 103,
+  "browserJourneys": 4,
+  "screenshots": [
+    "evidence/checkpoints/flan1-desktop.png",
+    "evidence/checkpoints/flan1-unavailable.png"
+  ],
+  "ownUiInspection": "Readable controls/results; no clipping observed at desktop1440x900; logical1067x690, DPR1/2",
+  "sourceEvidence": "evidence/flanges-gaskets/Flan1.json",
+  "review": {
+    "model": "gpt-6.1-sol",
+    "reasoningEffort": "high",
+    "critical": 0,
+    "important": 0,
+    "minor": 0,
+    "independentTargetedTestsPassed": 107
+  },
+  "originalComparison": "unverified-visual-nonblocking",
+  "remaining": [
+    "Other38 Task6 routes",
+    "Task11 all-route/mobile/print/browser matrix",
+    "Task19 auth/persistence"
+  ],
+  "recordedAt": "2026-11-01T19:10:44.004534+00:00",
+  "verification": {
+    "unitTests": 1218,
+    "testFiles": 12,
+    "browserTests": 4,
+    "typecheck": "passed",
+    "productionBuild": "passed",
+    "coverageStructuralBlockers": 0,
+    "pendingFunctionalCards": 494,
+    "sourcePreservation": {
+      "databaseFiles": 1634,
+      "changed": 0,
+      "executableUnchanged": true
+    }
+  },
+  "laterReferenceRefinement": {
+    "task": "Task6 Flan7 checkpoint",
+    "addedCases": 8,
+    "currentReferenceCases": 111,
+    "originalCasesUnchanged": true
+  }
+}

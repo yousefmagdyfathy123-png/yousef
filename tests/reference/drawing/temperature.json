@@ -1,0 +1,102 @@
+{
+    "cases":  [
+                  {
+                      "initial":  21.123455047607422,
+                      "raw":  "21.123456",
+                      "crosshairX":  [
+                                         421.12344360351563,
+                                         421.12347412109375
+                                     ],
+                      "restored":  21.12346076965332,
+                      "text":  "21.12346"
+                  },
+                  {
+                      "initial":  167.77215576171875,
+                      "raw":  "167.77216",
+                      "crosshairX":  [
+                                         567.77215576171875,
+                                         567.772216796875
+                                     ],
+                      "restored":  167.77220153808594,
+                      "text":  "167.7722"
+                  },
+                  {
+                      "initial":  100,
+                      "raw":  "100",
+                      "crosshairX":  [
+                                         500,
+                                         500
+                                     ],
+                      "restored":  100,
+                      "text":  "100"
+                  },
+                  {
+                      "initial":  0,
+                      "raw":  "-0",
+                      "crosshairX":  [
+                                         400,
+                                         400
+                                     ],
+                      "restored":  0,
+                      "text":  "0"
+                  },
+                  {
+                      "initial":  -21.123455047607422,
+                      "raw":  "-21.123456",
+                      "crosshairX":  [
+                                         378.87655639648438,
+                                         378.87652587890625
+                                     ],
+                      "restored":  -21.12346076965332,
+                      "text":  "-21.12346"
+                  },
+                  {
+                      "initial":  1.2345678442216013E-05,
+                      "raw":  "0.000012345678",
+                      "crosshairX":  [
+                                         400,
+                                         400
+                                     ],
+                      "restored":  1.2345680261205416E-05,
+                      "text":  "1.234568E-05"
+                  }
+              ],
+    "runtime":  "4.0.30319.42000",
+    "helperHash":  "03ac4be137cf35dfc9fd05be174e8c02d2d404a759ef27989f79fab0120ebb34",
+    "trimCases":  [
+                      {
+                          "expected":  "A",
+                          "code":  32,
+                          "raw":  " A "
+                      },
+                      {
+                          "expected":  "A",
+                          "code":  12288,
+                          "raw":  "　A　"
+                      },
+                      {
+                          "expected":  "\tA\t",
+                          "code":  9,
+                          "raw":  "\tA\t"
+                      },
+                      {
+                          "expected":  " A ",
+                          "code":  160,
+                          "raw":  " A "
+                      },
+                      {
+                          "expected":  "﻿A﻿",
+                          "code":  65279,
+                          "raw":  "﻿A﻿"
+                      }
+                  ],
+    "sourceRefs":  [
+                       {
+                           "endLine":  41132,
+                           "path":  "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+                           "hash":  "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+                           "line":  41105
+                       }
+                   ],
+    "culture":  "en-US"
+}

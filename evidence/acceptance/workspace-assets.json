@@ -1,0 +1,23 @@
+{
+  "evidence": {
+    "browser": {
+      "workspace-session-resume.spec.ts": 1,
+      "workspace-recovery.spec.ts": 1
+    },
+    "integration": [
+      "asset scope denies foreign, stale, expired and raw requests before rendering",
+      "nested GET validates binding headers and scopes the private response to verified auth",
+      "client sends only binding metadata to the nested route with shared caching disabled"
+    ],
+    "publicDto": [
+      "maps source view field by field and excludes private root/nested data",
+      "strict public schema rejects extra fields at every nested object and sanitizes errors",
+      "strict public arrays reject balanced holes and extra metadata keys",
+      "public menu/dialog action projection excludes private markers and every nested object is strict",
+      "strict object schemas reject symbol and nonenumerable metadata as well as JSON extras",
+      "invalid internal output reports a sanitized contract error before any response or receipt"
+    ],
+    "publicStaticFiles": []
+  },
+  "commands": []
+}

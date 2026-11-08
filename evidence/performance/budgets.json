@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "status": "approved",
+  "environment": "87324a34e9df1ab833f1aa9d3065d07e3b48d27c3314f4098adcd0f75ac2f6b5",
+  "maximumFailures": 0,
+  "targetProfile": {
+    "concurrency": 2,
+    "requests": 24,
+    "operationMix": "Alternating ASME classes 300 and 600 on Flan1; independent accounts and tabs"
+  },
+  "rationale": {
+    "browser": "Keep routine interaction near two seconds or below on the measured workstation. Search includes opening the dialog and entering the query.",
+    "concurrency": "Use two clients as the candidate profile. The earlier run with four clients raised tail latency without improving throughput.",
+    "memory": "Reserve less than one GiB for the Next server on the measured eight-GiB workstation, leaving headroom for the browser, PostgreSQL and OS.",
+    "response": "Watch regression in this Flan1 class-change workload against the observed approximately 106 KiB decoded response. These are evidence limits and do not truncate results.",
+    "resume": "Treat the cold resume as a smoke measurement and label its single observation. A repeatable percentile would require repeated restarts."
+  },
+  "targets": {
+    "create": {
+      "unit": "ms",
+      "minSamples": 15,
+      "p95": 2000,
+      "max": 3000
+    },
+    "changeClass": {
+      "unit": "ms",
+      "minSamples": 15,
+      "p95": 2000,
+      "max": 3000
+    },
+    "search": {
+      "unit": "ms",
+      "minSamples": 15,
+      "p95": 2500,
+      "max": 3500
+    },
+    "selectSearchHit": {
+      "unit": "ms",
+      "minSamples": 15,
+      "p95": 2000,
+      "max": 3000
+    },
+    "reload": {
+      "unit": "ms",
+      "minSamples": 15,
+      "p95": 1500,
+      "max": 2500
+    },
+    "loadLatency": {
+      "unit": "ms",
+      "minSamples": 24,
+      "p95": 1500,
+      "max": 2200
+    },
+    "loadResponse": {
+      "unit": "bytes",
+      "minSamples": 24,
+      "p95": 131072,
+      "max": 196608
+    },
+    "resume": {
+      "unit": "ms",
+      "minSamples": 1,
+      "p95": 2500,
+      "max": 3500
+    },
+    "rss": {
+      "unit": "bytes",
+      "minSamples": 30,
+      "p95": 629145600,
+      "max": 805306368
+    },
+    "heap": {
+      "unit": "bytes",
+      "minSamples": 30,
+      "p95": 314572800,
+      "max": 419430400
+    }
+  }
+}

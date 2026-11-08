@@ -1,0 +1,141 @@
+{
+  "schemaVersion": 1,
+  "scope": "Task3 infrastructure only; later functional route cards remain pending",
+  "artifact": {
+    "sha256": "55a55522875ad7131d1367a08667ae653416c9be2decbd3bd5c54a9b8c04d03c",
+    "mvid": "948a0d3b-1670-4555-9843-5e7ed73785db"
+  },
+  "methods": [
+    {
+      "method": "ImperialiseWereNecessary",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 28033,
+        "token": "0x060006e8",
+        "rva": 3424852
+      },
+      "ilSha256": "3314564558279e1e6c05ef7030b7327ee1dbd00c8af12d4954305cb69aa9de8c",
+      "level": "observed-static"
+    },
+    {
+      "method": "FormatDim",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 39366,
+        "token": "0x0600072c",
+        "rva": 3611568
+      },
+      "ilSha256": "2f4c7cfc01db4144198e24cf67ef7135cbee1331c480644077304bc5317aeaf9",
+      "level": "observed-static"
+    },
+    {
+      "method": "FormatDim_Zero_Dec_Places",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 39381,
+        "token": "0x0600072d",
+        "rva": 3611652
+      },
+      "ilSha256": "92b919c4faa488dc07a4401f03879681f825b37126bab1249aa01c3010281137",
+      "level": "observed-static"
+    },
+    {
+      "method": "DoDrawing",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 40913,
+        "token": "0x06000744",
+        "rva": 3623668
+      },
+      "ilSha256": "4d38598296307a3a2f8469a15b80d8aa335ef9143465443ec4cbbe7965587171",
+      "level": "observed-static"
+    },
+    {
+      "method": "FractionizeIfNeccessary",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 58370,
+        "token": "0x0600085d",
+        "rva": 3849868
+      },
+      "ilSha256": "7701d5c4581fc74c8fe9c6cffe720a1adeaaae1f8c225ddcd9f37a1978951026",
+      "level": "observed-static"
+    },
+    {
+      "method": "Find",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 56155,
+        "token": "0x06000843",
+        "rva": 3821092
+      },
+      "ilSha256": "41490d40762f86e5f9f1eba3397adaf12a9a73d68a7f809eb029c58415c5ae17",
+      "level": "observed-static"
+    }
+  ],
+  "reaReuse": {
+    "path": "evidence/catalog-load-evidence.json",
+    "hash": "c16ab605b1b017efeea860e1b96d4ab0721357829162b6ec615c005ee237fc50",
+    "scope": "Prior same-artifact all1481 raw-IL-body hash crosscheck, not runtime semantics"
+  },
+  "displayInstructionAnchors": {
+    "path": "audit/recheck-2026-11-01/display-il-evidence.json",
+    "hash": "7ac5d9be0cb78b1fa4234a363bdc56af4f39f7f6be8e91dd9b898cb0b412b49d",
+    "scope": "FormatDim Math.Round/Val/ToString and DoDrawing call ordering"
+  },
+  "culture": {
+    "culture": "en-US",
+    "runtime": "4.0.30319.42000",
+    "coreLibrary": "mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
+    "vbAssembly": "Microsoft.VisualBasic, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a",
+    "sortVersion": 394498,
+    "helperSha256": "881d9db8b678ffab592eeb7d8c7a2e4566e7ffd4f2c91bee4122904a704d410b"
+  },
+  "fixtures": {
+    "path": "tests/reference/vb.json",
+    "hash": "2bed21af5f7be20a526ca49e4ac625613176c6557c1cc23aaefc0fb636b64003",
+    "cases": 541
+  },
+  "stateSchema": {
+    "codecVersion": 1,
+    "stateSchemaVersion": 1,
+    "bounds": {
+      "activeDba": [
+        6,
+        1001,
+        1001
+      ],
+      "lineMem": [
+        10001,
+        11
+      ]
+    },
+    "nullCellEvidenceLines": [
+      962,
+      990
+    ],
+    "undefined": "not admitted by current state schema; CLR string cells initialize null"
+  },
+  "testIds": [
+    "tests/legacy/vb.test.ts",
+    "tests/legacy/culture.test.ts",
+    "tests/legacy/state-codec.test.ts"
+  ],
+  "sourcePreservation": {
+    "databaseFiles": 1634,
+    "changed": 0,
+    "executableUnchanged": true,
+    "vendorAssemblyExecuted": false
+  },
+  "limitations": [
+    "Static source plus isolated Framework APIs; no vendor runtime/pixel claim",
+    "State action continuation and detailed field eligibility owned by task4/5; real database persistence task19b",
+    "Only explicit en-US supported; normal search consumes Binary Like/Compare"
+  ]
+}

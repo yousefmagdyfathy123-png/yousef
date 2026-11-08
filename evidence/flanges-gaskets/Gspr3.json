@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "routeId": "Gspr3",
+  "methods": [
+    {
+      "method": "Gspr3",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 21459,
+        "rva": 3325708,
+        "token": "0x06000662"
+      },
+      "ilSha256": "c0fb2666a0ec29930ca56b49303df09b07593a9256902ecd01303453b9603b66"
+    },
+    {
+      "method": "Gspr3_Headers",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 21612,
+        "rva": 3328132,
+        "token": "0x06000665"
+      },
+      "ilSha256": "e755f59ad68cf7aebadb8828ee39bd792700633d9864b2e5c213d1b76be555d9"
+    },
+    {
+      "method": "LoadSettingsGspr",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 6080,
+        "rva": 3203892,
+        "token": "0x060005f9"
+      },
+      "ilSha256": "355ab9c27a805e3d3f17c5088d60f77688a924b48013970cc3e3f30dbcf2a2ee"
+    },
+    {
+      "method": "LoadDataBase1",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 36366,
+        "rva": 3562000,
+        "token": "0x06000722"
+      },
+      "ilSha256": "ccee075f3f89b6f20da1bccf2168f16e48890151dc055cc5012b349295ee1330"
+    },
+    {
+      "method": "DesigBtn1ValuesForMainSize",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 34331,
+        "rva": 3532960,
+        "token": "0x06000713"
+      },
+      "ilSha256": "c011de74bc5b771a82a29e1ba75056e9afe1d0a5f2d428e16bb44c1ff9db4ed4"
+    },
+    {
+      "method": "DesigBtn2ForASMEClass",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 51188,
+        "rva": 3762996,
+        "token": "0x060007e9"
+      },
+      "ilSha256": "d90f30400e34d0b24c28ddfcce2e328fcce9770b075a715a811955dd3df3966b"
+    },
+    {
+      "method": "FormatDim",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 39366,
+        "rva": 3611568,
+        "token": "0x0600072c"
+      },
+      "ilSha256": "2f4c7cfc01db4144198e24cf67ef7135cbee1331c480644077304bc5317aeaf9"
+    },
+    {
+      "method": "FractionizeIfNeccessary",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 58370,
+        "rva": 3849868,
+        "token": "0x0600085d"
+      },
+      "ilSha256": "7701d5c4581fc74c8fe9c6cffe720a1adeaaae1f8c225ddcd9f37a1978951026"
+    },
+    {
+      "method": "GetSubTab",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 36818,
+        "rva": 3567640,
+        "token": "0x06000726"
+      },
+      "ilSha256": "7fe830d0baafcfd0edeec8ce30ecbba940c2a69a5e80748f2cd6cbd4e81097bb"
+    },
+    {
+      "method": "WhiteBlock",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 28831,
+        "rva": 3441204,
+        "token": "0x060006fe"
+      },
+      "ilSha256": "571a5953df3c78a5da369b3c7d57c5265660c7b46c0dfd315d8bb118c961142f"
+    }
+  ],
+  "sourceEvidenceReuse": "evidence/catalog-load-evidence.json; matching artifact/MVID, all1481 IL-body crosscheck",
+  "fixtures": {
+    "path": "tests/reference/flanges-gaskets/Gspr3.json",
+    "hash": "a73f35d78eed8a51793d0fc7ed49250f4915e3223d85f2ce69b224f317659ce6",
+    "cases": 153,
+    "unavailableCases": 0
+  },
+  "tests": [
+    "tests/legacy/gaskets.test.ts"
+  ],
+  "originalComparison": "unverified-visual-nonblocking"
+}

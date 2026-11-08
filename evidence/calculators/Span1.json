@@ -1,0 +1,272 @@
+{
+  "schemaVersion": 1,
+  "routeId": "Span1",
+  "classification": {
+    "dispatch": true,
+    "uiRoutes": true,
+    "search": true
+  },
+  "methods": [
+    {
+      "method": "Span1",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 53498,
+        "rva": 3785736,
+        "token": "[Method:0x0806]"
+      },
+      "ilSha256": "be8771b865a016e5ecf08451010b2016b8f909357bbc90eaa130f579f0b26fe8"
+    },
+    {
+      "method": "Span1_Headers",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 53580,
+        "rva": 3786616,
+        "token": "[Method:0x0808]"
+      },
+      "ilSha256": "1337ae04f09bd99282a2402fe1632942931e00bff90890f36af2cd6952f9c8be"
+    },
+    {
+      "method": "GetTitle",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 37125,
+        "rva": 3570892,
+        "token": "[Method:0x0727]"
+      },
+      "ilSha256": "a93407a6e60c8b554f7a1217ee3e4e1695b0d3a167f33452a86000b983a2bdce"
+    },
+    {
+      "method": "GetSubTab",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 36818,
+        "rva": 3567640,
+        "token": "[Method:0x0726]"
+      },
+      "ilSha256": "7fe830d0baafcfd0edeec8ce30ecbba940c2a69a5e80748f2cd6cbd4e81097bb"
+    },
+    {
+      "method": "LoadDrawing",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 39778,
+        "rva": 3618160,
+        "token": "[Method:0x073a]"
+      },
+      "ilSha256": "a4e602de7b2af2893dbd39a118b8d4ebd85b4f3d38dccbc1a44448ce89d0d5a4"
+    },
+    {
+      "method": "DoDrawing",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 40913,
+        "rva": 3623668,
+        "token": "[Method:0x0744]"
+      },
+      "ilSha256": "4d38598296307a3a2f8469a15b80d8aa335ef9143465443ec4cbbe7965587171"
+    },
+    {
+      "method": "LoadDataBase1",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 36366,
+        "rva": 3562000,
+        "token": "[Method:0x0722]"
+      },
+      "ilSha256": "ccee075f3f89b6f20da1bccf2168f16e48890151dc055cc5012b349295ee1330"
+    },
+    {
+      "method": "ErrorCatch",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 58359,
+        "rva": 3849740,
+        "token": "[Method:0x085c]"
+      },
+      "ilSha256": "136b7b7f4cf539de61a4be939db8ed75ec51e1560b3f75f17623de716f67daad"
+    },
+    {
+      "method": "FormatDim",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 39366,
+        "rva": 3611568,
+        "token": "[Method:0x072c]"
+      },
+      "ilSha256": "2f4c7cfc01db4144198e24cf67ef7135cbee1331c480644077304bc5317aeaf9"
+    },
+    {
+      "method": "Calc_Safe_Span",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 53682,
+        "rva": 3789868,
+        "token": "[Method:0x080a]"
+      },
+      "ilSha256": "3d6be272f1b43d5e099da22cd5787f9dfde65de27a132d4f82241031cf93ab3d"
+    },
+    {
+      "method": "CalcInsulWt",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 53750,
+        "rva": 3790852,
+        "token": "[Method:0x080b]"
+      },
+      "ilSha256": "0c5ac4ed9318bf213e46b9591624b6d8b96dd9a5a1137de493d2c4e48ae9e3d2"
+    },
+    {
+      "method": "ClacWeightPerMtr_ForSafeSpan",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 53774,
+        "rva": 3791236,
+        "token": "[Method:0x080c]"
+      },
+      "ilSha256": "6ddbf960c5280f4ff5dd2929a54de527380ab72823b5b2aaa969f8d5776d0fc4"
+    },
+    {
+      "method": "ClacWeightPerMtrAndWtr_ForSafeSpan",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 53791,
+        "rva": 3791516,
+        "token": "[Method:0x080d]"
+      },
+      "ilSha256": "7602cdf2ab7ede952dc73c7bf2f3a93fd91c1a1369b717393c8ef97657f9e9cb"
+    },
+    {
+      "method": "CalcMomentOfInertia_ForSafeSpan",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 53806,
+        "rva": 3791644,
+        "token": "[Method:0x080e]"
+      },
+      "ilSha256": "13208613eeb0456e383c3ba806d5d81fadcd1cbf94707449a45c5c3d516875f7"
+    },
+    {
+      "method": "LoadSettingsSpan",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 8676,
+        "rva": 3236072,
+        "token": "[Method:0x0608]"
+      },
+      "ilSha256": "223acf21c9c56360df623ca009e7af6c4b5193e9d3fc7afb045bcd9719c16dbd"
+    }
+  ],
+  "sourceEvidenceReuse": "Retained REA managed source/MVID and all1481 IL body crosscheck; no executable or vendor assembly loaded",
+  "fixtures": {
+    "path": "tests/reference/calculators/Span1.json",
+    "hash": "7707483a15f37f3a07ded79fc324bd2538eb06c9fd9cbdb0341a22438b4335b7",
+    "cases": 991,
+    "unavailableCases": 180
+  },
+  "framework": {
+    "path": "tests/reference/calculators/framework.json",
+    "hash": "72b93441a7bd55b33b71dc9acc6b7803ffb3ed3ce58cf1c21cf167ae15ff1738"
+  },
+  "dataSources": [
+    {
+      "path": "Database/Pipe/Pipe10.csv",
+      "hash": "b5441eee72685ca0b6316a457d1a124c7261bcb342af2511d80ebd4e6cd490aa"
+    },
+    {
+      "path": "Database/Pipe/Pipe100.csv",
+      "hash": "c3c36e1f426378c8a2e3d3b240a41df6dd3dfb5f6dbe6b67da667d576efc9a49"
+    },
+    {
+      "path": "Database/Pipe/Pipe10s.csv",
+      "hash": "a75b10c5caa1b3770e2ee0faaf84de2a05763243838b5514eeff58126ff5f9e4"
+    },
+    {
+      "path": "Database/Pipe/Pipe120.csv",
+      "hash": "2da5ee6f51cad04a12ea79add7a6ba41196c9390da1ad0a3ac9afeb6cddefb9e"
+    },
+    {
+      "path": "Database/Pipe/Pipe140.csv",
+      "hash": "7899e1776efeff8f0e353d60e2eb7705ce4a5deb1e3968d56ffdf6afa69ac4e8"
+    },
+    {
+      "path": "Database/Pipe/Pipe160.csv",
+      "hash": "a66d3dc3ab41226bcabe25d39c33bb0298bdd481cdd9a1e68c795ccb01a6aee9"
+    },
+    {
+      "path": "Database/Pipe/Pipe20.csv",
+      "hash": "bdd1e08066b414e3eda260718e2f7c286d0746b57ec8aaa656779ee842f8d3f0"
+    },
+    {
+      "path": "Database/Pipe/Pipe30.csv",
+      "hash": "c8583ad72072a20b62079cadafc15698e50c749075ccef7b7ba21297a3d3637b"
+    },
+    {
+      "path": "Database/Pipe/Pipe40.csv",
+      "hash": "26c23813a4217b995d8d37f61a8a63d7b49e0ac6364a86179a4f8d391bb7c8bb"
+    },
+    {
+      "path": "Database/Pipe/Pipe40s.csv",
+      "hash": "f731974a7976db5e579ede894c6238c6063c1762c16a8689b411bfe8f05e84db"
+    },
+    {
+      "path": "Database/Pipe/Pipe5.csv",
+      "hash": "0d9db89cc2c26526db0c084a72a6feed9fe47aa4ae01fd331c7cd30b72f3ca73"
+    },
+    {
+      "path": "Database/Pipe/Pipe5s.csv",
+      "hash": "0f66a819c3907cc7c8cfba2aafa050136316cb91817776b8ee7845d45ea58ce4"
+    },
+    {
+      "path": "Database/Pipe/Pipe60.csv",
+      "hash": "b54bf899db7163dcf5d791ecbfee80f23e5f6b8c189a3ca1a685538b468fea54"
+    },
+    {
+      "path": "Database/Pipe/Pipe80.csv",
+      "hash": "bc30de95aa1c0d3e844fc52a690d1d94b1684a2b3ffe1b85cd0a145714b4a2b8"
+    },
+    {
+      "path": "Database/Pipe/Pipe80s.csv",
+      "hash": "b6cd9c67385c9161d063e53a16583ac8f88d19cb62b898eb470c82bf830747bd"
+    },
+    {
+      "path": "Database/Pipe/PipeSTD.csv",
+      "hash": "065111ef98dbb1d277d75495d683f8bafca4551fa3abdc4efbd8c3af3cd71e64"
+    },
+    {
+      "path": "Database/Pipe/PipeXS.csv",
+      "hash": "0a8ea025caf7e6bc73d247707e98c2cabffbecd3cd76f360e23ef0757aab44d0"
+    },
+    {
+      "path": "Database/Pipe/PipeXXS.csv",
+      "hash": "a519491d184131f20f7c1b2f9ccaa396bf659b78d5849b829aa92ffad1c10f51"
+    },
+    {
+      "path": "Database/Span/Span1.dxf",
+      "hash": "466c8063f56b23858826a42e6fc8ffebac673394dc6ac71b9e8510b2b3884004"
+    }
+  ],
+  "tests": [
+    "tests/legacy/calculators.test.ts",
+    "tests/legacy/calculator-recipes.test.ts",
+    "tests/legacy/task9-acceptance.test.ts"
+  ],
+  "review": "Primary agent self-review per user; no subagent",
+  "originalComparison": "unverified-visual-nonblocking"
+}

@@ -1,0 +1,14 @@
+{
+  "evidence": {
+    "verifiedAfterBrowserTestCorrections": true
+  },
+  "commands": [
+    {
+      "command": "npm run typecheck",
+      "exitCode": 0,
+      "summary": [
+        "✓ Types generated successfully"
+      ]
+    }
+  ]
+}

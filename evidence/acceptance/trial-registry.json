@@ -1,0 +1,16 @@
+{
+  "evidence": {
+    "trial-registry": [
+      "independent handles preserve one immutable decision across retries and reopening",
+      "separate processes contend for the same durable subject",
+      "a changed key or reference cannot treat the original namespace as empty"
+    ],
+    "entitlement": [
+      "first protected verified entry is atomic, expires at 120 hours, and respects paid and suspension precedence",
+      "durable recovery preserves the decision through lost responses, missing mirrors and replacement identities",
+      "review preserves conflicting evidence and valid paid access, and rechecks are audited",
+      "suspension and session revocation during registry I/O prevent granting access"
+    ]
+  },
+  "commands": []
+}

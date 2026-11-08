@@ -1,0 +1,1 @@
+export const referenceUseNotice='Alfadata provides engineering reference information and calculation tools. Verify suitability, applicable standards and project requirements before use. Results do not replace professional engineering review.';

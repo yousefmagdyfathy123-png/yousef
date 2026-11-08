@@ -1,0 +1,2 @@
+import { defineConfig } from '@playwright/test';
+export default defineConfig({testDir:'./tests/e2e',testIgnore:['auth.spec.ts','request-protection.spec.ts','performance.spec.ts','perf-load.spec.ts'],workers:1,use:{channel:'chrome',baseURL:'http://127.0.0.1:3186',viewport:{width:1440,height:900}},webServer:{command:'node --conditions=react-server --import tsx tools/checkpoints/flan1-server.ts',url:'http://127.0.0.1:3186',reuseExistingServer:false,timeout:60000}});

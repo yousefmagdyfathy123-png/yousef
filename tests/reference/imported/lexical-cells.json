@@ -1,0 +1,356 @@
+{
+  "basis": "Independent Python physical-line split plus pinned original bytes/audit metadata; three replacement cells independently confirmed with .NET Framework StreamReader.",
+  "cases": [
+    {
+      "id": "Flan/Flg150.csv",
+      "sourceRefs": [
+        {
+          "path": "Database/Flan/Flg150.csv",
+          "hash": "a09d0c93361083cd5c8a39cf253e4a1bb634a147337e8ac2077b586e3b331b54"
+        }
+      ],
+      "culture": "en-US",
+      "expected": {
+        "sourceHash": "a09d0c93361083cd5c8a39cf253e4a1bb634a147337e8ac2077b586e3b331b54",
+        "rows": 25,
+        "widths": [
+          53
+        ],
+        "auditHeaderRows": 2,
+        "cells": [
+          {
+            "row": 1,
+            "column": 1,
+            "value": "53"
+          },
+          {
+            "row": 1,
+            "column": 53,
+            "value": "53"
+          },
+          {
+            "row": 3,
+            "column": 3,
+            "value": "N/A"
+          },
+          {
+            "row": 5,
+            "column": 1,
+            "value": "0+1/2"
+          },
+          {
+            "row": 25,
+            "column": 1,
+            "value": "24"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Flhb/Flhb1.csv",
+      "sourceRefs": [
+        {
+          "path": "Database/Flhb/Flhb1.csv",
+          "hash": "9d4b7d9fef6df36c72f44ddeb6bf309a1ae2c84e9d3a53dc126ac1587e3d96ec"
+        }
+      ],
+      "culture": "en-US",
+      "expected": {
+        "sourceHash": "9d4b7d9fef6df36c72f44ddeb6bf309a1ae2c84e9d3a53dc126ac1587e3d96ec",
+        "rows": 84,
+        "widths": [
+          20
+        ],
+        "auditHeaderRows": 3,
+        "cells": [
+          {
+            "row": 1,
+            "column": 1,
+            "value": "\"20\""
+          },
+          {
+            "row": 1,
+            "column": 20,
+            "value": "\"20\""
+          },
+          {
+            "row": 3,
+            "column": 1,
+            "value": "\"x\""
+          },
+          {
+            "row": 84,
+            "column": 1,
+            "value": "\"20\""
+          }
+        ]
+      }
+    },
+    {
+      "id": "Piwt/B36-10 2004.csv",
+      "sourceRefs": [
+        {
+          "path": "Database/Piwt/B36-10 2004.csv",
+          "hash": "89b69e465ceed3b07f2d8022844e509a189d969c51a7b899ec42b4026602bd14"
+        }
+      ],
+      "culture": "en-US",
+      "expected": {
+        "sourceHash": "89b69e465ceed3b07f2d8022844e509a189d969c51a7b899ec42b4026602bd14",
+        "rows": 869,
+        "widths": [
+          10,
+          11
+        ],
+        "auditHeaderRows": 3,
+        "cells": [
+          {
+            "row": 1,
+            "column": 1,
+            "value": ""
+          },
+          {
+            "row": 1,
+            "column": 10,
+            "value": ""
+          },
+          {
+            "row": 16,
+            "column": 1,
+            "value": "0+1/2"
+          },
+          {
+            "row": 869,
+            "column": 1,
+            "value": "30"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Piwt/ConverterList.csv",
+      "sourceRefs": [
+        {
+          "path": "Database/Piwt/ConverterList.csv",
+          "hash": "37713c51922fcea42bd59c94d1924547fdfbc016881b319a7618586dd4e50e18"
+        }
+      ],
+      "culture": "en-US",
+      "expected": {
+        "sourceHash": "37713c51922fcea42bd59c94d1924547fdfbc016881b319a7618586dd4e50e18",
+        "rows": 44,
+        "widths": [
+          2
+        ],
+        "auditHeaderRows": 0,
+        "cells": [
+          {
+            "row": 1,
+            "column": 1,
+            "value": "0.125"
+          },
+          {
+            "row": 1,
+            "column": 2,
+            "value": "6"
+          },
+          {
+            "row": 44,
+            "column": 1,
+            "value": "80"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Vlfl/Vlv8150_.csv",
+      "sourceRefs": [
+        {
+          "path": "Database/Vlfl/Vlv8150_.csv",
+          "hash": "0bfe93285bbabce1f4fdebfa452fb9679db78ad8805e6ad42e1adde7b8ccb959"
+        }
+      ],
+      "culture": "en-US",
+      "expected": {
+        "sourceHash": "0bfe93285bbabce1f4fdebfa452fb9679db78ad8805e6ad42e1adde7b8ccb959",
+        "rows": 16,
+        "widths": [
+          24
+        ],
+        "auditHeaderRows": 3,
+        "cells": [
+          {
+            "row": 1,
+            "column": 1,
+            "value": "2 4"
+          },
+          {
+            "row": 1,
+            "column": 24,
+            "value": "24"
+          },
+          {
+            "row": 7,
+            "column": 3,
+            "value": "N/A"
+          },
+          {
+            "row": 16,
+            "column": 1,
+            "value": "24"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Ftsw/Ftsw5_Socketwelded_Coupling_9000_Inches.csv",
+      "sourceRefs": [
+        {
+          "path": "Database/Ftsw/Ftsw5_Socketwelded_Coupling_9000_Inches.csv",
+          "hash": "544be16d06034f627ba15947d144ec6935c01f5d90b87e9c36e7cd224d26f23e"
+        }
+      ],
+      "culture": "en-US",
+      "expected": {
+        "sourceHash": "544be16d06034f627ba15947d144ec6935c01f5d90b87e9c36e7cd224d26f23e",
+        "rows": 14,
+        "widths": [
+          13
+        ],
+        "auditHeaderRows": 2,
+        "cells": [
+          {
+            "row": 1,
+            "column": 1,
+            "value": "13"
+          },
+          {
+            "row": 1,
+            "column": 13,
+            "value": "13"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "value": "0+1/2"
+          },
+          {
+            "row": 13,
+            "column": 12,
+            "value": "\ufffd"
+          },
+          {
+            "row": 14,
+            "column": 1,
+            "value": "4"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Ftsw/Ftsw6_Socketwelded_Half_Coupling_9000_Inches.csv",
+      "sourceRefs": [
+        {
+          "path": "Database/Ftsw/Ftsw6_Socketwelded_Half_Coupling_9000_Inches.csv",
+          "hash": "e47a4c401e23a7c6bee139f09fca4d96fe4aa5cde70e3092629fee4c42e6a68f"
+        }
+      ],
+      "culture": "en-US",
+      "expected": {
+        "sourceHash": "e47a4c401e23a7c6bee139f09fca4d96fe4aa5cde70e3092629fee4c42e6a68f",
+        "rows": 14,
+        "widths": [
+          13
+        ],
+        "auditHeaderRows": 2,
+        "cells": [
+          {
+            "row": 1,
+            "column": 1,
+            "value": "13"
+          },
+          {
+            "row": 1,
+            "column": 13,
+            "value": "13"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "value": "N/A"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "value": "0+1/2"
+          },
+          {
+            "row": 12,
+            "column": 13,
+            "value": ""
+          },
+          {
+            "row": 13,
+            "column": 12,
+            "value": "\ufffd"
+          },
+          {
+            "row": 14,
+            "column": 1,
+            "value": "4"
+          }
+        ]
+      }
+    },
+    {
+      "id": "Ftsw/Ftsw7_Socketwelded_Cap_9000_Inches.csv",
+      "sourceRefs": [
+        {
+          "path": "Database/Ftsw/Ftsw7_Socketwelded_Cap_9000_Inches.csv",
+          "hash": "670c3c177e8097dee6e5568f86fca8a91bd0250c004160e3c4bead9a5f7561b9"
+        }
+      ],
+      "culture": "en-US",
+      "expected": {
+        "sourceHash": "670c3c177e8097dee6e5568f86fca8a91bd0250c004160e3c4bead9a5f7561b9",
+        "rows": 14,
+        "widths": [
+          13
+        ],
+        "auditHeaderRows": 2,
+        "cells": [
+          {
+            "row": 1,
+            "column": 1,
+            "value": "13"
+          },
+          {
+            "row": 1,
+            "column": 13,
+            "value": "13"
+          },
+          {
+            "row": 3,
+            "column": 6,
+            "value": "N/A"
+          },
+          {
+            "row": 6,
+            "column": 1,
+            "value": "0+1/2"
+          },
+          {
+            "row": 13,
+            "column": 12,
+            "value": "\ufffd"
+          },
+          {
+            "row": 14,
+            "column": 1,
+            "value": "4"
+          }
+        ]
+      }
+    }
+  ]
+}

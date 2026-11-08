@@ -1,0 +1,149 @@
+{
+  "schemaVersion": 1,
+  "task": 9,
+  "status": "passed",
+  "acceptedAt": "2026-11-02T17:54:52.673398+00:00",
+  "review": "Primary agent self-review; no subagents per user instruction",
+  "routes": [
+    "Comp1",
+    "Fxly1",
+    "Fxly2",
+    "Gpas1",
+    "Gpas2",
+    "Gpas3",
+    "Gpas4",
+    "Psiz1",
+    "Span1",
+    "Span2"
+  ],
+  "dispatchCoverage": {
+    "implemented": 167,
+    "total": 167,
+    "remaining": 0,
+    "workspaceAssembly": "Task10 remains open"
+  },
+  "referenceCases": 6998,
+  "unavailableCases": 793,
+  "frameworkCases": 1023,
+  "frameworkCategories": {
+    "spacing": 24,
+    "flexibility": 384,
+    "span": 80,
+    "size": 16,
+    "input": 512,
+    "single-string": 7
+  },
+  "registryProbe": {
+    "vendorRegistryTouched": false,
+    "isolatedFreshKey": true,
+    "deleted": true,
+    "text": "1234.568",
+    "kind": "String"
+  },
+  "sourcePreservation": {
+    "routes": 10,
+    "cases": 6998,
+    "frameworkCases": 1023,
+    "unavailable": 793,
+    "tables": 36,
+    "drawings": 12,
+    "originalFilesVerified": 1634,
+    "originalExeUnchanged": true,
+    "originalModuleUnchanged": true,
+    "originalExecuted": false,
+    "accepted": true
+  },
+  "sourceIdentity": {
+    "exeSha256": "55a55522875ad7131d1367a08667ae653416c9be2decbd3bd5c54a9b8c04d03c",
+    "mvid": "948a0d3b-1670-4555-9843-5e7ed73785db",
+    "moduleSha256": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a"
+  },
+  "verification": [
+    {
+      "command": "npm test -- tests/legacy/calculator-recipes.test.ts",
+      "tests": 6998,
+      "seconds": 249.31,
+      "result": "passed"
+    },
+    {
+      "command": "npm test -- tests/legacy/calculators.test.ts tests/legacy/task9-acceptance.test.ts tests/legacy/catalog.test.ts tests/legacy/culture.test.ts tests/legacy/drawing.test.ts tests/legacy/vb.test.ts tests/legacy/state.test.ts tests/legacy/state-codec.test.ts tests/legacy/reference.test.ts tests/workspace tests/evidence",
+      "tests": 2175,
+      "seconds": 33.09,
+      "result": "passed"
+    },
+    {
+      "command": "npm run test:e2e -- tests/e2e/flan1-checkpoint.spec.ts",
+      "tests": 4,
+      "result": "passed",
+      "scope": "Retained real Chrome journeys; calculator workspace wiring remains Task10"
+    },
+    {
+      "command": "npm run build",
+      "result": "passed"
+    },
+    {
+      "command": "npm run typecheck",
+      "result": "passed"
+    },
+    {
+      "command": "python tools/evidence/task9-provenance.py --accept",
+      "result": "passed"
+    }
+  ],
+  "fixtures": [
+    {
+      "path": "tests/reference/calculators/Comp1.json",
+      "sha256": "88bd6fbf27b3f73187a499140496da035c21a440f3625b93ef86288d0c8c41e5"
+    },
+    {
+      "path": "tests/reference/calculators/Fxly1.json",
+      "sha256": "56e79227a45a97963bee4c231b3fcc015be1a7efa24176b8785da7ed8e4fc991"
+    },
+    {
+      "path": "tests/reference/calculators/Fxly2.json",
+      "sha256": "0c6e04eb8177753a48822b59237aa287f0e6bb8dc193c16c6f6e844f9f748493"
+    },
+    {
+      "path": "tests/reference/calculators/Gpas1.json",
+      "sha256": "c0d39fb7a4a649c3560a1cbab441e6112dfd9a8700ca39979c973680939e6099"
+    },
+    {
+      "path": "tests/reference/calculators/Gpas2.json",
+      "sha256": "282d55bd0b689606726e99634384f8e010d057f66d6313daacc876ecdc721d0a"
+    },
+    {
+      "path": "tests/reference/calculators/Gpas3.json",
+      "sha256": "26bde0503999fb5f301e4b6475660333deaf86337b2cd6e6d7512b966f817afd"
+    },
+    {
+      "path": "tests/reference/calculators/Gpas4.json",
+      "sha256": "589d4c21d9c384a325116cc959fabc75d2a427821c590f56e21ef47e5baa0b4e"
+    },
+    {
+      "path": "tests/reference/calculators/Psiz1.json",
+      "sha256": "cdb6da85af82eef975c9e41f73c0fe656b6034f7af43484ecc603f89dbcde759"
+    },
+    {
+      "path": "tests/reference/calculators/Span1.json",
+      "sha256": "7707483a15f37f3a07ded79fc324bd2538eb06c9fd9cbdb0341a22438b4335b7"
+    },
+    {
+      "path": "tests/reference/calculators/Span2.json",
+      "sha256": "e22f98cf81deb9d82a14976a7d58def9712b4d2292e87d6cec346e1fb30d0fd3"
+    },
+    {
+      "path": "tests/reference/calculators/framework.json",
+      "sha256": "72b93441a7bd55b33b71dc9acc6b7803ffb3ed3ce58cf1c21cf167ae15ff1738"
+    }
+  ],
+  "classification": "Pwal1/Ptem1 constructed menus retain no-dispatch; dead helpers not activated",
+  "priorReferenceCorrection": "Task4 configure helper omitted G7 registry conversion between visits/final reload; fresh isolated platform probe confirmed source string storage; regenerated eight independent .NET cases",
+  "openTask9FunctionalGaps": [],
+  "originalComparison": "unverified-visual-nonblocking",
+  "measuredEngineeringEffort": null,
+  "toolCost": "unknown",
+  "limitations": [
+    "Task10 assembly and later workspace/identity/delivery acceptance remain open",
+    "Calculator branch coverage is not whole-product or original-image acceptance"
+  ]
+}

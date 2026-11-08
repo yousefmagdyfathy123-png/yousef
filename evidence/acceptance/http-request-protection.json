@@ -1,0 +1,29 @@
+{
+  "evidence": {
+    "browser": {
+      "request-protection.spec.ts": 2,
+      "account-commerce.spec.ts": 1,
+      "auth.spec.ts": 1,
+      "payment-recovery.spec.ts": 1
+    },
+    "policy": [
+      "browser origin validation rejects malformed and foreign sources before mutation"
+    ],
+    "signedWebhook": [
+      "only matching signed provider events grant access and delivery is idempotent"
+    ]
+  },
+  "commands": [
+    {
+      "command": "npm run test:e2e:auth",
+      "exitCode": 0,
+      "summary": [
+        "4 passed (29.3s)",
+        "3 passed (39.3s)",
+        "1 passed (41.5s)",
+        "1 passed (17.1s)",
+        "1 passed (20.1s)"
+      ]
+    }
+  ]
+}

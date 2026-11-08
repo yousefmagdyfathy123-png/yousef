@@ -1,0 +1,18 @@
+{
+  "evidence": {
+    "integration": [
+      [
+        "preferences start at source defaults and concurrent saves commit exactly one snapshot"
+      ],
+      [
+        "restores exact private state across connections and fences foreign, stale and incompatible workspaces",
+        "preferences apply once, cleanup preserves account data and authorized reads renew activity"
+      ]
+    ],
+    "browser": {
+      "preferences.spec.ts": 1,
+      "culture.spec.ts": 1
+    }
+  },
+  "commands": []
+}

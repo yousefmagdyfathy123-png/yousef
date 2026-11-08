@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "routeId": "Ftsw4",
+  "methods": [
+    {
+      "method": "Ftsw4",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 25502,
+        "rva": 3385584,
+        "token": "0x060006ad"
+      },
+      "ilSha256": "20972b2655e088c83f7198fc209bc1b474582d650cbaf06953597a8b2eaed19f"
+    },
+    {
+      "method": "Ftsw4_Headers",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 27133,
+        "rva": 3411788,
+        "token": "0x060006d5"
+      },
+      "ilSha256": "65fea88d5f0bfda8302120a1a691b33940b7fc860106de44f0d671631e036333"
+    },
+    {
+      "method": "LoadSettings",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 2959,
+        "rva": 3164984,
+        "token": "0x060005e8"
+      },
+      "ilSha256": "fcf15a655bebaf1ad8fb4e66b4b11563cf42388d397437af2e9a37ad047d4a87"
+    },
+    {
+      "method": "LoadDataBase1",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 36366,
+        "rva": 3562000,
+        "token": "0x06000722"
+      },
+      "ilSha256": "ccee075f3f89b6f20da1bccf2168f16e48890151dc055cc5012b349295ee1330"
+    },
+    {
+      "method": "GetTitle",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 37125,
+        "rva": 3570892,
+        "token": "0x06000727"
+      },
+      "ilSha256": "a93407a6e60c8b554f7a1217ee3e4e1695b0d3a167f33452a86000b983a2bdce"
+    },
+    {
+      "method": "GetSubTab",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 36818,
+        "rva": 3567640,
+        "token": "0x06000726"
+      },
+      "ilSha256": "7fe830d0baafcfd0edeec8ce30ecbba940c2a69a5e80748f2cd6cbd4e81097bb"
+    },
+    {
+      "method": "LoadDrawing",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 39778,
+        "rva": 3618160,
+        "token": "0x0600073a"
+      },
+      "ilSha256": "a4e602de7b2af2893dbd39a118b8d4ebd85b4f3d38dccbc1a44448ce89d0d5a4"
+    },
+    {
+      "method": "DoDrawing",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 40913,
+        "rva": 3623668,
+        "token": "0x06000744"
+      },
+      "ilSha256": "4d38598296307a3a2f8469a15b80d8aa335ef9143465443ec4cbbe7965587171"
+    },
+    {
+      "method": "FormatDim",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 39366,
+        "rva": 3611568,
+        "token": "0x0600072c"
+      },
+      "ilSha256": "2f4c7cfc01db4144198e24cf67ef7135cbee1331c480644077304bc5317aeaf9"
+    },
+    {
+      "method": "FractionizeIfNeccessary",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 58370,
+        "rva": 3849868,
+        "token": "0x0600085d"
+      },
+      "ilSha256": "7701d5c4581fc74c8fe9c6cffe720a1adeaaae1f8c225ddcd9f37a1978951026"
+    },
+    {
+      "method": "LoadSettingsFtsw",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 3604,
+        "rva": 3173232,
+        "token": "0x060005eb"
+      },
+      "ilSha256": "576f3862f534f039ada247247a783349fc7de99673eaa23937476c25ca43d159"
+    },
+    {
+      "method": "DesigBtn1ValuesForMainSize",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 34331,
+        "rva": 3532960,
+        "token": "0x06000713"
+      },
+      "ilSha256": "c011de74bc5b771a82a29e1ba75056e9afe1d0a5f2d428e16bb44c1ff9db4ed4"
+    },
+    {
+      "method": "DesigBtn2ForSmallSize",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 35197,
+        "rva": 3548184,
+        "token": "0x06000717"
+      },
+      "ilSha256": "f682d7d2c4b3e5298f0dec556129d690292b12116d01f2af33d7f6a211d65e18"
+    }
+  ],
+  "sourceEvidenceReuse": "evidence/catalog-load-evidence.json; matching artifact/MVID and all1481 IL-body crosscheck",
+  "fixtures": {
+    "path": "tests/reference/fittings-pipe-branches/Ftsw4.json",
+    "hash": "3e46848d054676b5fb6f99606a89d4e323a356593b9a3db5a3092e2df71aae0c",
+    "cases": 84,
+    "unavailableCases": 0
+  },
+  "dataSources": [
+    {
+      "path": "Database/Ftsw/Ftsw4_Socketwelded_Cross_3000_Inches.csv",
+      "hash": "b874b00f64f25c1768973bc6106bcee70c7befe1a125931535c7046dbb06c9cf"
+    },
+    {
+      "path": "Database/Ftsw/Ftsw4_Socketwelded_Cross_3000_Millimetres.csv",
+      "hash": "4a3e70103466422816a950eb747969c6c19a5d03923d5a00e6eaf09583dfe779"
+    },
+    {
+      "path": "Database/Ftsw/Ftsw4_Socketwelded_Cross_6000_Inches.csv",
+      "hash": "2e665eda585a042358ed470f69ce2c3e3ea595746a8fb1354056cc865742d94c"
+    },
+    {
+      "path": "Database/Ftsw/Ftsw4_Socketwelded_Cross_6000_Millimetres.csv",
+      "hash": "64065d96cf2670dfa93db6a76ae157370ad7d6ccf43103716ca13afd6e0c7eed"
+    },
+    {
+      "path": "Database/Ftsw/Ftsw4_Socketwelded_Cross_9000_Inches.csv",
+      "hash": "c8f0386c3a1b97bbbeb9d8f68faa3fc87e11a38a23bf904a7fb6bd4d219ad971"
+    },
+    {
+      "path": "Database/Ftsw/Ftsw4_Socketwelded_Cross_9000_Millimetres.csv",
+      "hash": "f3d5f8f2d75637a2b81ed0b658017e653dbc692abcc88e9b502f680989103198"
+    }
+  ],
+  "tests": [
+    "tests/legacy/fittings-pipe-branches.test.ts",
+    "tests/legacy/task7-acceptance.test.ts"
+  ],
+  "originalComparison": "unverified-visual-nonblocking"
+}

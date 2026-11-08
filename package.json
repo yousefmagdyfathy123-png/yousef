@@ -1,0 +1,60 @@
+{
+  "name": "alfadata",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24.15.0 <25"
+  },
+  "packageManager": "npm@12.0.2",
+  "scripts": {
+    "dev": "tsx tools/start.ts dev",
+    "build": "tsx tools/start.ts build",
+    "start": "tsx tools/start.ts start",
+    "typecheck": "next typegen && tsc --noEmit",
+    "test": "node node_modules/vitest/vitest.mjs run",
+    "test:e2e": "playwright test",
+    "test:e2e:auth": "node --import tsx tools/auth/test-browser.ts",
+    "test:e2e:matrix": "playwright test --config playwright.matrix.config.ts",
+    "evidence:discover": "tsx tools/evidence/cli.ts discover",
+    "evidence:check": "tsx tools/evidence/cli.ts check",
+    "coverage:check": "tsx tools/evidence/cli.ts complete",
+    "catalog:build": "tsx tools/catalog/build.ts",
+    "perf:core": "node --conditions=react-server --import tsx tools/performance/core-baseline.ts",
+    "db:local": "tsx tools/db/local.ts",
+    "db:migrate": "tsx tools/db/migrate.ts",
+    "test:integration": "tsx tools/db/test-integration.ts",
+    "payments:reconcile": "tsx tools/payments/reconcile.ts",
+    "db:backup": "tsx tools/db/backup.ts",
+    "db:restore": "tsx tools/db/restore.ts",
+    "workspaces:cleanup": "tsx tools/db/cleanup-workspaces.ts",
+    "acceptance:functional": "node --conditions=react-server --import tsx tools/release/functional.ts",
+    "acceptance:ui": "node --conditions=react-server --import tsx tools/release/ui.ts",
+    "perf:baseline": "node --conditions=react-server --import tsx tools/performance/baseline.ts",
+    "perf:load": "node --conditions=react-server --import tsx tools/performance/load.ts",
+    "perf:check": "node --conditions=react-server --import tsx tools/release/performance.ts --check",
+    "acceptance:performance": "node --conditions=react-server --import tsx tools/release/performance.ts"
+  },
+  "dependencies": {
+    "better-auth": "1.7.15",
+    "embedded-postgres": "17.11.0-beta.19",
+    "next": "16.4.3",
+    "nodemailer": "10.3.1",
+    "pg": "8.23.1",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "server-only": "0.0.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.1",
+    "@types/node": "26.6.6",
+    "@types/nodemailer": "8.0.2",
+    "@types/pg": "8.23.1",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "auth": "1.7.15",
+    "tsx": "4.23.15",
+    "typescript": "7.0.2",
+    "vitest": "5.0.5"
+  }
+}

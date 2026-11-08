@@ -1,0 +1,465 @@
+{
+  "candidate": {
+    "sourceTreeHash": "4a8bc55b287fb5531a2d76413794054f7ddb084494ba721a84e40477a637d2a4",
+    "catalogRevision": "0216f5e78e9e09f6808f65655979b2d9e45b1dabaeee9f5f8266c6e039b1431f",
+    "configFingerprint": "605b5f1102b980e446c6a31533c09d5799852cf2d991101df3ed77a0213e5ac8"
+  },
+  "schemaVersion": 1,
+  "limits": {
+    "concurrency": [
+      1,
+      2,
+      4
+    ],
+    "requests": 24,
+    "stageMs": 30000,
+    "requestMs": 8000,
+    "freeRamBytes": 402653184,
+    "cpuBusyFraction": 0.95
+  },
+  "stages": [
+    {
+      "concurrency": 1,
+      "elapsedMs": 11510.772700000001,
+      "completed": 24,
+      "failures": 0,
+      "requestsPerSecond": 2.0850033812239204,
+      "maxCpuBusy": 0.42028985507246375,
+      "minFreeRam": 1157984256,
+      "before": {
+        "workspaces": 1,
+        "stateJsonBytes": "1041076",
+        "receipts": 0,
+        "receiptJsonBytes": "0",
+        "workspaceHeapBytes": "8192",
+        "receiptHeapBytes": "0",
+        "workspaceIndexBytes": "49152",
+        "receiptIndexBytes": "16384",
+        "estimatedDeadTuples": "1",
+        "wal": "0/5086ED90"
+      },
+      "after": {
+        "workspaces": 1,
+        "stateJsonBytes": "1041077",
+        "receipts": 24,
+        "receiptJsonBytes": "2929792",
+        "workspaceHeapBytes": "8192",
+        "receiptHeapBytes": "8192",
+        "workspaceIndexBytes": "49152",
+        "receiptIndexBytes": "32768",
+        "estimatedDeadTuples": "24",
+        "wal": "0/50D25858"
+      },
+      "walBytes": "4942536",
+      "metrics": {
+        "latencyMs": {
+          "samples": 24,
+          "p50": 457.89999999990687,
+          "p95": 576.6999999999534,
+          "max": 591.4000000001397
+        },
+        "requestBytes": {
+          "samples": 24,
+          "p50": 172,
+          "p95": 172,
+          "max": 172
+        },
+        "responseBytes": {
+          "samples": 24,
+          "p50": 108405,
+          "p95": 108411,
+          "max": 108411
+        }
+      }
+    },
+    {
+      "concurrency": 2,
+      "elapsedMs": 10638.951700000001,
+      "completed": 24,
+      "failures": 0,
+      "requestsPerSecond": 2.255861355212281,
+      "maxCpuBusy": 0.4006012182580492,
+      "minFreeRam": 1012174848,
+      "before": {
+        "workspaces": 2,
+        "stateJsonBytes": "2082153",
+        "receipts": 24,
+        "receiptJsonBytes": "2929792",
+        "workspaceHeapBytes": "8192",
+        "receiptHeapBytes": "8192",
+        "workspaceIndexBytes": "49152",
+        "receiptIndexBytes": "32768",
+        "estimatedDeadTuples": "25",
+        "wal": "0/50D81C08"
+      },
+      "after": {
+        "workspaces": 2,
+        "stateJsonBytes": "2082154",
+        "receipts": 48,
+        "receiptJsonBytes": "5859584",
+        "workspaceHeapBytes": "8192",
+        "receiptHeapBytes": "24576",
+        "workspaceIndexBytes": "49152",
+        "receiptIndexBytes": "32768",
+        "estimatedDeadTuples": "48",
+        "wal": "0/512399C8"
+      },
+      "walBytes": "4947392",
+      "metrics": {
+        "latencyMs": {
+          "samples": 24,
+          "p50": 804.6999999997206,
+          "p95": 1025.1999999997206,
+          "max": 1067.1999999997206
+        },
+        "requestBytes": {
+          "samples": 24,
+          "p50": 172,
+          "p95": 172,
+          "max": 172
+        },
+        "responseBytes": {
+          "samples": 24,
+          "p50": 108405,
+          "p95": 108411,
+          "max": 108411
+        }
+      }
+    },
+    {
+      "concurrency": 4,
+      "elapsedMs": 10163.5798,
+      "completed": 24,
+      "failures": 0,
+      "requestsPerSecond": 2.361372712398047,
+      "maxCpuBusy": 0.40692278750888344,
+      "minFreeRam": 789577728,
+      "before": {
+        "workspaces": 4,
+        "stateJsonBytes": "4164306",
+        "receipts": 48,
+        "receiptJsonBytes": "5859584",
+        "workspaceHeapBytes": "8192",
+        "receiptHeapBytes": "24576",
+        "workspaceIndexBytes": "49152",
+        "receiptIndexBytes": "32768",
+        "estimatedDeadTuples": "50",
+        "wal": "0/51293DC0"
+      },
+      "after": {
+        "workspaces": 4,
+        "stateJsonBytes": "4164306",
+        "receipts": 72,
+        "receiptJsonBytes": "8789372",
+        "workspaceHeapBytes": "8192",
+        "receiptHeapBytes": "24576",
+        "workspaceIndexBytes": "49152",
+        "receiptIndexBytes": "32768",
+        "estimatedDeadTuples": "76",
+        "wal": "0/5174A768"
+      },
+      "walBytes": "4942248",
+      "metrics": {
+        "latencyMs": {
+          "samples": 24,
+          "p50": 1528.8999999999069,
+          "p95": 1973.3999999999069,
+          "max": 1976.5
+        },
+        "requestBytes": {
+          "samples": 24,
+          "p50": 170,
+          "p95": 172,
+          "max": 172
+        },
+        "responseBytes": {
+          "samples": 24,
+          "p50": 108405,
+          "p95": 108411,
+          "max": 108411
+        }
+      }
+    }
+  ],
+  "environment": {
+    "node": "v24.15.0",
+    "os": "Windows 11 Pro 10.0.26300",
+    "cpu": "Intel(R) Core(TM) i5-10500H CPU @ 2.50GHz",
+    "logicalCpus": 12,
+    "ramBytes": 8354799616,
+    "browser": "Chrome 156.0.8078.74",
+    "transport": "loopback HTTPS",
+    "database": "isolated PostgreSQL"
+  },
+  "method": {
+    "latency": "same-origin fetch to full body read",
+    "bytes": "uncompressed body bytes, excluding headers",
+    "storage": "PostgreSQL live JSON text lengths and allocated relation sizes, separate from WAL delta"
+  },
+  "serverMemory": [
+    {
+      "pid": 9220,
+      "atMs": 1793738038086,
+      "rss": 50466816,
+      "heapUsed": 4822864
+    },
+    {
+      "pid": 9220,
+      "atMs": 1793738039088,
+      "rss": 100257792,
+      "heapUsed": 31897360
+    },
+    {
+      "pid": 9220,
+      "atMs": 1793738040101,
+      "rss": 108527616,
+      "heapUsed": 31397416
+    },
+    {
+      "pid": 9220,
+      "atMs": 1793738041101,
+      "rss": 108744704,
+      "heapUsed": 32347336
+    },
+    {
+      "pid": 9220,
+      "atMs": 1793738042582,
+      "rss": 157044736,
+      "heapUsed": 73632496
+    },
+    {
+      "pid": 9220,
+      "atMs": 1793738043582,
+      "rss": 163225600,
+      "heapUsed": 61548840
+    },
+    {
+      "pid": 9220,
+      "atMs": 1793738044605,
+      "rss": 253603840,
+      "heapUsed": 142253880
+    },
+    {
+      "pid": 9220,
+      "atMs": 1793738045615,
+      "rss": 325419008,
+      "heapUsed": 140213352
+    },
+    {
+      "pid": 9220,
+      "atMs": 1793738046746,
+      "rss": 357498880,
+      "heapUsed": 130636536
+    },
+    {
+      "pid": 9220,
+      "atMs": 1793738047824,
+      "rss": 371068928,
+      "heapUsed": 186420992
+    },
+    {
+      "pid": 9220,
+      "atMs": 1793738048844,
+      "rss": 437415936,
+      "heapUsed": 213600784
+    },
+    {
+      "pid": 9220,
+      "atMs": 1793738049879,
+      "rss": 426749952,
+      "heapUsed": 104804544
+    },
+    {
+      "pid": 9220,
+      "atMs": 1793738050916,
+      "rss": 442523648,
+      "heapUsed": 183888232
+    },
+    {
+      "pid": 9220,
+      "atMs": 1793738051982,
+      "rss": 458801152,
+      "heapUsed": 242417960
+    },
+    {
+      "pid": 9220,
+      "atMs": 1793738053071,
+      "rss": 444600320,
+      "heapUsed": 169770664
+    },
+    {
+      "pid": 9220,
+      "atMs": 1793738054087,
+      "rss": 450740224,
+      "heapUsed": 170603824
+    },
+    {
+      "pid": 9220,
+      "atMs": 1793738055122,
+      "rss": 426176512,
+      "heapUsed": 89914696
+    },
+    {
+      "pid": 9220,
+      "atMs": 1793738056132,
+      "rss": 445935616,
+      "heapUsed": 150518256
+    },
+    {
+      "pid": 9220,
+      "atMs": 1793738057144,
+      "rss": 452440064,
+      "heapUsed": 171133808
+    },
+    {
+      "pid": 9220,
+      "atMs": 1793738058143,
+      "rss": 453414912,
+      "heapUsed": 179518520
+    },
+    {
+      "pid": 9220,
+      "atMs": 1793738059211,
+      "rss": 466403328,
+      "heapUsed": 218987120
+    },
+    {
+      "pid": 9220,
+      "atMs": 1793738060370,
+      "rss": 455237632,
+      "heapUsed": 178846872
+    },
+    {
+      "pid": 9220,
+      "atMs": 1793738061394,
+      "rss": 468062208,
+      "heapUsed": 235827760
+    },
+    {
+      "pid": 9220,
+      "atMs": 1793738062474,
+      "rss": 463466496,
+      "heapUsed": 106063752
+    },
+    {
+      "pid": 9220,
+      "atMs": 1793738063628,
+      "rss": 484859904,
+      "heapUsed": 170052312
+    },
+    {
+      "pid": 9220,
+      "atMs": 1793738064649,
+      "rss": 499949568,
+      "heapUsed": 216328808
+    },
+    {
+      "pid": 9220,
+      "atMs": 1793738065685,
+      "rss": 472322048,
+      "heapUsed": 115712040
+    },
+    {
+      "pid": 9220,
+      "atMs": 1793738066730,
+      "rss": 492027904,
+      "heapUsed": 196609856
+    },
+    {
+      "pid": 9220,
+      "atMs": 1793738067803,
+      "rss": 463761408,
+      "heapUsed": 105028568
+    },
+    {
+      "pid": 9220,
+      "atMs": 1793738068833,
+      "rss": 477872128,
+      "heapUsed": 137843488
+    },
+    {
+      "pid": 9220,
+      "atMs": 1793738069833,
+      "rss": 486903808,
+      "heapUsed": 177036264
+    },
+    {
+      "pid": 9220,
+      "atMs": 1793738070835,
+      "rss": 488349696,
+      "heapUsed": 187280376
+    },
+    {
+      "pid": 9220,
+      "atMs": 1793738071835,
+      "rss": 498958336,
+      "heapUsed": 230023368
+    },
+    {
+      "pid": 9220,
+      "atMs": 1793738072841,
+      "rss": 499511296,
+      "heapUsed": 239941424
+    },
+    {
+      "pid": 9220,
+      "atMs": 1793738073845,
+      "rss": 462491648,
+      "heapUsed": 104425560
+    },
+    {
+      "pid": 9220,
+      "atMs": 1793738074954,
+      "rss": 474345472,
+      "heapUsed": 124157776
+    },
+    {
+      "pid": 9220,
+      "atMs": 1793738075963,
+      "rss": 491180032,
+      "heapUsed": 189385216
+    },
+    {
+      "pid": 9220,
+      "atMs": 1793738077592,
+      "rss": 477093888,
+      "heapUsed": 130459016
+    },
+    {
+      "pid": 9220,
+      "atMs": 1793738079037,
+      "rss": 499486720,
+      "heapUsed": 215825128
+    },
+    {
+      "pid": 9220,
+      "atMs": 1793738080212,
+      "rss": 545406976,
+      "heapUsed": 344838328
+    },
+    {
+      "pid": 9220,
+      "atMs": 1793738081222,
+      "rss": 623816704,
+      "heapUsed": 405118176
+    },
+    {
+      "pid": 9220,
+      "atMs": 1793738082558,
+      "rss": 568537088,
+      "heapUsed": 174064408
+    },
+    {
+      "pid": 9220,
+      "atMs": 1793738083644,
+      "rss": 595521536,
+      "heapUsed": 317888336
+    },
+    {
+      "pid": 9220,
+      "atMs": 1793738084655,
+      "rss": 555614208,
+      "heapUsed": 124870832
+    }
+  ]
+}

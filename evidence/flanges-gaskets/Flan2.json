@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "routeId": "Flan2",
+  "methods": [
+    {
+      "method": "Flan2",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 19379,
+        "rva": 3303168,
+        "token": "0x0600063f"
+      },
+      "ilSha256": "9bd89e672dbdf0dd663d0d59aac9e41efaa5b5f00203e6f28dc2c338c9d6b9a3"
+    },
+    {
+      "method": "Flan2_Headers",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 39254,
+        "rva": 3608832,
+        "token": "0x0600072a"
+      },
+      "ilSha256": "ce9badd6b1038bac8f0eca8aa3aee5c6f39a8b710f6b6e1e2e65f4380777f29a"
+    },
+    {
+      "method": "LoadDataBase1",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 36366,
+        "rva": 3562000,
+        "token": "0x06000722"
+      },
+      "ilSha256": "ccee075f3f89b6f20da1bccf2168f16e48890151dc055cc5012b349295ee1330"
+    },
+    {
+      "method": "GetSubTab",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 36818,
+        "rva": 3567640,
+        "token": "0x06000726"
+      },
+      "ilSha256": "7fe830d0baafcfd0edeec8ce30ecbba940c2a69a5e80748f2cd6cbd4e81097bb"
+    },
+    {
+      "method": "DropSubTab",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 39170,
+        "rva": 3606504,
+        "token": "0x06000728"
+      },
+      "ilSha256": "9e51d3c158edda0de6a2e019191b0f088454a65ba2dd5cd7071575709a4a4e7c"
+    },
+    {
+      "method": "LoadSettingsFlan",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 3958,
+        "rva": 3177676,
+        "token": "0x060005ed"
+      },
+      "ilSha256": "b632b872b9ee1314da9c18559cc447ba8e3d064e884e5b5b41adadd5bc7e23ab"
+    },
+    {
+      "method": "DesigBtn1ValuesForMainSize",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 34331,
+        "rva": 3532960,
+        "token": "0x06000713"
+      },
+      "ilSha256": "c011de74bc5b771a82a29e1ba75056e9afe1d0a5f2d428e16bb44c1ff9db4ed4"
+    },
+    {
+      "method": "DesigBtn2ForASMEClass",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 51188,
+        "rva": 3762996,
+        "token": "0x060007e9"
+      },
+      "ilSha256": "d90f30400e34d0b24c28ddfcce2e328fcce9770b075a715a811955dd3df3966b"
+    },
+    {
+      "method": "DesigBtn3ForFace",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 49881,
+        "rva": 3741084,
+        "token": "0x060007d5"
+      },
+      "ilSha256": "909828b37f3be509cc7db82c7eb1b96689c6e69c9b8a43601fc3667b612c1204"
+    }
+  ],
+  "sourceEvidenceReuse": "evidence/catalog-load-evidence.json; matching artifact/MVID, all1481 IL-body crosscheck",
+  "fixtures": {
+    "path": "tests/reference/flanges-gaskets/Flan2.json",
+    "hash": "a9ca8a43ea98e39b03585efb36d55862dc6ea099b467427c273c585429dec381",
+    "cases": 125,
+    "unavailableCases": 24
+  },
+  "tests": [
+    "tests/legacy/flanges-gaskets.test.ts"
+  ],
+  "originalComparison": "unverified-visual-nonblocking"
+}

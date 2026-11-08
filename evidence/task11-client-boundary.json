@@ -1,0 +1,29 @@
+{
+  "result": "passed",
+  "sourceInputs": [
+    "src/shared/public-schemas.ts",
+    "src/workspace/render-canvas.ts",
+    "src/workspace/LegacyCanvas.tsx",
+    "src/workspace/LegacyMenu.tsx",
+    "src/workspace/LegacyDialog.tsx",
+    "src/workspace/ResultsPanel.tsx",
+    "src/workspace/Viewport.tsx",
+    "src/shared/product-information.ts",
+    "src/workspace/PrintView.tsx",
+    "src/workspace/workspace.css",
+    "src/workspace/Workspace.tsx"
+  ],
+  "privateInputs": [],
+  "outputs": [
+    {
+      "type": "javascript",
+      "sha256": "4be2f03ce5d69e8330144f33386e24a660202fc828b6ffd1ae606dfa63fe74d1",
+      "bytes": 1277142
+    },
+    {
+      "type": "css",
+      "sha256": "b72c10c3cb14c748df252899ab5effd0bd4d34628a4f830d13cf2c6249a63d08",
+      "bytes": 5388
+    }
+  ]
+}

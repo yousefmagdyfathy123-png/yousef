@@ -1,0 +1,75 @@
+{
+    "scope":  "Isolated WinForms source toolbar sizes/order/margins; no original assembly loaded",
+    "helperHash":  "1ba50254d3f188e44530605ebac0e067daea0cbd3c3f4bdd8ef0d353c2f8a02a",
+    "client":  {
+                   "height":  651,
+                   "width":  1051
+               },
+    "controls":  [
+                     {
+                         "y":  56,
+                         "width":  33,
+                         "id":  "First",
+                         "height":  33,
+                         "x":  1
+                     },
+                     {
+                         "y":  56,
+                         "width":  32,
+                         "id":  "Back",
+                         "height":  33,
+                         "x":  34
+                     },
+                     {
+                         "y":  56,
+                         "width":  220,
+                         "id":  "Tab",
+                         "height":  33,
+                         "x":  66
+                     },
+                     {
+                         "y":  56,
+                         "width":  32,
+                         "id":  "Forward",
+                         "height":  33,
+                         "x":  286
+                     },
+                     {
+                         "y":  56,
+                         "width":  32,
+                         "id":  "Last",
+                         "height":  33,
+                         "x":  318
+                     },
+                     {
+                         "y":  56,
+                         "width":  80,
+                         "id":  "Btn1",
+                         "height":  33,
+                         "x":  350
+                     },
+                     {
+                         "y":  56,
+                         "width":  80,
+                         "id":  "Btn2",
+                         "height":  33,
+                         "x":  430
+                     },
+                     {
+                         "y":  56,
+                         "width":  80,
+                         "id":  "Btn3",
+                         "height":  33,
+                         "x":  510
+                     },
+                     {
+                         "y":  56,
+                         "width":  80,
+                         "id":  "Btn4",
+                         "height":  33,
+                         "x":  590
+                     }
+                 ],
+    "runtime":  "4.0.30319.42000",
+    "culture":  "en-US"
+}

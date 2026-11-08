@@ -1,0 +1,338 @@
+{
+  "retrievedAt": "2026-11-01T13:02:44.187Z",
+  "node": "v24.15.0",
+  "npm": "12.0.2",
+  "docs": [
+    "https://nextjs.org/docs/app/getting-started/installation",
+    "https://vitest.dev/guide/"
+  ],
+  "packages": [
+    {
+      "name": "next",
+      "version": "16.4.3",
+      "engines": {
+        "node": ">=20.9.0"
+      },
+      "peerDependencies": {
+        "sass": "^1.3.0",
+        "react": "^18.2.0 || 19.0.0-rc-de68d2f4-20241204 || ^19.0.0",
+        "react-dom": "^18.2.0 || 19.0.0-rc-de68d2f4-20241204 || ^19.0.0",
+        "@playwright/test": "^1.51.1",
+        "@opentelemetry/api": "^1.1.0",
+        "babel-plugin-react-compiler": "*"
+      },
+      "dist": {
+        "shasum": "72f79702e8537608f3227a01adac1213754821d2",
+        "tarball": "https://registry.npmjs.org/next/-/next-16.4.3.tgz",
+        "fileCount": 8705,
+        "integrity": "sha512-OqxKTGi9u80FydydsMNYNjnuje9Au+kvHlt2GZ//ftdpDHm1dxKqAaENoOOTX5wKzn+9vaKUNIfZeyZUuLhCnA==",
+        "signatures": [
+          {
+            "sig": "MEQCIELOn3KIP/Ap+CYTpkAnrfmYVsLIiMNKaysaxLmG45P0AiAFxzml33gUTixy6dsV9vWWaD7CgKzirQTio7Zo3nhDsg==",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          },
+          {
+            "sig": "MEYCIQCTkK+nRXDqWlR4FTdEGcduVlwGBSj5bUarRPB1W6vmEwIhANTanL1bFNURwwcWfTN0K+Dc5/BVIaTm0Kb8I0xy8DcF",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          }
+        ],
+        "attestations": {
+          "url": "https://registry.npmjs.org/-/npm/v1/attestations/next@16.4.3",
+          "provenance": {
+            "predicateType": "https://slsa.dev/provenance/v1"
+          }
+        },
+        "unpackedSize": 192098346
+      },
+      "publishedAt": "2026-10-23T13:40:24.922Z",
+      "registry": "https://registry.npmjs.org/next"
+    },
+    {
+      "name": "react",
+      "version": "19.3.1",
+      "engines": {
+        "node": ">=0.10.0"
+      },
+      "dist": {
+        "shasum": "26e9523fc36ea06be5050ebb780249a133260ad7",
+        "tarball": "https://registry.npmjs.org/react/-/react-19.3.1.tgz",
+        "fileCount": 27,
+        "integrity": "sha512-QNhWdt7nrgVWWQG58QuGsAR3jv3Hbe4mb4vz7w2csnHavciZJgda1CPNaldF6eVxv90ud3jUXpKlHL69gO38yw==",
+        "signatures": [
+          {
+            "sig": "MEUCIDFKwsaTXLOJNpD3WJ6dy5E7wkTf2QNrZgmlItJn3Cy4AiEAoAvLd5MEj+CHKGO1a81NFTiC79fQLibq7JqAPGvPC0w=",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          },
+          {
+            "sig": "MEQCIG60Jz/rQm93/m8ZTZvxX3fxIhTqB5EnASV642pG4n94AiA8XxzTRyCDS6L54HKPSciJX3l/dcW5MjgnFd4plotjSg==",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          }
+        ],
+        "attestations": {
+          "url": "https://registry.npmjs.org/-/npm/v1/attestations/react@19.3.1",
+          "provenance": {
+            "predicateType": "https://slsa.dev/provenance/v1"
+          }
+        },
+        "unpackedSize": 178663
+      },
+      "publishedAt": "2026-10-14T16:47:15.290Z",
+      "registry": "https://registry.npmjs.org/react"
+    },
+    {
+      "name": "react-dom",
+      "version": "19.3.1",
+      "peerDependencies": {
+        "react": "^19.3.1"
+      },
+      "dist": {
+        "shasum": "b384c53cfcbe9c2a5d09d863b98455de9d68afe2",
+        "tarball": "https://registry.npmjs.org/react-dom/-/react-dom-19.3.1.tgz",
+        "fileCount": 43,
+        "integrity": "sha512-Y0bARz53lhEC1NMCASs0/j+faB/zqt3R8hpvg1e8+61ZVJ4UL0UdC4cBbXfZMcIuhrfgeILTLe+ZeBCavQPtKQ==",
+        "signatures": [
+          {
+            "sig": "MEYCIQDKhj2WJ0+n7p8mYN1rC0wCt9+cD0S58A7JGp6iSDsusgIhAIzdEcBxzxMDJ5pGXlJ1Qw+Utal8MwAbfud/9Fm04N1N",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          },
+          {
+            "sig": "MEYCIQCVaB5TV8fUMl1DUqtKZxsqf+6v/itdKfx9lY/4yHu8kwIhANkvM3hU52XEwXbe6/xrseK88Q6blbENfk+peCPY6Ih4",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          }
+        ],
+        "attestations": {
+          "url": "https://registry.npmjs.org/-/npm/v1/attestations/react-dom@19.3.1",
+          "provenance": {
+            "predicateType": "https://slsa.dev/provenance/v1"
+          }
+        },
+        "unpackedSize": 8067632
+      },
+      "publishedAt": "2026-10-14T16:49:10.081Z",
+      "registry": "https://registry.npmjs.org/react-dom"
+    },
+    {
+      "name": "typescript",
+      "version": "7.0.2",
+      "engines": {
+        "node": ">=16.20.0"
+      },
+      "dist": {
+        "shasum": "9ec773d7954a8c182c17cc5bbd575aa28bc51582",
+        "tarball": "https://registry.npmjs.org/typescript/-/typescript-7.0.2.tgz",
+        "fileCount": 416,
+        "integrity": "sha512-8FYau96o3NKOhbjKi/qNvG/W5jhzxkbdm5sj9AbZ/5T5sWqn3hJgLfGx27sRKZWTvyzCP8dLRBTf5tBTSRVUNA==",
+        "signatures": [
+          {
+            "sig": "MEUCIHn8lVrLBbTJToaOcV3IJ0oVPREmFT5BhqmO2niVNCaSAiEAjbubGExGAYMSJN39iEgX/eDYhwBGnh/iyyGTRigXGjY=",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          }
+        ],
+        "unpackedSize": 2497498
+      },
+      "publishedAt": "2026-07-08T15:55:18.431Z",
+      "registry": "https://registry.npmjs.org/typescript"
+    },
+    {
+      "name": "vitest",
+      "version": "5.0.5",
+      "engines": {
+        "node": "^22.12.0 || ^24.0.0 || >=26.0.0"
+      },
+      "peerDependencies": {
+        "vite": "^6.4.0 || ^7.0.0 || ^8.0.0",
+        "jsdom": "*",
+        "happy-dom": "*",
+        "@vitest/ui": "5.0.5",
+        "@types/node": "^22.0.0 || >=24.0.0",
+        "@edge-runtime/vm": "*",
+        "@opentelemetry/api": "^1.9.0",
+        "@vitest/coverage-v8": "5.0.5",
+        "@vitest/browser-preview": "5.0.5",
+        "@vitest/coverage-istanbul": "5.0.5",
+        "@vitest/browser-playwright": "5.0.5",
+        "@vitest/browser-webdriverio": "^5.0.0-beta.5 || >=5.0.0"
+      },
+      "dist": {
+        "shasum": "266e335f4177541e3e60f876e0694f966a9601f2",
+        "tarball": "https://registry.npmjs.org/vitest/-/vitest-5.0.5.tgz",
+        "fileCount": 104,
+        "integrity": "sha512-cPODOMF8YnkiiYtDdHo6n4wWmBrOBBbOIYH2d33M4l3CdNn72h+qMmO6uXffUN6A5AZFXNND/d+krS9mgkXRfg==",
+        "signatures": [
+          {
+            "sig": "MEQCIGTlU8iwofF0ILpfIKdatZtwNzwaLwDun2fF6eGApNkhAiBBhTCdmDJmLME7Vd2ehANaxpHM0aZD5OMmp+3aPGoJmg==",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          }
+        ],
+        "attestations": {
+          "url": "https://registry.npmjs.org/-/npm/v1/attestations/vitest@5.0.5",
+          "provenance": {
+            "predicateType": "https://slsa.dev/provenance/v1"
+          }
+        },
+        "unpackedSize": 2817789
+      },
+      "publishedAt": "2026-10-15T14:29:01.396Z",
+      "registry": "https://registry.npmjs.org/vitest"
+    },
+    {
+      "name": "tsx",
+      "version": "4.23.15",
+      "engines": {
+        "node": ">=18.0.0"
+      },
+      "dist": {
+        "shasum": "f53901695685ad567fed0f08532f7782e631c251",
+        "tarball": "https://registry.npmjs.org/tsx/-/tsx-4.23.15.tgz",
+        "fileCount": 30,
+        "integrity": "sha512-Yiex1Ovn8z2xPpOWckIiysV1SSyRMY9BkLF++q0yKiDxCqRhosKfMg3janKkiLBwZ5c/YryloKwGZcrEmtwxKw==",
+        "signatures": [
+          {
+            "sig": "MEQCIEdZwApsfWNOga6vkPQnLak5uTcy5XmVvo93d0LMHEPOAiBPsZl9nIidrCfwoj7omW/coVC+xSNHyMCn22pHfOV03g==",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          },
+          {
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+            "sig": "MEUCIFIjwXnhQX6Za+28gR87xqXhXtk3cmveBFnx6jIvDgbDAiEAn9WanG6tAd/NuFifbVZvx2kebV1zhSQf6tppTJvPSxA="
+          }
+        ],
+        "attestations": {
+          "url": "https://registry.npmjs.org/-/npm/v1/attestations/tsx@4.23.15",
+          "provenance": {
+            "predicateType": "https://slsa.dev/provenance/v1"
+          }
+        },
+        "unpackedSize": 396881
+      },
+      "publishedAt": "2026-09-20T07:22:17.792Z",
+      "registry": "https://registry.npmjs.org/tsx"
+    },
+    {
+      "name": "@playwright/test",
+      "version": "1.64.1",
+      "engines": {
+        "node": ">=20"
+      },
+      "dist": {
+        "shasum": "03d48b0cd135db5a70a6fbca54b2b91a597eed01",
+        "tarball": "https://registry.npmjs.org/@playwright/test/-/test-1.64.1.tgz",
+        "fileCount": 11,
+        "integrity": "sha512-IaYGml/nSOiZWROfPtuIL7neuu9qDOZ3TNvNljUIrhDMxiGTgPjzj/g9p9RxpS2tSepPDRY+UwAaEeiKtUvIAg==",
+        "signatures": [
+          {
+            "sig": "MEQCIBTVqvK4UiyJ5CglJHnbSW85qB8cNoqbhAThIX1peUFIAiB4hJM1a9NVhdU6G8+UJeNZVN9rgbxqmLviU1wbPXpT6Q==",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          },
+          {
+            "sig": "MEUCIFZ/EP/h9yD11u7KZbhZWNH/lTVqDh7/9sWFIuXVYipbAiEAlVzSqPwCP7m7jg5t7q+m4n5AgE/M9kydfpma0U6pajE=",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          }
+        ],
+        "attestations": {
+          "url": "https://registry.npmjs.org/-/npm/v1/attestations/@playwright%2ftest@1.64.1",
+          "provenance": {
+            "predicateType": "https://slsa.dev/provenance/v1"
+          }
+        },
+        "unpackedSize": 28542
+      },
+      "publishedAt": "2026-10-14T11:58:13.696Z",
+      "registry": "https://registry.npmjs.org/%40playwright%2Ftest"
+    },
+    {
+      "name": "@types/node",
+      "version": "26.6.6",
+      "peerDependencies": {},
+      "dist": {
+        "shasum": "9ed7b5817e728ed9216ef7c5b7d373fe3b777104",
+        "tarball": "https://registry.npmjs.org/@types/node/-/node-26.6.6.tgz",
+        "fileCount": 109,
+        "integrity": "sha512-MzQj+8Kx3XI40OmUAE6Qoh58ZMNstNNMwn2nfd3qWsfe7nDNSqJNzes4njhz6AHwrSHOffSLwXU6yb474Q4aog==",
+        "signatures": [
+          {
+            "sig": "MEUCIHcSi7pEO72FMEZeNIDd+bzBw9AIYxx9grPD1AX6gZWRAiEA/fTMMgRXn/XqsiUeAvt5XLcc8PUtnTFPDRSYaB/wfH8=",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          },
+          {
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+            "sig": "MEUCIQCNB8OeetAA6h1cLh8nQ23dVtV1Vlts4Fz3zrT0WOWKDQIgTBe7om+aQ6ts3NNZPfemprMwZ9nnRN4xPoWjoazWA6Q="
+          }
+        ],
+        "unpackedSize": 2586357
+      },
+      "publishedAt": "2026-10-28T18:36:36.455Z",
+      "registry": "https://registry.npmjs.org/%40types%2Fnode"
+    },
+    {
+      "name": "@types/react",
+      "version": "19.3.0",
+      "peerDependencies": {},
+      "dist": {
+        "shasum": "3b3ce8d8c1627fb5ccd4dadd57ef445c5a153b77",
+        "tarball": "https://registry.npmjs.org/@types/react/-/react-19.3.0.tgz",
+        "fileCount": 18,
+        "integrity": "sha512-N0rFCuH9YoxG9/m61l9MfpJKfmLOVU0em7ipIz6TRgSSkvReLB9vL85GB+yr8Bs5leqpvg96JSwF4ZS1s4viQg==",
+        "signatures": [
+          {
+            "sig": "MEQCICO9E9W9sN+6oHDGno2fJYJ8YEsNOa01MoJJmauunAjGAiAVusL8FBYYoRgnVrnz0RY2KMSjP1OlJ7GunY0YhIr0GA==",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          },
+          {
+            "sig": "MEYCIQCG/2kbQCjMBz9wJNsFnPRUQFtQzxGIbkrwTxQ3ZYlQrwIhAKZAxRpE46wtsHz27OGDgRmXLV83Q5GivNToLaMzF7Q2",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          }
+        ],
+        "unpackedSize": 408108
+      },
+      "publishedAt": "2026-09-09T18:08:49.750Z",
+      "registry": "https://registry.npmjs.org/%40types%2Freact"
+    },
+    {
+      "name": "@types/react-dom",
+      "version": "19.3.0",
+      "peerDependencies": {
+        "@types/react": "^19.3.0"
+      },
+      "dist": {
+        "shasum": "90294a9266efd928a5266f2110d60d5dba5015d2",
+        "tarball": "https://registry.npmjs.org/@types/react-dom/-/react-dom-19.3.0.tgz",
+        "fileCount": 19,
+        "integrity": "sha512-ZI7bU42mZXXKHn/qNLEw2IrbiINU7X5+vfgdixBHkCNpYWXjKgfQ/P+uyGb5CjOLB9UcnTeg3rylQtV2hym44Q==",
+        "signatures": [
+          {
+            "sig": "MEYCIQDeggFlao9be7yHQ/b9bEJ/aNUgA9ewpLiMScDNunzitAIhAKh8Ct2ZYAjnfZI/KeuIMkZ0Qz2vlOS1C1PkdT2UacvQ",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          },
+          {
+            "sig": "MEYCIQDfRDroOzjwBEz1yqXRbBWKCYOt7p/DKB+WIMPoMWCfUAIhAMPChj/cPQOALZVIGvV0h+QYQERrlQ5RJZb3dptWvQFV",
+            "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+          }
+        ],
+        "unpackedSize": 32862
+      },
+      "publishedAt": "2026-09-09T18:07:51.886Z",
+      "registry": "https://registry.npmjs.org/%40types%2Freact-dom"
+    },
+    {
+      "name": "server-only",
+      "version": "0.0.1",
+      "registry": "https://registry.npmjs.org/server-only/0.0.1",
+      "dist": {
+        "shasum": "0f366bb6afb618c37c9255a314535dc412cd1c9e",
+        "tarball": "https://registry.npmjs.org/server-only/-/server-only-0.0.1.tgz",
+        "fileCount": 3,
+        "integrity": "sha512-qepMx2JxAa5jjfzxG79yPPq+8BuFToHd1hm7kI+Z4zAq1ftQiP7HcxMhDDItrbtwVeLg/cY2JnKnrcFkmiswNA==",
+        "signatures": [
+          {
+            "sig": "MEYCIQCeGfcu3ktYTYfj1mL68wFCKEMg0EhQvrNX6w544OTK2QIhALQ4NaS/nWcwmSHF25kAYQaNrkXC7GXp2OqeJeIfFpeT",
+            "keyid": "SHA256:jl3bwswu80PjjokCgh0o2w5c2U4LhQAE57gj9cz1kzA"
+          }
+        ],
+        "unpackedSize": 611,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v4.10.10\r\nComment: https://openpgpjs.org\r\n\r\nwsFzBAEBCAAGBQJjEqjOACEJED1NWxICdlZqFiEECWMYAoorWMhJKdjhPU1b\r\nEgJ2VmqLPw/+JEzXZtV6xH1MOQ6Tdwwz/clUG9P1NSJghFeJWWopH6uJqU2D\r\nTbHC+cpWySf/OI4Fw74Ho6DtK7fNfX4WIIYpcnO85bYl0yPquyfiQhrlNH/U\r\n+ylqfY6mdjz4AeDwkWWTcqPj3XUcz22Fu3g6b6Sy6d/2ZUAU32P5ad1AXSnn\r\nLdG0M6zcVws/JsNrt+WESjpEma57AeO5mGgGpBxqJUU6xdJ6EmZtPAChEQVZ\r\nYaUogqihbjIeDSt4Hr5IKatwpI5qhS4+pDyMb/Ae2BzUzrcUtT0ERlGGyRSh\r\nJqXQOdfy8PEFYNbcaXDmHP0dhiGUWqZgSAqgIvBwtW2tFoAZi07XwftJhoEL\r\nIYKJEnfc7quSQeJQJxFl95gZAIuwZ4r+UKKDc3AltJyC69/AYYTP5nUwh3F1\r\nP0NnDKmk5DlKSef71AmaOggp1jUFk96NG9WsR7+ZMMFi5ziMXGNXkW2cWKzC\r\nBn8Qs9wSE8OKo5FcEJA9C5vYUxrkJEQQiLtjXAsKAlUgBhXZrB8H6KqehFwy\r\n25REBz4Xp/NsBWUovqdfVvXsn+sRVFaRtau4r9LzE1JOLbnCPLSRuT2Aynub\r\nvmxqI2KE/DNCVVn1+sfIDZY7ZWx2ZuPewsPOaxeZniPEg9e18VXXZP57bp3K\r\noOYroautS1J6AS7jCPYCuaGOGtRi8TyWfvk=\r\n=kzWh\r\n-----END PGP SIGNATURE-----\r\n"
+      },
+      "retrievedAt": "2026-11-01T13:39:56.861Z",
+      "reason": "task2 server-private catalog boundary"
+    }
+  ]
+}

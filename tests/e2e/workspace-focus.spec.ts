@@ -1,0 +1,27 @@
+import {test,expect} from './ui-fixture';
+for(const width of [1440,390])test(`authenticated focus follows result revisions and overview fallback at ${width}px`,async({page,openWorkspace},info)=>{
+  await page.setViewportSize({width,height:844});await openWorkspace();
+  const mode=page.getByLabel('Drawing view',{exact:true});
+  await expect(mode).toHaveText('Primary view');
+  await expect(page.getByLabel('Engineering drawing',{exact:true})).toHaveAttribute('data-drawing-source','asset');
+  await expect(mode).toHaveText('Primary view');
+  await page.getByRole('button',{name:'Read dimensions',exact:true}).click();
+  await expect(mode).toHaveText('Primary view');
+  await page.screenshot({path:info.outputPath(`authenticated-main-${width}.png`),fullPage:true});
+  await page.getByRole('button',{name:'Reset view',exact:true}).click();
+  await expect(mode).toHaveText('All views');
+  await expect(page.getByLabel('Zoom',{exact:true})).toHaveText('100%');
+  await expect.poll(()=>page.getByLabel('Pan engineering layout',{exact:true}).evaluate(e=>e.scrollLeft+e.scrollTop)).toBe(0);
+  await page.getByLabel('Units',{exact:true}).selectOption('Imperial');
+  await expect(page.getByLabel('Units',{exact:true})).toHaveValue('Imperial');
+  await expect(mode).toHaveText('Primary view');
+  await page.getByText('Menu',{exact:true}).click();await page.getByText('Gaskets',{exact:true}).click();
+  await page.getByRole('button',{name:'Nonmetallic Flat Gaskets',exact:true}).click();
+  await expect(mode).toHaveText('All views');
+  await expect(page.getByRole('button',{name:'Primary view',exact:true})).toBeDisabled();
+  await page.getByText('Menu',{exact:true}).click();await page.getByText('Pipe Flexibility',{exact:true}).click();
+  await page.getByRole('button',{name:'Distance to First Guide',exact:true}).click();
+  await expect(mode).toHaveText('Primary view');
+  await page.getByRole('button',{name:'Read dimensions',exact:true}).click();
+  expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);
+});

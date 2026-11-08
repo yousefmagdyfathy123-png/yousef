@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "acceptedSamples": [
+    {
+      "id": "task6a-Flan1",
+      "class": "simple-table Flan1 checkpoint",
+      "acceptedAt": "2026-11-01T19:10:44.004534+00:00",
+      "evidence": "evidence/checkpoints/flan1.json",
+      "measurementUnit": "seconds where directly observed; focused person-hours unknown",
+      "evidenceInvestigation": null,
+      "fixturesTests": null,
+      "implementation": null,
+      "reviewCorrection": null,
+      "elapsed": null,
+      "externalWaits": "Usage-limit interruption occurred between review attempts; exact duration not instrumented",
+      "observedVerification": {
+        "priorFullSuite1217TestsSeconds": 18.79,
+        "fourBrowserJourneysSeconds": 9.1
+      },
+      "limitation": "No initial phase timers captured; no fabricated effort/billing totals. Unavailable cases overlap this sample and are not counted twice."
+    },
+    {
+      "id": "task7-prior-state-and-unavailable",
+      "class": "prior-state drawing continuation and unavailable combinations",
+      "acceptedAt": "2026-11-02T12:02:52.105703+00:00",
+      "evidence": "evidence/task7-acceptance.json",
+      "measurementUnit": "observed suite seconds; focused engineering person-hours unknown",
+      "evidenceInvestigation": null,
+      "fixturesTests": null,
+      "implementation": null,
+      "reviewCorrection": null,
+      "elapsed": null,
+      "externalWaits": "None required",
+      "observedVerification": {
+        "navigationRecovery163ChecksSeconds": 83.53,
+        "full19078TestSuiteSeconds": 1269.74,
+        "fourBrowserJourneysSeconds": 17.3
+      },
+      "measurementScope": "Shared timings, not additive route effort; no measurement-only reruns",
+      "review": "Author self-review per no-subagent instruction",
+      "cost": "Unknown; billing records unavailable"
+    },
+    {
+      "id": "task9-calculators",
+      "class": "calculator, linked input and state-dependent numeric continuation",
+      "acceptedAt": "2026-11-02T17:54:52.673398+00:00",
+      "evidence": "evidence/task9-acceptance.json",
+      "measurementUnit": "observed automated verification seconds; focused engineering person-hours unknown",
+      "evidenceInvestigation": null,
+      "fixturesTests": null,
+      "implementation": null,
+      "reviewCorrection": null,
+      "elapsed": null,
+      "externalWaits": "No external dependency wait measured",
+      "observedVerification": {
+        "recipeTestsSeconds": 249.31,
+        "coreTestsSeconds": 33.09
+      },
+      "limitation": "No phase/person-hour timers or billing records; overlapping regression checks are not additive effort"
+    }
+  ],
+  "pendingClasses": [
+    "calculator",
+    "prior-state-dependent drawing sequence",
+    "unavailable combination"
+  ],
+  "measurementFields": [
+    "evidenceInvestigation",
+    "fixturesTests",
+    "implementation",
+    "reviewCorrection",
+    "elapsed",
+    "externalWaits"
+  ],
+  "note": "Task1 foundation is not a representative route; no fabricated durations or accepted samples. Do not double-count overlapping work."
+}

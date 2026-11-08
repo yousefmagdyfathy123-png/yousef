@@ -1,0 +1,450 @@
+{
+  "Psiz": {
+    "ActivitySpec": "",
+    "ActivitySpecLong": "",
+    "ActivityTitle": " Pipe Minimum Finder",
+    "routes": {
+      "Psiz1": "Pipe Minimum Finder"
+    }
+  },
+  "Ptem": {
+    "ActivitySpec": "ASME B16.5 - 2009 Group 1.1",
+    "ActivitySpecLong": "ASME B16.5 - 2009 Group 1.1",
+    "ActivityTitle": "ASME B16.5 - 2009 Group 1.1 ",
+    "routes": {
+      "Ptem1": "Flange Maximum Pressure Finder"
+    }
+  },
+  "Pwal": {
+    "ActivitySpec": "",
+    "ActivitySpecLong": "",
+    "ActivityTitle": " ",
+    "routes": {
+      "Pwal1": "Wall Thickness Calculator"
+    }
+  },
+  "Fxly": {
+    "ActivitySpec": "",
+    "ActivitySpecLong": "",
+    "ActivityTitle": " ",
+    "routes": {
+      "Fxly1": "Pipe Leg",
+      "Fxly2": "Pipe Loop"
+    }
+  },
+  "Span": {
+    "ActivitySpec": "",
+    "ActivitySpecLong": "",
+    "ActivityTitle": " ",
+    "routes": {
+      "Span1": "Rack Spans",
+      "Span2": "Process Area Spans"
+    }
+  },
+  "Comp": {
+    "ActivitySpec": "B16.5 / B16.47 Series A",
+    "ActivitySpecLong": "B16.5 / B16.47 Series A",
+    "ActivityTitle": "B16.5 / B16.47 Series A ASME Composite",
+    "routes": {
+      "Comp1": "ASME Composite"
+    }
+  },
+  "Gpas": {
+    "ActivitySpec": "",
+    "ActivitySpecLong": "",
+    "ActivityTitle": " Pipe Spacing",
+    "routes": {
+      "Gpas1": "Pipe Spacing",
+      "Gpas2": "Pipe Spacing With Insulation",
+      "Gpas3": "Flanged Pipe Spacing",
+      "Gpas4": "Flanged Pipe Spacing With Insulation"
+    }
+  },
+  "Srre": {
+    "ActivitySpec": "",
+    "ActivitySpecLong": "",
+    "ActivityTitle": " Bath Tub Type Strainer",
+    "routes": {
+      "Srre1": "Bath Tub Type Strainer"
+    }
+  },
+  "Srrd": {
+    "ActivitySpec": "",
+    "ActivitySpecLong": "",
+    "ActivityTitle": " Top Hat Type Strainer",
+    "routes": {
+      "Srrd1": "Top Hat Type Strainer"
+    }
+  },
+  "Srrc": {
+    "ActivitySpec": "",
+    "ActivitySpecLong": "",
+    "ActivityTitle": " Witch Hat Type Strainer",
+    "routes": {
+      "Srrc1": "Witch Hat Type Strainer"
+    }
+  },
+  "Srrb": {
+    "ActivitySpec": "",
+    "ActivitySpecLong": "",
+    "ActivityTitle": " Basket Type Strainers",
+    "routes": {
+      "Srrb1": "Single Basket Type Strainer",
+      "Srrb2": "Duplex Basket Type Strainer"
+    }
+  },
+  "Srra": {
+    "ActivitySpec": "",
+    "ActivitySpecLong": "",
+    "ActivityTitle": " Y Type Strainers",
+    "routes": {
+      "Srra1": "Flanged Strainer",
+      "Srra2": "Buttwelded Strainer",
+      "Srra3": "Threaded Strainer",
+      "Srra4": "Socketwelded Strainer"
+    }
+  },
+  "Nuts": {
+    "ActivitySpec": "",
+    "ActivitySpecLong": "",
+    "ActivityTitle": " Nuts",
+    "routes": {
+      "Nuts1": "ISO Nut",
+      "Nuts2": "UNC Nut"
+    }
+  },
+  "Wbpi": {
+    "ActivitySpec": "ASME Unadopted",
+    "ActivitySpecLong": "ASME Unadopted",
+    "ActivityTitle": "ASME Unadopted Pipet",
+    "routes": {
+      "Wbpi1": "Buttwelded Pipet",
+      "Wbpi2": "Elbow Pipet",
+      "Wbpi3": "Lateral Pipet",
+      "Wbpi4": "Threaded Pipet",
+      "Wbpi5": "Elbow Threaded Pipet",
+      "Wbpi6": "Lateral Threaded Pipet",
+      "Wbpi7": "SocketWelded Pipet",
+      "Wbpi8": "Elbow SocketWelded Pipet",
+      "Wbpi9": "Lateral SocketWelded Pipet",
+      "Wbpi10": "Flanged Pipet",
+      "Wbpi11": "Elbow Flanged Pipet",
+      "Wbpi12": "Lateral Flanged Pipet"
+    }
+  },
+  "Wbol": {
+    "ActivitySpec": "ASME Unadopted",
+    "ActivitySpecLong": "ASME Unadopted",
+    "ActivityTitle": "ASME Unadopted Welded Branch",
+    "routes": {
+      "Wbol1": "Weldolet",
+      "Wbol2": "Elbowlet",
+      "Wbol3": "Latrolet",
+      "Wbol4": "Threadolet",
+      "Wbol5": "Threaded Elbowlet",
+      "Wbol6": "Threaded Latrolet",
+      "Wbol7": "Sockolet",
+      "Wbol8": "Socketweld Elbowlet",
+      "Wbol9": "Socketweld Latrolet",
+      "Wbol10": "Weldoflange",
+      "Wbol11": "Elbowflange",
+      "Wbol12": "Latroflange",
+      "Wbol13": "Nipoflange"
+    }
+  },
+  "Vlsw": {
+    "ActivitySpec": "ASME Unadopted",
+    "ActivitySpecLong": "ASME Unadopted",
+    "ActivityTitle": "ASME Unadopted Socketwelded Valves",
+    "routes": {
+      "Vlsw1": "Socketwelded Gate Valve",
+      "Vlsw2": "Socketwelded Globe Valve",
+      "Vlsw3": "Horizontal Check Valve",
+      "Vlsw4": "Vertical Check Valve",
+      "Vlsw5": "Socketwelded Ball Valve"
+    }
+  },
+  "Vlsc": {
+    "ActivitySpec": "ASME Unadopted",
+    "ActivitySpecLong": "ASME Unadopted",
+    "ActivityTitle": "ASME Unadopted Threaded Valves",
+    "routes": {
+      "Vlsc1": "Threaded Gate Valve",
+      "Vlsc2": "Threaded Globe Valve",
+      "Vlsc3": "Horizontal Check Valve",
+      "Vlsc4": "Vertical Check Valve",
+      "Vlsc5": "Threaded Ball Valve"
+    }
+  },
+  "Vlbw": {
+    "ActivitySpec": "ASME B16.10",
+    "ActivitySpecLong": "ASME B16.10-2017",
+    "ActivityTitle": "ASME B16.10 Buttwelded Valves",
+    "routes": {
+      "Vlbw1": "Buttwelded Gate Valve",
+      "Vlbw2": "Buttwelded Globe Valve",
+      "Vlbw3": "Buttwelded Ball Valve",
+      "Vlbw4": "Buttwelded Swing Check Valve"
+    }
+  },
+  "Blnu": {
+    "ActivitySpec": "ASME B16.48",
+    "ActivitySpecLong": "ASME B16.48-2020",
+    "ActivityTitle": "ASME B16.48 Line Blanks",
+    "routes": {
+      "Blnu1": "Figure-8 Blank",
+      "Blnu2": "Paddle Blank and Spacer",
+      "Blnu3": "RTJ Male Figure-8 Blank",
+      "Blnu4": "RTJ Male Paddle Blank and Spacer"
+    }
+  },
+  "Grtj": {
+    "ActivitySpec": "ASME B16.20",
+    "ActivitySpecLong": "ASME B16.20-2016",
+    "ActivityTitle": "ASME B16.20 Gaskets",
+    "routes": {
+      "Grtj1": "Type R Ring Gasket",
+      "Grtj2": "Type RX Ring Gasket",
+      "Grtj3": "Type BX Ring Gasket"
+    }
+  },
+  "Gspr": {
+    "ActivitySpec": "ASME B16.20",
+    "ActivitySpecLong": "ASME B16.20-2016",
+    "ActivityTitle": "ASME B16.20 Gaskets",
+    "routes": {
+      "Gspr1": "Spiral-Wound Gasket for ASME B16.5 Flanges",
+      "Gspr2": "Spiral-Wound Gasket for ASME B16.47 Series A Flanges",
+      "Gspr3": "Spiral-Wound Gasket for ASME B16.47 Series B Flanges"
+    }
+  },
+  "Gflt": {
+    "ActivitySpec": "ASME B16.21",
+    "ActivitySpecLong": "ASME B16.21-2016",
+    "ActivityTitle": "ASME B16.21 Gaskets",
+    "routes": {
+      "Gflt1": "Nonmetallic Flat Gasket for ASME B16.5 Flanges",
+      "Gflt2": "Nonmetallic Flat Gasket for ASME B16.47 Series A Flanges",
+      "Gflt3": "Nonmetallic Flat Gasket for ASME B16.47 Series B Flanges"
+    }
+  },
+  "Flan": {
+    "ActivitySpec": "ASME B16.5",
+    "ActivitySpecLong": "ASME B16.5-2020",
+    "ActivityTitle": "ASME B16.5 Flanges",
+    "routes": {
+      "Flan1": "Weldneck Flange",
+      "Flan2": "Slip-on Flange",
+      "Flan3": "Blind Flange",
+      "Flan4": "Threaded Flange",
+      "Flan5": "SocketWelded Flange",
+      "Flan6": "Lapped Flange",
+      "Flan7": "Straight Hub Welding Flange"
+    }
+  },
+  "Flbs": {
+    "ActivitySpec": "BS 10",
+    "ActivitySpecLong": "BS 10:2009",
+    "ActivityTitle": "BS 10 Flanges",
+    "routes": {
+      "Flbs1": "Flange"
+    }
+  },
+  "Flaa": {
+    "ActivitySpec": "ASME B16.47",
+    "ActivitySpecLong": "ASME B16.47-2017",
+    "ActivityTitle": "ASME B16.47 Flanges",
+    "routes": {
+      "Flaa1": "Series A Weldneck Flange",
+      "Flaa2": "Series A Blind Flange"
+    }
+  },
+  "Flap": {
+    "ActivitySpec": "ASME B16.47",
+    "ActivitySpecLong": "ASME B16.47-2017",
+    "ActivityTitle": "ASME B16.47 Flanges",
+    "routes": {
+      "Flap1": "Series B Weldneck Flange",
+      "Flap2": "Series B Blind Flange"
+    }
+  },
+  "Orif": {
+    "ActivitySpec": "ASME B16.36",
+    "ActivitySpecLong": "ASME B16.36-2020",
+    "ActivityTitle": "ASME B16.36 Orifice Flanges",
+    "routes": {
+      "Orif1": "Weldneck Orifice Flange",
+      "Orif2": "Slip-on Orifice Flange",
+      "Orif3": "Threaded Orifice Flange"
+    }
+  },
+  "Flco": {
+    "ActivitySpec": "ASME",
+    "ActivitySpecLong": "ASME",
+    "ActivityTitle": "ASME Compact Flanges",
+    "routes": {
+      "Flco1": "Compact Flange",
+      "Flco2": "Compact Swivel Flange",
+      "Flco3": "Compact Blind Flange"
+    }
+  },
+  "Fl6b": {
+    "ActivitySpec": "API 6A",
+    "ActivitySpecLong": "API 6A-2004",
+    "ActivityTitle": "API 6A Type 6B Flanges",
+    "routes": {
+      "Fl6b1": "API Type 6B Weldneck Flange",
+      "Fl6b2": "API Type 6B Threaded Flange"
+    }
+  },
+  "Flbx": {
+    "ActivitySpec": "API 6A",
+    "ActivitySpecLong": "API 6A-2004",
+    "ActivityTitle": "API 6A Type BX Flanges",
+    "routes": {
+      "Flbx1": "API Type BX Weldneck Flange",
+      "Flbx2": "API Type BX Blind and Test Flange"
+    }
+  },
+  "Flre": {
+    "ActivitySpec": "ASME B16.5",
+    "ActivitySpecLong": "ASME B16.5-2020",
+    "ActivityTitle": "ASME B16.5 Reducing Flanges",
+    "routes": {
+      "Flre1": "Threaded Reducing Flange",
+      "Flre2": "Slip-On Reducing Flange"
+    }
+  },
+  "Fldi": {
+    "ActivitySpec": "EN 1092-1",
+    "ActivitySpecLong": "EN 1092-1:2018",
+    "ActivityTitle": "EN 1092-1 Flanges",
+    "routes": {
+      "Fldi1": "Plate Flange",
+      "Fldi2": "Blind Flange",
+      "Fldi3": "Weldneck Flange",
+      "Fldi4": "Slip-On Flange",
+      "Fldi5": "Threaded Flange"
+    }
+  },
+  "Flhb": {
+    "ActivitySpec": "",
+    "ActivitySpecLong": "",
+    "ActivityTitle": "ASME Unadopted",
+    "routes": {
+      "Flhb1": "Hub and Clamp Pipe Connector"
+    }
+  },
+  "Ftbw": {
+    "ActivitySpec": "ASME B16.9",
+    "ActivitySpecLong": "ASME B16.9-2018",
+    "ActivityTitle": "ASME B16.9 BW Fittings",
+    "routes": {
+      "Ftbw1": "BW 45\u00b0 Elbow",
+      "Ftbw2": "BW 90\u00b0 LR Elbow",
+      "Ftbw3": "BW 180\u00b0 LR Return",
+      "Ftbw4": "BW 90\u00b0 SR Elbow",
+      "Ftbw5": "BW 180\u00b0 SR Return",
+      "Ftbw6": "BW Equal Tee",
+      "Ftbw7": "BW Reducing Tee",
+      "Ftbw8": "BW Cap",
+      "Ftbw9": "BW Concentric Reducer",
+      "Ftbw10": "BW Eccentric Reducer",
+      "Ftbw11": "BW Lap Joint Stub End"
+    }
+  },
+  "Ftsc": {
+    "ActivitySpec": "ASME B16.11",
+    "ActivitySpecLong": "ASME B16.11-2016",
+    "ActivityTitle": "ASME B16.11 Threaded Fittings",
+    "routes": {
+      "Ftsc1": "Threaded 90\u00b0 Elbow",
+      "Ftsc2": "Threaded Tee",
+      "Ftsc3": "Threaded Cross",
+      "Ftsc4": "Threaded 45\u00b0 Elbow",
+      "Ftsc5": "Threaded 90\u00b0 Street Elbow",
+      "Ftsc6": "Threaded Coupling",
+      "Ftsc7": "Threaded Half Coupling",
+      "Ftsc8": "Threaded Cap",
+      "Ftsc9": "Threaded Square Head Plug",
+      "Ftsc10": "Threaded Hex Head Plug",
+      "Ftsc11": "Threaded Round Head Plug",
+      "Ftsc12": "Threaded Hex Head Bushing",
+      "Ftsc13": "Threaded Flush Bushing",
+      "Ftsc14": "Threaded Female-Male Reducer",
+      "Ftsc15": "Threaded Reducing Hex Nipple",
+      "Ftsc16": "Threaded Reducing Coupling",
+      "Ftsc17": "Threaded Hexagonal Nipple",
+      "Ftsc18": "Threaded Welding Boss",
+      "Ftsc19": "Threaded Union Elbow Female-Female",
+      "Ftsc20": "Threaded Union Elbow Female-Male",
+      "Ftsc21": "Threaded Union Tee Female-Female",
+      "Ftsc22": "Threaded Union Tee Female-Male",
+      "Ftsc23": "Threaded Union Female-Female",
+      "Ftsc24": "Threaded Union Female-Male",
+      "Ftsc25": "Thread Details"
+    }
+  },
+  "Ftsw": {
+    "ActivitySpec": "ASME B16.11",
+    "ActivitySpecLong": "ASME B16.11-2016",
+    "ActivityTitle": "ASME B16.11 SW Fittings",
+    "routes": {
+      "Ftsw1": "Socketwelded 90\u00b0 Elbow",
+      "Ftsw2": "Socketwelded 45\u00b0 Elbow",
+      "Ftsw3": "Socketwelded Tee",
+      "Ftsw4": "Socketwelded Cross",
+      "Ftsw5": "Socketwelded Coupling",
+      "Ftsw6": "Socketwelded Half Coupling",
+      "Ftsw7": "Socketwelded Cap",
+      "Ftsw8": "Socketwelded Reducing Coupling",
+      "Ftsw9": "Socketwelded Welding Boss",
+      "Ftsw10": "Socketwelded Reducing Insert Type 1",
+      "Ftsw11": "Socketwelded Reducing Insert Type 2",
+      "Ftsw12": "Socketwelded Reducing Insert Type 3",
+      "Ftsw13": "Socketwelded Union",
+      "Ftsw14": "Socket Details"
+    }
+  },
+  "Fswa": {
+    "ActivitySpec": "MSS-SP-95",
+    "ActivitySpecLong": "MSS-SP-95-2018",
+    "ActivityTitle": "MSS-SP-95 Swage and Pipe Nipples",
+    "routes": {
+      "Fswa1": "Concentric Swage Nipple",
+      "Fswa2": "Eccentric Swage Nipple",
+      "Fswa3": "Pipe Nipple"
+    }
+  },
+  "Vlfl": {
+    "ActivitySpec": "ASME B16.10",
+    "ActivitySpecLong": "ASME B16.10-2017",
+    "ActivityTitle": "ASME B16.10 Flanged Valves",
+    "routes": {
+      "Vlfl1": "Flanged Gate Valve",
+      "Vlfl2": "Flanged Globe Valve",
+      "Vlfl3": "Flanged Ball Valve",
+      "Vlfl4": "Control Valve",
+      "Vlfl5": "Flanged Swing Check Valve",
+      "Vlfl6": "Flanged Wafer Check Valve",
+      "Vlfl7": "Wafer Type Butterfly Valve",
+      "Vlfl8": "Lug Type Butterfly Valve"
+    }
+  },
+  "Pipe": {
+    "ActivitySpec": "ASME B36.10M/19M",
+    "ActivitySpecLong": "ASME B36.10M/19M-2022",
+    "ActivityTitle": "ASME B36.10M/19M Pipe",
+    "routes": {
+      "Pipe1": "Pipe"
+    }
+  },
+  "Piwt": {
+    "ActivitySpec": "ASME B36.10M/19M",
+    "ActivitySpecLong": "ASME B36.10M/19M-2018",
+    "ActivityTitle": "ASME B36.10M/19M Pipe",
+    "routes": {
+      "Piwt1": "Pipe by wall thickness"
+    }
+  }
+}

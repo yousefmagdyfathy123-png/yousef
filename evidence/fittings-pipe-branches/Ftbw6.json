@@ -1,0 +1,299 @@
+{
+  "schemaVersion": 1,
+  "routeId": "Ftbw6",
+  "methods": [
+    {
+      "method": "Ftbw6",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 23417,
+        "rva": 3364628,
+        "token": "0x0600068a"
+      },
+      "ilSha256": "d274fcf475a8642c966d9b64ec1e03051305fd63afb8b49893e41a00f80852f9"
+    },
+    {
+      "method": "Ftbw6_Headers",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 28302,
+        "rva": 3429308,
+        "token": "0x060006ef"
+      },
+      "ilSha256": "9acc6f7f664ed791f13d5a7c252ba4dc7b24b96a0ebd1e10c4158a5bb18c8df6"
+    },
+    {
+      "method": "LoadSettings",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 2959,
+        "rva": 3164984,
+        "token": "0x060005e8"
+      },
+      "ilSha256": "fcf15a655bebaf1ad8fb4e66b4b11563cf42388d397437af2e9a37ad047d4a87"
+    },
+    {
+      "method": "LoadDataBase1",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 36366,
+        "rva": 3562000,
+        "token": "0x06000722"
+      },
+      "ilSha256": "ccee075f3f89b6f20da1bccf2168f16e48890151dc055cc5012b349295ee1330"
+    },
+    {
+      "method": "GetTitle",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 37125,
+        "rva": 3570892,
+        "token": "0x06000727"
+      },
+      "ilSha256": "a93407a6e60c8b554f7a1217ee3e4e1695b0d3a167f33452a86000b983a2bdce"
+    },
+    {
+      "method": "GetSubTab",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 36818,
+        "rva": 3567640,
+        "token": "0x06000726"
+      },
+      "ilSha256": "7fe830d0baafcfd0edeec8ce30ecbba940c2a69a5e80748f2cd6cbd4e81097bb"
+    },
+    {
+      "method": "LoadDrawing",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 39778,
+        "rva": 3618160,
+        "token": "0x0600073a"
+      },
+      "ilSha256": "a4e602de7b2af2893dbd39a118b8d4ebd85b4f3d38dccbc1a44448ce89d0d5a4"
+    },
+    {
+      "method": "DoDrawing",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 40913,
+        "rva": 3623668,
+        "token": "0x06000744"
+      },
+      "ilSha256": "4d38598296307a3a2f8469a15b80d8aa335ef9143465443ec4cbbe7965587171"
+    },
+    {
+      "method": "FormatDim",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 39366,
+        "rva": 3611568,
+        "token": "0x0600072c"
+      },
+      "ilSha256": "2f4c7cfc01db4144198e24cf67ef7135cbee1331c480644077304bc5317aeaf9"
+    },
+    {
+      "method": "FractionizeIfNeccessary",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 58370,
+        "rva": 3849868,
+        "token": "0x0600085d"
+      },
+      "ilSha256": "7701d5c4581fc74c8fe9c6cffe720a1adeaaae1f8c225ddcd9f37a1978951026"
+    },
+    {
+      "method": "LoadSettingsFtbw",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 3235,
+        "rva": 3167952,
+        "token": "0x060005e9"
+      },
+      "ilSha256": "a773d85b6a35ab23ba1d2dca39a541abc252048a83e7fab371c97fc3ea678dd5"
+    },
+    {
+      "method": "DesigBtn1ValuesForMainSize",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 34331,
+        "rva": 3532960,
+        "token": "0x06000713"
+      },
+      "ilSha256": "c011de74bc5b771a82a29e1ba75056e9afe1d0a5f2d428e16bb44c1ff9db4ed4"
+    },
+    {
+      "method": "DesigBtn2ForSmallSize",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 35197,
+        "rva": 3548184,
+        "token": "0x06000717"
+      },
+      "ilSha256": "f682d7d2c4b3e5298f0dec556129d690292b12116d01f2af33d7f6a211d65e18"
+    }
+  ],
+  "sourceEvidenceReuse": "evidence/catalog-load-evidence.json; matching artifact/MVID and all1481 IL-body crosscheck",
+  "fixtures": {
+    "path": "tests/reference/fittings-pipe-branches/Ftbw6.json",
+    "hash": "9419df554e3f28e8e2f98df37bb89a3bc2824346683855ff592f267f5cb2d2e5",
+    "cases": 346,
+    "unavailableCases": 130
+  },
+  "dataSources": [
+    {
+      "path": "Database/Ftbw/StraightTee10.csv",
+      "hash": "7cc0a6753bde9ebd2641c4e42538a3828421312e878e2d9588fa1f8258463c35"
+    },
+    {
+      "path": "Database/Ftbw/StraightTee100.csv",
+      "hash": "f906e59568e6baecabac84abd4a987225bdb57a858d4255d186b60e1a133bfdf"
+    },
+    {
+      "path": "Database/Ftbw/StraightTee10s.csv",
+      "hash": "1d66a36a31fa5a3f2fd3cc931bf4e8082300aa46ac5d3582ec8eaa9fea2eb246"
+    },
+    {
+      "path": "Database/Ftbw/StraightTee120.csv",
+      "hash": "e57a319f3c14ba38c5dea5e6e607cde9fb4769935d55012eecd2eb63853d7be0"
+    },
+    {
+      "path": "Database/Ftbw/StraightTee140.csv",
+      "hash": "06bd25715096c32974df5c9aeae2b58ce6f5b8aed1424040875d4ebcfad369d0"
+    },
+    {
+      "path": "Database/Ftbw/StraightTee160.csv",
+      "hash": "1b787e874dbb242ec3786aaee087dbfe0e44bfa1838d85084f525a9652146bcd"
+    },
+    {
+      "path": "Database/Ftbw/StraightTee20.csv",
+      "hash": "a8bcab19020239daf301fd6e7fc07ecec5ff1aaf4bf7e054e138320450dce46d"
+    },
+    {
+      "path": "Database/Ftbw/StraightTee30.csv",
+      "hash": "9e2fad307e902ef9b42cf8aa56598fb499803e4ba8d7040407403dd9c3f6ba68"
+    },
+    {
+      "path": "Database/Ftbw/StraightTee40.csv",
+      "hash": "fb12812e5ea08ec704d1f223a5df2f2ee966d67386334d39984fd5957a00395b"
+    },
+    {
+      "path": "Database/Ftbw/StraightTee40s.csv",
+      "hash": "b5e0c2c4f84133d13cdbe4ceeea6a46dc4ef8888a4206d4f098750cbc83323c2"
+    },
+    {
+      "path": "Database/Ftbw/StraightTee5s.csv",
+      "hash": "882529b24be14dbd3e1fc8918d4b19dc77c9971238500e19baf73c5966dc4cc8"
+    },
+    {
+      "path": "Database/Ftbw/StraightTee60.csv",
+      "hash": "396da2398c676d7cb703b0eaed4b8416b92c47c04d2c47f528f604510ebd5997"
+    },
+    {
+      "path": "Database/Ftbw/StraightTee80.csv",
+      "hash": "90482ea15225408d821111003c0e30e1262fe1e020f252dd28783c3473ca1e7e"
+    },
+    {
+      "path": "Database/Ftbw/StraightTee80s.csv",
+      "hash": "339600b6c82f774b2b6a9cb7ff4c2cf2e989329b405e05d7c3d1273c78b08c99"
+    },
+    {
+      "path": "Database/Ftbw/StraightTeeSTD.csv",
+      "hash": "45c3080893bb844cb97f3c5ec78b001c865dc20d3a3e09c3e90d61c16f9bee50"
+    },
+    {
+      "path": "Database/Ftbw/StraightTeeXS.csv",
+      "hash": "bf0724d7f82376107495d4f7e7ce389acb689c538d7df74d328aa3963ebb4fcb"
+    },
+    {
+      "path": "Database/Ftbw/StraightTeeXXS.csv",
+      "hash": "603e83e56fe1cc715fddce6e78a9c7292b9bab3148e01e6570d4dc0736a332f2"
+    },
+    {
+      "path": "Database/Ftbw/StraightTee_Imperial_10.csv",
+      "hash": "194a67ea77a0186cd2026b69298a15dd93682ab0133a8a75ed299096df74bf7b"
+    },
+    {
+      "path": "Database/Ftbw/StraightTee_Imperial_100.csv",
+      "hash": "16bc9e2790f9ca0e1aa811cd50cd0f5ef5de8fd6c11dd41d3682ad2cc40794dc"
+    },
+    {
+      "path": "Database/Ftbw/StraightTee_Imperial_10s.csv",
+      "hash": "f5472ea2c3160fbb416769078cc5d8f4bd873e8b313720bf27aafd7837e060ee"
+    },
+    {
+      "path": "Database/Ftbw/StraightTee_Imperial_120.csv",
+      "hash": "a42c0ca607dc0ab9dc4503e7d01ee91190e5156dc2c89e7b2889bfdec5d85cd0"
+    },
+    {
+      "path": "Database/Ftbw/StraightTee_Imperial_140.csv",
+      "hash": "09c5b017a1d5a235327fff6ab33d88d9c45655ac771a37f0b508f87c53916e5b"
+    },
+    {
+      "path": "Database/Ftbw/StraightTee_Imperial_160.csv",
+      "hash": "ed4b6cd7b6ef8e44e5e4139f55d2747be211d5fa830c68dd1b38fc686525f752"
+    },
+    {
+      "path": "Database/Ftbw/StraightTee_Imperial_20.csv",
+      "hash": "86b82dfd7a25fdca0f72bedfe442e0d02beff159364d7243affd5f201b7b5981"
+    },
+    {
+      "path": "Database/Ftbw/StraightTee_Imperial_30.csv",
+      "hash": "8992b9eaafea885ce85c96622c0def15231f3fbc0f831bd0526d12e58522f9f3"
+    },
+    {
+      "path": "Database/Ftbw/StraightTee_Imperial_40.csv",
+      "hash": "e1c4435654b8e4cb0516ac5102f40ad18594675ce504373ad17c89eeaf3ca889"
+    },
+    {
+      "path": "Database/Ftbw/StraightTee_Imperial_40s.csv",
+      "hash": "9025c7e44727b75563cd989f4cfa3d95dbcd753a842fb627abb720112fa36ff0"
+    },
+    {
+      "path": "Database/Ftbw/StraightTee_Imperial_5s.csv",
+      "hash": "e690b95354a59a8852cd4b0a1730b40adaf9c8744cb978cdf99bb9b6759827cb"
+    },
+    {
+      "path": "Database/Ftbw/StraightTee_Imperial_60.csv",
+      "hash": "2b97485d48058e81447e63543520963eea346622eec381a996722130f2cad2a8"
+    },
+    {
+      "path": "Database/Ftbw/StraightTee_Imperial_80.csv",
+      "hash": "685e96ab4910680b384e04713b770c476952adfc70804e1a1851e1fb5dfc7c5c"
+    },
+    {
+      "path": "Database/Ftbw/StraightTee_Imperial_80s.csv",
+      "hash": "e667ceaf50a5009a52f179f046cf2cb717c63ec7283a81e772cbb4412012fafc"
+    },
+    {
+      "path": "Database/Ftbw/StraightTee_Imperial_STD.csv",
+      "hash": "4910afc93ca5994fac295ad92e21447717a4d595b31a7f9068eb9e3d34f0e638"
+    },
+    {
+      "path": "Database/Ftbw/StraightTee_Imperial_XS.csv",
+      "hash": "35b0bcfe3e82cbf2b72ef447e4f2680220bdd6300c7b2fb817d8f7d5ddf7c27b"
+    },
+    {
+      "path": "Database/Ftbw/StraightTee_Imperial_XXS.csv",
+      "hash": "a3f5861b268da3bbe01f3c3a6d1862b8de8169175bcd1eb465171d96b3d2da46"
+    }
+  ],
+  "tests": [
+    "tests/legacy/fittings-pipe-branches.test.ts",
+    "tests/legacy/task7-acceptance.test.ts"
+  ],
+  "originalComparison": "unverified-visual-nonblocking"
+}

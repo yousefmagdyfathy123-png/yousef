@@ -1,0 +1,222 @@
+{
+  "schemaVersion": 1,
+  "routeId": "Blnu3",
+  "classification": {
+    "dispatch": true,
+    "uiRoutes": true,
+    "search": true
+  },
+  "methods": [
+    {
+      "method": "Blnu3",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 43398,
+        "rva": 3647012,
+        "token": "0x0600074e"
+      },
+      "ilSha256": "bc395502a3170837069a6e17ab7d6ce82061165bd2a26e93025d0f3bdcf33b23"
+    },
+    {
+      "method": "Blnu3_Headers",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 43618,
+        "rva": 3651080,
+        "token": "0x06000752"
+      },
+      "ilSha256": "b2843de38313443d5fbcd93e63a0d8a73ada7ed0c5ca4b224416f11ce5b5ce85"
+    },
+    {
+      "method": "LoadSettingsBlnu",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 7462,
+        "rva": 3221072,
+        "token": "0x06000601"
+      },
+      "ilSha256": "dbd092fafd5833fa801664f2651409be38e807c07c05fe7a81a2ec09947fd49f"
+    },
+    {
+      "method": "LoadDataBase1",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 36366,
+        "rva": 3562000,
+        "token": "0x06000722"
+      },
+      "ilSha256": "ccee075f3f89b6f20da1bccf2168f16e48890151dc055cc5012b349295ee1330"
+    },
+    {
+      "method": "GetTitle",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 37125,
+        "rva": 3570892,
+        "token": "0x06000727"
+      },
+      "ilSha256": "a93407a6e60c8b554f7a1217ee3e4e1695b0d3a167f33452a86000b983a2bdce"
+    },
+    {
+      "method": "GetSubTab",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 36818,
+        "rva": 3567640,
+        "token": "0x06000726"
+      },
+      "ilSha256": "7fe830d0baafcfd0edeec8ce30ecbba940c2a69a5e80748f2cd6cbd4e81097bb"
+    },
+    {
+      "method": "LoadDrawing",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 39778,
+        "rva": 3618160,
+        "token": "0x0600073a"
+      },
+      "ilSha256": "a4e602de7b2af2893dbd39a118b8d4ebd85b4f3d38dccbc1a44448ce89d0d5a4"
+    },
+    {
+      "method": "DoDrawing",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 40913,
+        "rva": 3623668,
+        "token": "0x06000744"
+      },
+      "ilSha256": "4d38598296307a3a2f8469a15b80d8aa335ef9143465443ec4cbbe7965587171"
+    },
+    {
+      "method": "DesigBtn1ValuesForMainSize",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 34331,
+        "rva": 3532960,
+        "token": "0x06000713"
+      },
+      "ilSha256": "c011de74bc5b771a82a29e1ba75056e9afe1d0a5f2d428e16bb44c1ff9db4ed4"
+    },
+    {
+      "method": "FormatDim",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 39366,
+        "rva": 3611568,
+        "token": "0x0600072c"
+      },
+      "ilSha256": "2f4c7cfc01db4144198e24cf67ef7135cbee1331c480644077304bc5317aeaf9"
+    },
+    {
+      "method": "ImperialiseWereNecessary",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 28033,
+        "rva": 3424852,
+        "token": "0x060006e8"
+      },
+      "ilSha256": "3314564558279e1e6c05ef7030b7327ee1dbd00c8af12d4954305cb69aa9de8c"
+    },
+    {
+      "method": "ErrorCatch",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 58359,
+        "rva": 3849740,
+        "token": "0x0600085c"
+      },
+      "ilSha256": "136b7b7f4cf539de61a4be939db8ed75ec51e1560b3f75f17623de716f67daad"
+    },
+    {
+      "method": "ErrorMessageSizeClassFaceType",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 19269,
+        "rva": 3302128,
+        "token": "0x0600063a"
+      },
+      "ilSha256": "b7a5dbcf1b0ae9c5283a35d45a8927d6dea60465c548c980b5237e662b36675c"
+    }
+  ],
+  "sourceEvidenceReuse": "evidence/catalog-load-evidence.json; same EXE SHA256/MVID; retained REA all1481 IL-body crosscheck",
+  "fixtures": {
+    "path": "tests/reference/valves-strainers-fasteners/Blnu3.json",
+    "hash": "b35f0843a44ad62cbc2a0b5d6a4cde3b48685a16362f91bcaf932fe48a58309c",
+    "cases": 384,
+    "unavailableCases": 28
+  },
+  "dataSources": [
+    {
+      "path": "Database/Blnu/Blnu3.dxf",
+      "hash": "270c3c48113118a3bcc59ae5f901c1b31bc5480b0bbae23f5e1ea2a85a868f6c"
+    },
+    {
+      "path": "Database/Blnu/Blnu3_1_150_Inches.csv",
+      "hash": "bc16cba80fd29b021681a8ea1f73c69e2859f865516169e8f637bbbedbfae340"
+    },
+    {
+      "path": "Database/Blnu/Blnu3_1_150_Millimetres.csv",
+      "hash": "971ef6b378bd6feb03cd42f39bec9027aa55143062d3dc2432bd5519c7fe21c5"
+    },
+    {
+      "path": "Database/Blnu/Blnu3_2_300_Inches.csv",
+      "hash": "3c2f51912e2362ff0e5cd40a42177dc08835ed4dd6bcac41f95dab359ab5e957"
+    },
+    {
+      "path": "Database/Blnu/Blnu3_2_300_Millimetres.csv",
+      "hash": "c11e97b75d21c2e515ef34b78744d7be8bbd228033698ff6071082a68884e9df"
+    },
+    {
+      "path": "Database/Blnu/Blnu3_4_600_Inches.csv",
+      "hash": "e6138c3637670da49d546f457b4b0eea4c6b49849b841a9ff383781ba6655af9"
+    },
+    {
+      "path": "Database/Blnu/Blnu3_4_600_Millimetres.csv",
+      "hash": "feac5727521c27b207455f17c779add64c2dba0d7c48f379c13b44f024ec7d7f"
+    },
+    {
+      "path": "Database/Blnu/Blnu3_5_900_Inches.csv",
+      "hash": "bdf9162bfc784fada6f08b6cf366985250cee88274bbed631915bd6edbe3106c"
+    },
+    {
+      "path": "Database/Blnu/Blnu3_5_900_Millimetres.csv",
+      "hash": "a4573ca8f476864efc2f4ecf5916e4da00187aa26436cbf60cbc9c466c4f7ad8"
+    },
+    {
+      "path": "Database/Blnu/Blnu3_6_1500_Inches.csv",
+      "hash": "1c30aa142873d7c10013046cc2e86a594269f955b7689a2f474cd90468e6e4b6"
+    },
+    {
+      "path": "Database/Blnu/Blnu3_6_1500_Millimetres.csv",
+      "hash": "3e1f51f72d4c47887c48900da4f76bc95c2f5bed3d04aa1654a33843d79daa91"
+    },
+    {
+      "path": "Database/Blnu/Blnu3_7_2500_Inches.csv",
+      "hash": "af118acb617394bb9c0ef21199e2e958d6589d2f2096dfcb2ffa096ee689758b"
+    },
+    {
+      "path": "Database/Blnu/Blnu3_7_2500_Millimetres.csv",
+      "hash": "0c59ec4c93cfceb1d1c19e27bf29906f498a1e15029fe1b5dc761f063f75839d"
+    }
+  ],
+  "tests": [
+    "tests/legacy/valves-strainers-fasteners.test.ts",
+    "tests/legacy/task8-navigation.test.ts",
+    "tests/legacy/task8-acceptance.test.ts"
+  ],
+  "originalComparison": "unverified-visual-nonblocking",
+  "review": "Primary agent source/recipe review; no subagent per user request"
+}

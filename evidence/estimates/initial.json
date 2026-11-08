@@ -1,0 +1,257 @@
+{
+  "schemaVersion": 1,
+  "recordedAt": "2026-11-01T13:13:52.512Z",
+  "unit": "focused engineering person-hours",
+  "confidence": "low",
+  "staffing": "One implementer with independent review; no assumed parallel speedup",
+  "budgetCeiling": null,
+  "knownMonetaryCosts": null,
+  "costReason": "No billing records or dated provider rates supplied",
+  "externalDependencies": [
+    "Authorized provider accounts and destination",
+    "Provider approvals and external waits; duration unknown"
+  ],
+  "phases": [
+    {
+      "id": "engineering",
+      "tasks": "1-12",
+      "optimistic": 350,
+      "expected": 700,
+      "conservative": 1400
+    },
+    {
+      "id": "identity-commerce",
+      "tasks": "13-19",
+      "optimistic": 180,
+      "expected": 340,
+      "conservative": 650
+    },
+    {
+      "id": "acceptance-operations",
+      "tasks": "20-22",
+      "optimistic": 100,
+      "expected": 200,
+      "conservative": 400
+    },
+    {
+      "id": "external-launch",
+      "optimistic": null,
+      "expected": null,
+      "conservative": null
+    }
+  ],
+  "sourceBasis": {
+    "artifact": {
+      "path": "Pipedata-Pro 14.1.exe",
+      "hash": "55a55522875ad7131d1367a08667ae653416c9be2decbd3bd5c54a9b8c04d03c",
+      "mvid": "948a0d3b-1670-4555-9843-5e7ed73785db"
+    },
+    "dispatch": 167,
+    "search": 169,
+    "uiRoutes": 156,
+    "wiredEvents": 315,
+    "sharedDialogs": 6,
+    "directConditionalBranches": 505,
+    "families": [
+      {
+        "family": "Psiz",
+        "routes": 1,
+        "directConditionalBranches": 2
+      },
+      {
+        "family": "Fxly",
+        "routes": 2,
+        "directConditionalBranches": 4
+      },
+      {
+        "family": "Span",
+        "routes": 2,
+        "directConditionalBranches": 4
+      },
+      {
+        "family": "Comp",
+        "routes": 1,
+        "directConditionalBranches": 3
+      },
+      {
+        "family": "Gpas",
+        "routes": 4,
+        "directConditionalBranches": 8
+      },
+      {
+        "family": "Srre",
+        "routes": 1,
+        "directConditionalBranches": 3
+      },
+      {
+        "family": "Srrd",
+        "routes": 1,
+        "directConditionalBranches": 3
+      },
+      {
+        "family": "Srrc",
+        "routes": 1,
+        "directConditionalBranches": 3
+      },
+      {
+        "family": "Srrb",
+        "routes": 3,
+        "directConditionalBranches": 9
+      },
+      {
+        "family": "Srra",
+        "routes": 4,
+        "directConditionalBranches": 12
+      },
+      {
+        "family": "Nuts",
+        "routes": 2,
+        "directConditionalBranches": 4
+      },
+      {
+        "family": "Wbpi",
+        "routes": 12,
+        "directConditionalBranches": 24
+      },
+      {
+        "family": "Wbol",
+        "routes": 13,
+        "directConditionalBranches": 40
+      },
+      {
+        "family": "Piwt",
+        "routes": 1,
+        "directConditionalBranches": 3
+      },
+      {
+        "family": "Vlsw",
+        "routes": 5,
+        "directConditionalBranches": 15
+      },
+      {
+        "family": "Vlsc",
+        "routes": 5,
+        "directConditionalBranches": 15
+      },
+      {
+        "family": "Vlbw",
+        "routes": 4,
+        "directConditionalBranches": 12
+      },
+      {
+        "family": "Blnu",
+        "routes": 4,
+        "directConditionalBranches": 16
+      },
+      {
+        "family": "Grtj",
+        "routes": 3,
+        "directConditionalBranches": 9
+      },
+      {
+        "family": "Gspr",
+        "routes": 3,
+        "directConditionalBranches": 9
+      },
+      {
+        "family": "Gflt",
+        "routes": 3,
+        "directConditionalBranches": 9
+      },
+      {
+        "family": "Flan",
+        "routes": 7,
+        "directConditionalBranches": 22
+      },
+      {
+        "family": "Flaa",
+        "routes": 2,
+        "directConditionalBranches": 8
+      },
+      {
+        "family": "Flap",
+        "routes": 2,
+        "directConditionalBranches": 6
+      },
+      {
+        "family": "Orif",
+        "routes": 3,
+        "directConditionalBranches": 10
+      },
+      {
+        "family": "Fl6b",
+        "routes": 2,
+        "directConditionalBranches": 6
+      },
+      {
+        "family": "Flbx",
+        "routes": 2,
+        "directConditionalBranches": 6
+      },
+      {
+        "family": "Flre",
+        "routes": 2,
+        "directConditionalBranches": 22
+      },
+      {
+        "family": "Flco",
+        "routes": 3,
+        "directConditionalBranches": 11
+      },
+      {
+        "family": "Fldi",
+        "routes": 5,
+        "directConditionalBranches": 16
+      },
+      {
+        "family": "Flhb",
+        "routes": 1,
+        "directConditionalBranches": 3
+      },
+      {
+        "family": "Flbs",
+        "routes": 1,
+        "directConditionalBranches": 3
+      },
+      {
+        "family": "Ftbw",
+        "routes": 11,
+        "directConditionalBranches": 33
+      },
+      {
+        "family": "Ftsc",
+        "routes": 25,
+        "directConditionalBranches": 75
+      },
+      {
+        "family": "Ftsw",
+        "routes": 14,
+        "directConditionalBranches": 42
+      },
+      {
+        "family": "Fswa",
+        "routes": 3,
+        "directConditionalBranches": 8
+      },
+      {
+        "family": "Vlfl",
+        "routes": 8,
+        "directConditionalBranches": 24
+      },
+      {
+        "family": "Pipe",
+        "routes": 1,
+        "directConditionalBranches": 3
+      }
+    ],
+    "limitations": [
+      "Lexical C# projection and static event wiring are not runtime proof.",
+      "All functional behavior, branch fixtures and engineering outputs remain pending.",
+      "Search-only routes require preservation of evidenced behavior; no invented dispatch/data.",
+      "Recipe branch counts cover direct route bodies, not transitive helper branches.",
+      "Title entries, default-hidden engineering controls and dispatch sets differ; preserve source guards and investigate route-specific UI transitions in task4.",
+      "Original-image comparison is unverified-visual-nonblocking only; functional checks remain mandatory."
+    ]
+  },
+  "calibration": "Uncalibrated assumptions; no independently accepted representative route yet"
+}

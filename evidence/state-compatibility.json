@@ -1,0 +1,1123 @@
+{
+  "schemaVersion": 1,
+  "scope": "Task4 shared state/selector/search infrastructure only, not route calculations",
+  "artifact": {
+    "path": "Pipedata-Pro 14.1.exe",
+    "hash": "55a55522875ad7131d1367a08667ae653416c9be2decbd3bd5c54a9b8c04d03c",
+    "mvid": "948a0d3b-1670-4555-9843-5e7ed73785db"
+  },
+  "methods": [
+    {
+      "method": "LoadSettings",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 2959,
+        "token": "0x060005e8",
+        "rva": 3164984
+      },
+      "ilSha256": "fcf15a655bebaf1ad8fb4e66b4b11563cf42388d397437af2e9a37ad047d4a87"
+    },
+    {
+      "method": "LoadSettingsFtbw",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 3235,
+        "token": "0x060005e9",
+        "rva": 3167952
+      },
+      "ilSha256": "a773d85b6a35ab23ba1d2dca39a541abc252048a83e7fab371c97fc3ea678dd5"
+    },
+    {
+      "method": "LoadSettingsFtsc",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 3412,
+        "token": "0x060005ea",
+        "rva": 3170184
+      },
+      "ilSha256": "aef500298073f8b8c763d9635c8bbd04e1315aa666c114645f252436c7d9ce8b"
+    },
+    {
+      "method": "LoadSettingsFtsw",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 3604,
+        "token": "0x060005eb",
+        "rva": 3173232
+      },
+      "ilSha256": "576f3862f534f039ada247247a783349fc7de99673eaa23937476c25ca43d159"
+    },
+    {
+      "method": "LoadSettingsFswa",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 3786,
+        "token": "0x060005ec",
+        "rva": 3175548
+      },
+      "ilSha256": "e278fb17260128f4f375923f2d263ffb7879a79f59f14f586d261be60a64488e"
+    },
+    {
+      "method": "LoadSettingsFlan",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 3958,
+        "token": "0x060005ed",
+        "rva": 3177676
+      },
+      "ilSha256": "b632b872b9ee1314da9c18559cc447ba8e3d064e884e5b5b41adadd5bc7e23ab"
+    },
+    {
+      "method": "LoadSettingsFlaa",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 4153,
+        "token": "0x060005ee",
+        "rva": 3180072
+      },
+      "ilSha256": "19a9db88a3a3c841bf9370dc8bb274dd7ed3940ba68b6dc9dc66b5017a72e6a4"
+    },
+    {
+      "method": "LoadSettingsFlap",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 4325,
+        "token": "0x060005ef",
+        "rva": 3182200
+      },
+      "ilSha256": "e25b211487b8bc91f641abc0506f9827ee0e3bcdafe324665af02d0d37ab010e"
+    },
+    {
+      "method": "LoadSettingsOrif",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 4497,
+        "token": "0x060005f0",
+        "rva": 3184328
+      },
+      "ilSha256": "997bc85634af8565845158854046758acdc2dd58f612f50ed391cb3b13e8f662"
+    },
+    {
+      "method": "LoadSettingsFlre",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 4682,
+        "token": "0x060005f1",
+        "rva": 3186564
+      },
+      "ilSha256": "7f5907c48485afaf61a27077651d542d344d17a98c123e6ab9c6c92044460e6f"
+    },
+    {
+      "method": "LoadSettingsFlco",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 4854,
+        "token": "0x060005f2",
+        "rva": 3188692
+      },
+      "ilSha256": "95600c9ebf38f67c642994eaabd72a0fbea1cf443455980ad6b5b17617009aac"
+    },
+    {
+      "method": "LoadSettingsFl6b",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 5026,
+        "token": "0x060005f3",
+        "rva": 3190820
+      },
+      "ilSha256": "23da074052bee9439f2e26877d03c5f3d58ae9a1eb7f0da5aa9ad17b0bf52e66"
+    },
+    {
+      "method": "LoadSettingsFlbx",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 5198,
+        "token": "0x060005f4",
+        "rva": 3192948
+      },
+      "ilSha256": "df83e51706ab5b61050c3c977728aad611a148b0859dc3f6b30a5eebc45b69a5"
+    },
+    {
+      "method": "LoadSettingsFldi",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 5370,
+        "token": "0x060005f5",
+        "rva": 3195076
+      },
+      "ilSha256": "0d9e863fbc073f5b7cfdf6d51a3d80d2e4ea423b69557f2095874031f95702e2"
+    },
+    {
+      "method": "LoadSettingsFlhb",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 5564,
+        "token": "0x060005f6",
+        "rva": 3197508
+      },
+      "ilSha256": "be407bfc7a0ad1cc4b30a71d32390656f6bb30c8a62e65b8b2ef85b36bd16c99"
+    },
+    {
+      "method": "LoadSettingsFlbs",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 5736,
+        "token": "0x060005f7",
+        "rva": 3199636
+      },
+      "ilSha256": "c8b4449aa7369594389fa6200b812fb68af6c7d5a6e9a6089ee5e9ce0d0c7adf"
+    },
+    {
+      "method": "LoadSettingsGflt",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 5908,
+        "token": "0x060005f8",
+        "rva": 3201764
+      },
+      "ilSha256": "ca5bd647783806d2414d3ce3a58cc05d5498b560a1687fce1f26c6299914c382"
+    },
+    {
+      "method": "LoadSettingsGspr",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 6080,
+        "token": "0x060005f9",
+        "rva": 3203892
+      },
+      "ilSha256": "355ab9c27a805e3d3f17c5088d60f77688a924b48013970cc3e3f30dbcf2a2ee"
+    },
+    {
+      "method": "LoadSettingsGrtj",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 6252,
+        "token": "0x060005fa",
+        "rva": 3206020
+      },
+      "ilSha256": "a5d6fd6a0f5652ed1b53da9b7a5896479bec9dc1251661c0ec98374875fd739c"
+    },
+    {
+      "method": "LoadSettingsVlfl",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 6424,
+        "token": "0x060005fb",
+        "rva": 3208148
+      },
+      "ilSha256": "afd058e48832db94d30323efda343fcf8e43295150f799d5748cf9936d28a4bf"
+    },
+    {
+      "method": "LoadSettingsVlbw",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 6602,
+        "token": "0x060005fc",
+        "rva": 3210432
+      },
+      "ilSha256": "c2240c05ab07b2472e13194a3eb69224ffad500e565faa5a149eff32be238e38"
+    },
+    {
+      "method": "LoadSettingsVlsc",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 6774,
+        "token": "0x060005fd",
+        "rva": 3212560
+      },
+      "ilSha256": "888b5fba27b732f9a520d59c55aae2e3deb873fedd2c80d56f43b7b1c535c2b5"
+    },
+    {
+      "method": "LoadSettingsVlsw",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 6946,
+        "token": "0x060005fe",
+        "rva": 3214688
+      },
+      "ilSha256": "ce2279071e0f6e5f3ddaf0676afa18bd9d1c465fc738f82edfa5ebfa99ca49fe"
+    },
+    {
+      "method": "LoadSettingsWbol",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 7118,
+        "token": "0x060005ff",
+        "rva": 3216816
+      },
+      "ilSha256": "79ff13604f9e466f23d438914c719b7e81a078ba936269acfc10816292545de5"
+    },
+    {
+      "method": "LoadSettingsNuts",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 7290,
+        "token": "0x06000600",
+        "rva": 3218944
+      },
+      "ilSha256": "347a83596dd0326243177600ce2bf865fdf9e90d6ec9c5553303ca4b9ec2df02"
+    },
+    {
+      "method": "LoadSettingsBlnu",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 7462,
+        "token": "0x06000601",
+        "rva": 3221072
+      },
+      "ilSha256": "dbd092fafd5833fa801664f2651409be38e807c07c05fe7a81a2ec09947fd49f"
+    },
+    {
+      "method": "LoadSettingsSrra",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 7634,
+        "token": "0x06000602",
+        "rva": 3223200
+      },
+      "ilSha256": "0f858bd74b11bc392f36609ade04ab0752a1ad4f188e4321772cfb91035610b4"
+    },
+    {
+      "method": "LoadSettingsSrrb",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 7811,
+        "token": "0x06000603",
+        "rva": 3225380
+      },
+      "ilSha256": "550f18888240cd16e302ba9ad3debf6b944fcae066d2013f894bb990bfa9f70e"
+    },
+    {
+      "method": "LoadSettingsSrrc",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 7988,
+        "token": "0x06000604",
+        "rva": 3227560
+      },
+      "ilSha256": "842c60e0e6f403165bb6783a77d96f4791be2151d579e640b394778669735162"
+    },
+    {
+      "method": "LoadSettingsSrrd",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 8160,
+        "token": "0x06000605",
+        "rva": 3229688
+      },
+      "ilSha256": "351ded087803e134e337267e5d9f90130e81fe47e7ef9df6df06d9f3250f9082"
+    },
+    {
+      "method": "LoadSettingsSrre",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 8332,
+        "token": "0x06000606",
+        "rva": 3231816
+      },
+      "ilSha256": "0b1d262f1d6fd234dce546bb15bf22ec3e73c2913be56d4662dac27cc1207a52"
+    },
+    {
+      "method": "LoadSettingsFxly",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 8504,
+        "token": "0x06000607",
+        "rva": 3233944
+      },
+      "ilSha256": "b55ff3a46974acb7ef2ff0612c4424e217351be365f6cc09ed1ca3de19ebf013"
+    },
+    {
+      "method": "LoadSettingsSpan",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 8676,
+        "token": "0x06000608",
+        "rva": 3236072
+      },
+      "ilSha256": "223acf21c9c56360df623ca009e7af6c4b5193e9d3fc7afb045bcd9719c16dbd"
+    },
+    {
+      "method": "LoadSettingsGpas",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 8848,
+        "token": "0x06000609",
+        "rva": 3238200
+      },
+      "ilSha256": "2dcc95abfae4b721bd14661318f9e81ce35254cae4d863529f074b5270108263"
+    },
+    {
+      "method": "SaveSettings",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 9020,
+        "token": "0x0600060a",
+        "rva": 3240328
+      },
+      "ilSha256": "891d38aeff253af2af8b27ce086767dc9adef4a7d46275518a47bbb6d424b9b8"
+    },
+    {
+      "method": "SaveSettingsFtbw",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 9801,
+        "token": "0x0600060b",
+        "rva": 3243192
+      },
+      "ilSha256": "f540cd0c6974b58f1e99ef55d1dcfd7e89621087a21004019d0c477ba4da7ab1"
+    },
+    {
+      "method": "SaveSettingsFtsc",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 10036,
+        "token": "0x0600060c",
+        "rva": 3244472
+      },
+      "ilSha256": "3e56b3a2007ac52a6c969242447f610187e1291eb569d1bf1e1a81655923e763"
+    },
+    {
+      "method": "SaveSettingsFtsw",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 10271,
+        "token": "0x0600060d",
+        "rva": 3245752
+      },
+      "ilSha256": "68c4d88c1499848c5d964feded5e163cef48cd687dfe204551a4cc4557a679fa"
+    },
+    {
+      "method": "SaveSettingsFswa",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 10506,
+        "token": "0x0600060e",
+        "rva": 3247032
+      },
+      "ilSha256": "bfbcb06664cdd4889737cf29c5066ecec375f2ee4238d4275652c00fd9710538"
+    },
+    {
+      "method": "SaveSettingsFlan",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 10741,
+        "token": "0x0600060f",
+        "rva": 3248312
+      },
+      "ilSha256": "3487cfe6e81f906cead2fa9e32e3ce54e3e6b9511b04e693ff878006ce5451b8"
+    },
+    {
+      "method": "SaveSettingsFlaa",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 10976,
+        "token": "0x06000610",
+        "rva": 3249592
+      },
+      "ilSha256": "59d975976348c35fe62973b5c0cb3e93170aee319ee79fa9de017388a6ee7594"
+    },
+    {
+      "method": "SaveSettingsFlap",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 11211,
+        "token": "0x06000611",
+        "rva": 3250872
+      },
+      "ilSha256": "df7b93529febef7b453513b7e48bfdd28e056a3e63a7b9cf467af84bb6fc0b9e"
+    },
+    {
+      "method": "SaveSettingsOrif",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 11446,
+        "token": "0x06000612",
+        "rva": 3252152
+      },
+      "ilSha256": "4033d1ee45a6c284f03dbbf37e38948c8ed96e9edb2a9562f9ac3bff0a5b2c25"
+    },
+    {
+      "method": "SaveSettingsFlre",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 11681,
+        "token": "0x06000613",
+        "rva": 3253432
+      },
+      "ilSha256": "24e896a8d77f4cc63480d26c692f7f1433a95b730886b2b696d3cb0410374774"
+    },
+    {
+      "method": "SaveSettingsFlco",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 11916,
+        "token": "0x06000614",
+        "rva": 3254712
+      },
+      "ilSha256": "949ba346e1e221f89337c44686f256718ed548887492b3c1f6bc1582acb9fc88"
+    },
+    {
+      "method": "SaveSettingsFl6b",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 12151,
+        "token": "0x06000615",
+        "rva": 3255992
+      },
+      "ilSha256": "2ae6610aa0ef0a6df9012331e161e595cc179bf0e86d1b7b73dfbc0ea03cbd5d"
+    },
+    {
+      "method": "SaveSettingsFlbx",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 12386,
+        "token": "0x06000616",
+        "rva": 3257272
+      },
+      "ilSha256": "527517e8d47704f688a9d5e6484937a5a46cb5a3a9fbef840b64e219b0f94d19"
+    },
+    {
+      "method": "SaveSettingsFldi",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 12621,
+        "token": "0x06000617",
+        "rva": 3258552
+      },
+      "ilSha256": "e059b85a39d335226022db4eedaceae30cbd24268a6fa559bd08477e34b87885"
+    },
+    {
+      "method": "SaveSettingsFlhb",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 12856,
+        "token": "0x06000618",
+        "rva": 3259832
+      },
+      "ilSha256": "203ec2990e044bdc256d6c084c17ce5730eaf94950983f58dc52fe8a674bc17c"
+    },
+    {
+      "method": "SaveSettingsFlbs",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 13091,
+        "token": "0x06000619",
+        "rva": 3261112
+      },
+      "ilSha256": "c9f3497cc7a428b2deab1a617212525e5237b611ecd1ddd4c2b9c26522f3f02a"
+    },
+    {
+      "method": "SaveSettingsGflt",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 13326,
+        "token": "0x0600061a",
+        "rva": 3262392
+      },
+      "ilSha256": "d7068c8aa8959f8b112e0e650e057805df55ad16583782eab8397bd80ab7e308"
+    },
+    {
+      "method": "SaveSettingsGspr",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 13561,
+        "token": "0x0600061b",
+        "rva": 3263672
+      },
+      "ilSha256": "3f2a686cdd80e3e49272b64fae9871d0092c153a6be0635d78e9af1bbd48a8ed"
+    },
+    {
+      "method": "SaveSettingsGrtj",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 13796,
+        "token": "0x0600061c",
+        "rva": 3264952
+      },
+      "ilSha256": "523c41de8913b5f3b4cb260c26001bf536d9e9c28f0cf5277fc103275b469b10"
+    },
+    {
+      "method": "SaveSettingsVlfl",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 14031,
+        "token": "0x0600061d",
+        "rva": 3266232
+      },
+      "ilSha256": "d555961b52f45a959460cda2e03559b2fa92c5c4bee355a6b4b196faac50e143"
+    },
+    {
+      "method": "SaveSettingsVlbw",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 14272,
+        "token": "0x0600061e",
+        "rva": 3267548
+      },
+      "ilSha256": "bc106f613457f727990698afdde7896bfb0ff5987fd46d81738119ddf7132465"
+    },
+    {
+      "method": "SaveSettingsVlsc",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 14507,
+        "token": "0x0600061f",
+        "rva": 3268828
+      },
+      "ilSha256": "05d68fdd4c8cb24e61bdc02ce4e1c5ee550eb3e3b802152f5f64c010a3b91ffb"
+    },
+    {
+      "method": "SaveSettingsVlsw",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 14742,
+        "token": "0x06000620",
+        "rva": 3270108
+      },
+      "ilSha256": "f2b67664f54ae67b60ddb9c46d3311423b59bfb04d1f89c7a65c35d3d47a9181"
+    },
+    {
+      "method": "SaveSettingsWbol",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 14977,
+        "token": "0x06000621",
+        "rva": 3271388
+      },
+      "ilSha256": "1a80c3e30d5e715b8f161c855f3f04272b15bf3104e02ceef69b506aa39cdf99"
+    },
+    {
+      "method": "SaveSettingsNuts",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 15212,
+        "token": "0x06000622",
+        "rva": 3272668
+      },
+      "ilSha256": "656890907969ec37625f2d60438916517f27818606cc8d71a12fd0c088f73285"
+    },
+    {
+      "method": "SaveSettingsBlnu",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 15447,
+        "token": "0x06000623",
+        "rva": 3273948
+      },
+      "ilSha256": "751b5b2cccdd056691be5b89b4682cdc012e20880f00a90e49f95aae3d851d9e"
+    },
+    {
+      "method": "SaveSettingsSrra",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 15682,
+        "token": "0x06000624",
+        "rva": 3275228
+      },
+      "ilSha256": "1f648f47b88836e116539b7d92af65dcd908a14916a0adc2434fa992c4d85303"
+    },
+    {
+      "method": "SaveSettingsSrrb",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 15917,
+        "token": "0x06000625",
+        "rva": 3276508
+      },
+      "ilSha256": "0cb79835108704310a954ad4b29706771836df4f449cad75a49f61bb12121cd9"
+    },
+    {
+      "method": "SaveSettingsSrrc",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 16152,
+        "token": "0x06000626",
+        "rva": 3277788
+      },
+      "ilSha256": "fd21af2a8509e84e72a3fff12dc7c57f2673a1003abff2ff915f11fb52a1d408"
+    },
+    {
+      "method": "SaveSettingsSrrd",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 16387,
+        "token": "0x06000627",
+        "rva": 3279068
+      },
+      "ilSha256": "b0b54c3d6705be85090e5560ee1002a1bae813a5cc4bf53018068b67b3bb4762"
+    },
+    {
+      "method": "SaveSettingsSrre",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 16622,
+        "token": "0x06000628",
+        "rva": 3280348
+      },
+      "ilSha256": "64559f0b6ffab188cd699772eb44fc8df3fe52856ab6e4aa9d4192e2fd7446b9"
+    },
+    {
+      "method": "SaveSettingsFxly",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 16857,
+        "token": "0x06000629",
+        "rva": 3281628
+      },
+      "ilSha256": "555f20d763989d260edfc1ac4bc97c3ab578e33b60643b45732874d1f25f0063"
+    },
+    {
+      "method": "SaveSettingsSpan",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 17092,
+        "token": "0x0600062a",
+        "rva": 3282908
+      },
+      "ilSha256": "3d7eff263ab3552366bf41510fde8f52d35a9bd9dc1e43e5a5faf22ec77ec21d"
+    },
+    {
+      "method": "SaveSettingsGpas",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 17327,
+        "token": "0x0600062b",
+        "rva": 3284188
+      },
+      "ilSha256": "67c1718f08044ded41c325b21aa6efcff06257039b8ae957ed1f4d717aa44bc6"
+    },
+    {
+      "method": "LoadConfigs",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 17597,
+        "token": "0x0600062d",
+        "rva": 3285744
+      },
+      "ilSha256": "e602f0fd5c0d0b9fcfb1a00237da130b6cc70e14fc414425a153ca23ada01aae"
+    },
+    {
+      "method": "SaveConfigs",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 17671,
+        "token": "0x0600062e",
+        "rva": 3286472
+      },
+      "ilSha256": "cdb58ebf8e44049210e928182375a1750f82f56472544221be2bb7fba93c9fa3"
+    },
+    {
+      "method": "Clicker",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 17748,
+        "token": "0x06000632",
+        "rva": 3287072
+      },
+      "ilSha256": "049e5003d8a596c43b90db7d4a36e84450620b8c94689c02c2195cc503af791a"
+    },
+    {
+      "method": "AddChecks",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 18567,
+        "token": "0x06000634",
+        "rva": 3293020
+      },
+      "ilSha256": "28d5e934c0b4311d5759ddd6b3cb64e5b00d739bd5dcf29bcf9d48d8813dd779"
+    },
+    {
+      "method": "WhiteBlock",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 28831,
+        "token": "0x060006fe",
+        "rva": 3441204
+      },
+      "ilSha256": "571a5953df3c78a5da369b3c7d57c5265660c7b46c0dfd315d8bb118c961142f"
+    },
+    {
+      "method": "ClearHeaderText",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 28885,
+        "token": "0x060006ff",
+        "rva": 3442028
+      },
+      "ilSha256": "d0df9cf3b825555e147cca88441d587a87a22bb4ba11f4c1811f1ca652da0fc3"
+    },
+    {
+      "method": "GetTitle",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 37125,
+        "token": "0x06000727",
+        "rva": 3570892
+      },
+      "ilSha256": "a93407a6e60c8b554f7a1217ee3e4e1695b0d3a167f33452a86000b983a2bdce"
+    },
+    {
+      "method": "Flan1_Headers",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 39185,
+        "token": "0x06000729",
+        "rva": 3606572
+      },
+      "ilSha256": "1c2bc3f370088012a0170804e5fd4b429155594abc2c9e9e999ff51730f6e015"
+    },
+    {
+      "method": "AddDefaultSettings",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 41157,
+        "token": "0x06000745",
+        "rva": 3627648
+      },
+      "ilSha256": "23b6153a22118047af60d309c128e15f633b11e4463605ffe6348d8d2d729d67"
+    },
+    {
+      "method": "Convert_Inch_to_Metric",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 45109,
+        "token": "0x06000773",
+        "rva": 3672356
+      },
+      "ilSha256": "941f2f98d8d8fe4cf92ccd71f0316e7dba951e1fd6878fe4885470ac84ba0df3"
+    },
+    {
+      "method": "Convert_Metric_to_Inch",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 45134,
+        "token": "0x06000774",
+        "rva": 3672476
+      },
+      "ilSha256": "67ec76ebb83f20d2283d8495bf4ccf2c9532ced356218c0efc88ce3047e8a1f8"
+    },
+    {
+      "method": "Convert_WT_Metric_to_Inch",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 45159,
+        "token": "0x06000775",
+        "rva": 3672596
+      },
+      "ilSha256": "77509eba972bd499713426763b63959db7af839fe75adea523c3f28152feef1f"
+    },
+    {
+      "method": "Convert_WT_Inch_to_Metric",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 45184,
+        "token": "0x06000776",
+        "rva": 3672716
+      },
+      "ilSha256": "9c52eacb91bf01e9c6c852ce598f44937e5277a1d95f5f0af35f052d5082bca4"
+    },
+    {
+      "method": "Btn3Selected",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 52658,
+        "token": "0x060007fb",
+        "rva": 3777736
+      },
+      "ilSha256": "b06d8ee6df6a00aceba11b766e8681390d8e4bb5cf27dbeef5ead02832a80569"
+    },
+    {
+      "method": "DesigClassFaceSchRatingEtc",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 54941,
+        "token": "0x06000827",
+        "rva": 3810848
+      },
+      "ilSha256": "9a20d535c420292719458baf1c0735fdab309d805acd14c9285ff26eb7221924"
+    },
+    {
+      "method": "LoadSearchFile",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 56104,
+        "token": "0x06000841",
+        "rva": 3820656
+      },
+      "ilSha256": "c9116d64b4ab32371f10b5ff0fc4b8839c4b5f7b57cf1137197bb3476f5d2fb5"
+    },
+    {
+      "method": "Find",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 56155,
+        "token": "0x06000843",
+        "rva": 3821092
+      },
+      "ilSha256": "41490d40762f86e5f9f1eba3397adaf12a9a73d68a7f809eb029c58415c5ae17"
+    },
+    {
+      "method": "SaveTablist",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 56237,
+        "token": "0x06000844",
+        "rva": 3821916
+      },
+      "ilSha256": "a4e5ab6e14306264755413776684581d6e86e106c04e54eb65e7e289bde9a912"
+    },
+    {
+      "method": "LoadTabList",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 56450,
+        "token": "0x06000845",
+        "rva": 3823044
+      },
+      "ilSha256": "f299e432c92ca458b7509273f0f394da6e32e5d71d0c839ef0dae57b0d218b9f"
+    },
+    {
+      "method": "ErrorCatch",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 58359,
+        "token": "0x0600085c",
+        "rva": 3849740
+      },
+      "ilSha256": "136b7b7f4cf539de61a4be939db8ed75ec51e1560b3f75f17623de716f67daad"
+    }
+  ],
+  "constructedHandlers": [
+    {
+      "method": "frmConfigs.Button4_Click",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.frmConfigs.cs",
+        "hash": "b71579645a4ddd9e1b3e137e5f5daf4689ede7f7de1536a639573ce61be48ad7",
+        "line": 840,
+        "rva": 3891448
+      },
+      "ilSha256": "2c9d1d41c537e00119d5e5e685247f691c03785688a5c3d893295b73e0c7737e"
+    },
+    {
+      "method": "frmSearch.frmSearch_Load",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.frmSearch.cs",
+        "hash": "62b9222a2fc0242fc1b99c7045e6079aca3611c6f9849b34815276d30091441c",
+        "line": 282,
+        "rva": 3989436
+      },
+      "ilSha256": "60de631295e1f3d3ec63d5803e82e173045d791587790974430e2f73a1fff45b"
+    },
+    {
+      "method": "frmSearch.Button4_Click",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.frmSearch.cs",
+        "hash": "62b9222a2fc0242fc1b99c7045e6079aca3611c6f9849b34815276d30091441c",
+        "line": 345,
+        "rva": 3989816
+      },
+      "ilSha256": "569f8975ed04e9710b22834ecd95110af1c3c61a655ad313ea8e115316b14154"
+    },
+    {
+      "method": "frmSearch.ListBox1_SelectedIndexChanged",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.frmSearch.cs",
+        "hash": "62b9222a2fc0242fc1b99c7045e6079aca3611c6f9849b34815276d30091441c",
+        "line": 299,
+        "rva": 3989636
+      },
+      "ilSha256": "e6471060728fea588775a04913749fa0c25fb77183316f677343a8f573f9ba3b"
+    },
+    {
+      "method": "frmSearch.TextBox1_KeyPress",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.frmSearch.cs",
+        "hash": "62b9222a2fc0242fc1b99c7045e6079aca3611c6f9849b34815276d30091441c",
+        "line": 325,
+        "rva": 3989748
+      },
+      "ilSha256": "5e5fbb3d86381dc6078c7d9998713b5517747014ac0304b1206415e459c8ae41"
+    },
+    {
+      "method": "frmPipedata.ToolStripMenuItem1_Click_1",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.frmPipedata.cs",
+        "hash": "e5c29a6a4b1bcd0bedd7f780d69665e96baab68892178b3cf5f257d265190f34",
+        "line": 14048,
+        "rva": 3983708
+      },
+      "ilSha256": "3351e0663d310d57da598a7298951e0ed53edb45fadf928dc9c9f01f8f9a17d8"
+    },
+    {
+      "method": "frmPipedata.ToolStripMenuItem2_Click",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.frmPipedata.cs",
+        "hash": "e5c29a6a4b1bcd0bedd7f780d69665e96baab68892178b3cf5f257d265190f34",
+        "line": 14112,
+        "rva": 3984128
+      },
+      "ilSha256": "eeadccc0696303f9b30934c3184e13431672605e2ea9c6838a60d8f7cf5e2c60"
+    }
+  ],
+  "framework": {
+    "search": {
+      "path": "tests/reference/state/search.json",
+      "hash": "80f8712f8e3c2506fc8200f964921f2a43d5a4185f158dfc8641d92004cf1a8b",
+      "cases": 17,
+      "runtime": "4.0.30319.42000",
+      "culture": "en-US",
+      "helperHash": "aa4d43d975b92fde3aae9aff69d1bbecf004c930c16cddc6ddd9054bdd2c07e4"
+    },
+    "configure": {
+      "path": "tests/reference/state/configure.json",
+      "hash": "5fb9a2e750c32531b4c802fa12572dd8793d10952f10840d820999f99b7ad9e6",
+      "cases": 8,
+      "runtime": "4.0.30319.42000",
+      "culture": "en-US",
+      "helperHash": "2d143f15c15b5129d4987ba4a61a2bbd67abf8cc1be75fc4eebd9d46886d07b2"
+    }
+  },
+  "sourcePreservation": {
+    "files": 1634,
+    "changed": 0,
+    "executableUnchanged": true
+  },
+  "reaReuse": {
+    "path": "evidence/catalog-load-evidence.json",
+    "scope": "same-artifact all1481 raw-IL-body crosscheck; static evidence, no vendor execution"
+  },
+  "tests": [
+    "tests/legacy/state.test.ts",
+    "tests/legacy/state-codec.test.ts"
+  ],
+  "stateSchema": 2,
+  "codecVersion": 1,
+  "functionalRoutesCompleted": 0,
+  "textResultInventory": {
+    "surfaces": [
+      "headers1\u20137",
+      "visible control text/options",
+      "source dimension labels/units",
+      "unavailable messages"
+    ],
+    "representativeFlan1": [
+      {
+        "label": "Flange Wt =  ",
+        "valueSource": "Flange_wt",
+        "unitSource": "WeightSign"
+      },
+      {
+        "label": "S/Bolts and Nuts =  ",
+        "valueSource": "TempString",
+        "unitSource": "WeightSign"
+      },
+      {
+        "label": "StudBolt Size : ",
+        "valueSource": "bank1 columns21/26/(22+FaceIndex)",
+        "unitSource": "literal UNC/M plus Inchsign"
+      },
+      {
+        "label": "RTJ Distance Between Flgs : ",
+        "valueSource": "bank1 column16",
+        "unitSource": "Inchsign",
+        "condition": "RTJ"
+      },
+      {
+        "label": "RTJ Ring No : ",
+        "valueSource": "bank1 column15",
+        "unitSource": "none",
+        "condition": "RTJ"
+      }
+    ],
+    "implementation": "Minimal private/public text-results types and unavailable status; route numeric rows, strict public projection, browser results panel remain recipe/task6a/11 acceptance. No labels guessed from drawing coordinates."
+  }
+}

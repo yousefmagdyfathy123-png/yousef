@@ -1,0 +1,13 @@
+import { Wbpi1 } from './wbpi/Wbpi1';
+import { Wbpi2 } from './wbpi/Wbpi2';
+import { Wbpi3 } from './wbpi/Wbpi3';
+import { Wbpi4 } from './wbpi/Wbpi4';
+import { Wbpi5 } from './wbpi/Wbpi5';
+import { Wbpi6 } from './wbpi/Wbpi6';
+import { Wbpi7 } from './wbpi/Wbpi7';
+import { Wbpi8 } from './wbpi/Wbpi8';
+import { Wbpi9 } from './wbpi/Wbpi9';
+import { Wbpi10 } from './wbpi/Wbpi10';
+import { Wbpi11 } from './wbpi/Wbpi11';
+import { Wbpi12 } from './wbpi/Wbpi12';
+export const wbpiRoutes=[Wbpi1,Wbpi2,Wbpi3,Wbpi4,Wbpi5,Wbpi6,Wbpi7,Wbpi8,Wbpi9,Wbpi10,Wbpi11,Wbpi12];

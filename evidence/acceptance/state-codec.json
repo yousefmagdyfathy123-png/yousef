@@ -1,0 +1,44 @@
+{
+  "evidence": {
+    "unit": [
+      "real Flan1 to Flan7 hidden-weight continuation survives JSON storage without resetting source state",
+      "decodes independently authored special-value and sparse wire without flattening distinctions",
+      "encodes literal expected nodes and preserves numeric bits through actual JSON storage",
+      "rejects unknown codec without modifying stored payload or leaking it",
+      "rejects unknown schema without modifying stored payload or leaking it",
+      "rejects extra envelope field without modifying stored payload or leaking it",
+      "rejects unknown tag without modifying stored payload or leaking it",
+      "rejects duplicate tag payload without modifying stored payload or leaking it",
+      "rejects duplicate property without modifying stored payload or leaking it",
+      "rejects unknown state property without modifying stored payload or leaking it",
+      "rejects prototype key without modifying stored payload or leaking it",
+      "rejects nested constructor key without modifying stored payload or leaking it",
+      "rejects numeric overflow without modifying stored payload or leaking it",
+      "rejects noncanonical number without modifying stored payload or leaking it",
+      "rejects numeric payload type without modifying stored payload or leaking it",
+      "rejects invalid index without modifying stored payload or leaking it",
+      "rejects duplicate index without modifying stored payload or leaking it",
+      "rejects out of range index without modifying stored payload or leaking it",
+      "rejects hole in history without modifying stored payload or leaking it",
+      "rejects unbounded sparse array without modifying stored payload or leaking it",
+      "rejects undefined cell not proven by .NET string array without modifying stored payload or leaking it",
+      "rejects null scalar not permitted without modifying stored payload or leaking it",
+      "rejects wrong culture without modifying stored payload or leaking it",
+      "rejects revision NaN without modifying stored payload or leaking it",
+      "rejects invalid history cursor without modifying stored payload or leaking it",
+      "rejects bank out of source bounds without modifying stored payload or leaking it",
+      "rejects cycles, accessors, unsupported runtime objects and undefined values at encode boundary"
+    ],
+    "postgres": {
+      "workspace-persistence": [
+        "restores exact private state across connections and fences foreign, stale and incompatible workspaces",
+        "preferences apply once, cleanup preserves account data and authorized reads renew activity"
+      ],
+      "workspace-operations": [
+        "lost and concurrent responses replay a single commit, including after reopening the service",
+        "keeps the last 100 of 1000 receipts and preserves the cursor through logical restoration"
+      ]
+    }
+  },
+  "commands": []
+}

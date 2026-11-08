@@ -1,0 +1,37 @@
+.marketing-site {
+  color: #102f40;
+  background: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+.marketing-site *, .marketing-site *::before, .marketing-site *::after { box-sizing: border-box; }
+.marketing-site a { color: #075263; text-underline-offset: .2em; }
+.marketing-site a:hover { text-decoration-thickness: 2px; }
+.marketing-site :focus-visible { outline: 3px solid #075263; outline-offset: 4px; }
+.marketing-site .public-wrap { width: min(100%, 1180px); margin-inline: auto; padding-inline: clamp(16px, 4vw, 32px); }
+.marketing-site .public-header { border-bottom: 1px solid #dbe6e8; background: #fff; }
+.marketing-site .public-header-row { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; min-height: 100px; padding-block: 16px; }
+.marketing-site .public-brand { display: flex; align-items: center; flex-wrap: wrap; gap: 16px; font-size: 27px; font-weight: 700; text-decoration: none; }
+.marketing-site .public-brand img { display: block; width: 106px; max-width: 100%; height: auto; }
+.marketing-site .public-desktop-nav { display: flex; align-items: center; gap: 24px; font-size: 15px; }
+.marketing-site .public-desktop-nav a { text-decoration: none; }
+.marketing-site .public-trial { display: inline-block; padding: 11px 17px; border-radius: 6px; background: #075263; color: #fff; text-decoration: none; font-weight: 700; }
+.marketing-site .public-trial:hover { background: #093c4a; }
+.marketing-site .public-mobile-nav { display: none; }
+.marketing-site .public-skip { position: absolute; left: 16px; top: 0; transform: translateY(-150%); padding: 12px; background: #fff; z-index: 10; }
+.marketing-site .public-skip:focus { transform: none; }
+.marketing-site .public-footer { margin-top: 48px; border-top: 1px solid #dbe6e8; background: #f4f8f8; padding-block: 40px 24px; }
+.marketing-site .public-footer-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
+.marketing-site .public-full-logo { display: block; width: 250px; max-width: 100%; height: auto; }
+.marketing-site .public-footer nav { display: flex; flex-wrap: wrap; align-content: start; gap: 12px 24px; }
+.marketing-site .public-footer a { overflow-wrap: anywhere; }
+.marketing-site .public-reference { color: #49616c; font-size: 13px; }
+@media (max-width: 900px) {
+  .marketing-site .public-desktop-nav { display: none; }
+  .marketing-site .public-mobile-nav { display: block; }
+  .marketing-site .public-mobile-nav button { min-width: 64px; min-height: 44px; padding: 8px 12px; border: 1px solid #075263; border-radius: 6px; background: #fff; color: #075263; font: inherit; cursor: pointer; }
+  .marketing-site .public-mobile-nav nav { position: absolute; left: 16px; right: 16px; margin-top: 16px; padding: 12px; background: #fff; border: 1px solid #dbe6e8; border-radius: 8px; box-shadow: 0 12px 28px #102f401a; z-index: 5; }
+  .marketing-site .public-mobile-nav nav[hidden] { display: none; }
+  .marketing-site .public-mobile-nav a { display: block; padding: 10px 14px; }
+  .marketing-site .public-footer-grid { grid-template-columns: 1fr; gap: 24px; }
+}

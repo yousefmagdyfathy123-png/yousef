@@ -1,0 +1,17 @@
+{
+  "evidence": {
+    "suites": 37
+  },
+  "commands": [
+    {
+      "command": "test",
+      "exitCode": 0,
+      "seconds": 2042.985,
+      "summary": [
+        "Test Files  37 passed (37)",
+        "Tests  39490 passed (39490)",
+        "Duration  2039.73s (tests 99%, import 1%)"
+      ]
+    }
+  ]
+}

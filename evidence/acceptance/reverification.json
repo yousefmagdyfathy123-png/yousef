@@ -1,0 +1,42 @@
+{
+  "previousSourceTreeHash": "6069ec2599c8501e41f0e0241c1db9dc0b14892023cc3c988667869195d4e0af",
+  "finalSourceTreeHash": "a7be506771c6ecaf3188ca4db9e8ee6daf535ff41fec9ac7d51a2b5ccd038ca9",
+  "differencesVerifiedByReconstruction": [
+    "tests/e2e/flan1-checkpoint.spec.ts",
+    "tests/e2e/workspace.spec.ts",
+    "tests/e2e/request-protection.spec.ts",
+    "docs/ACCEPTANCE.md"
+  ],
+  "initialCombinedRunExitCode": 1,
+  "initialFailures": [
+    "Authorized background read raced the HTTP snapshot",
+    "Browser test paths changed during the unit run"
+  ],
+  "rerun": [
+    "npm run test:e2e:auth",
+    "npm run typecheck",
+    "npm run build",
+    "python tools/evidence/core-source-check.py"
+  ],
+  "preservedResults": [
+    "Unit and integration suite inputs matched byte for byte",
+    "Core browser and independent extraction ran after the screenshot change"
+  ],
+  "browserCounts": {
+    "auth.spec.ts": 1,
+    "payment-recovery.spec.ts": 1,
+    "request-protection.spec.ts": 2,
+    "account-commerce.spec.ts": 1,
+    "preferences.spec.ts": 1,
+    "workspace-recovery.spec.ts": 1,
+    "workspace-network.spec.ts": 1,
+    "workspace-session-resume.spec.ts": 1,
+    "culture.spec.ts": 1
+  },
+  "source": {
+    "files": 1638,
+    "catalogFiles": 1634,
+    "differences": 0,
+    "snapshotSha256": "68a9df6380f3d6051bb82bb039b92aca6ec60c5b2a34d48bfd1ab16fba3ec70b"
+  }
+}

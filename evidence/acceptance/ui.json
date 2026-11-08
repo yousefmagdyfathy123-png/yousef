@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "stage": "ui",
+  "candidate": {
+    "sourceTreeHash": "d78de872492f7a36d1aadabb064fe2f26b8af5c0c2d321c0437a0c94f7f2db2f",
+    "catalogRevision": "0216f5e78e9e09f6808f65655979b2d9e45b1dabaeee9f5f8266c6e039b1431f",
+    "configFingerprint": "1f00b1db4b11060908dcc6196594ef44a2bc5bbca46788581a6d883a4834f6f7"
+  },
+  "status": "failed",
+  "checks": [
+    {
+      "id": "desktop",
+      "evidencePath": "evidence/acceptance/ui-desktop.json",
+      "status": "passed"
+    },
+    {
+      "id": "mobile",
+      "evidencePath": "evidence/acceptance/ui-mobile.json",
+      "status": "passed"
+    },
+    {
+      "id": "print",
+      "evidencePath": "evidence/acceptance/ui-print.json",
+      "status": "passed"
+    },
+    {
+      "id": "protected-journeys",
+      "evidencePath": "evidence/acceptance/ui-protected-journeys.json",
+      "status": "passed"
+    },
+    {
+      "id": "browser-matrix",
+      "evidencePath": "evidence/acceptance/ui-browser-matrix.json",
+      "status": "passed"
+    },
+    {
+      "id": "accessible-results",
+      "evidencePath": "evidence/acceptance/ui-accessible-results.json",
+      "status": "passed"
+    },
+    {
+      "id": "manual-accessibility",
+      "evidencePath": "evidence/acceptance/ui-manual-accessibility.json",
+      "status": "failed"
+    },
+    {
+      "id": "public-identity",
+      "evidencePath": "evidence/acceptance/ui-public-identity.json",
+      "status": "passed"
+    }
+  ],
+  "environment": {
+    "node": "v24.15.0",
+    "os": "win32 Windows 11 Pro 10.0.26300 x64",
+    "profile": "local-ui",
+    "culture": "en-US",
+    "localArtifacts": "Q:\\data alfa\\alfadata\\.local\\ui-acceptance\\run-VgByNQ",
+    "database": "isolated PostgreSQL",
+    "physicalIPhone": "not-tested",
+    "physicalAndroid": "not-tested",
+    "chrome-windows": "156.0.8078.74",
+    "edge-windows": "156.0.4314.58",
+    "chromium-windows": "156.0.8078.4",
+    "firefox-windows": "157.0",
+    "webkit-windows": "27.2",
+    "android-chrome-emulation": "156.0.8078.74",
+    "iphone-webkit-emulation": "27.2",
+    "screenReader": "no passing protected manual run recorded",
+    "iphoneCoverage": "WebKit and mobile emulation tested; Safari on a physical iPhone not tested"
+  },
+  "visualWaivers": [
+    "unverified-visual-nonblocking"
+  ],
+  "externalSetup": [
+    "physical-iphone-safari-not-tested",
+    "Physical Android Chrome not tested"
+  ]
+}

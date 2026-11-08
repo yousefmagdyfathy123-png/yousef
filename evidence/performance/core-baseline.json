@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "capturedAt": "2026-11-03T08:29:32.859Z",
+  "scope": "Local core baseline. Browser Canvas raster includes synchronous pixel flush and excludes network, React and compositor frame latency.",
+  "hardware": {
+    "cpu": "Intel(R) Core(TM) i5-10500H CPU @ 2.50GHz",
+    "logicalCpus": 12,
+    "memoryBytes": 8354799616
+  },
+  "versions": {
+    "os": "win32 10.0.26300",
+    "node": "v24.15.0",
+    "v8": "13.6.233.17-node.48",
+    "chrome": "156.0.8078.74",
+    "engine": "0.1.0",
+    "engineBaseCommit": "76f1c3624623b4e95a15c90838da3fc393d6de78",
+    "catalog": "0216f5e78e9e09f6808f65655979b2d9e45b1dabaeee9f5f8266c6e039b1431f",
+    "parser": "lexical-streamreader-v1"
+  },
+  "browserViewport": {
+    "width": 1440,
+    "height": 900,
+    "dpr": 1
+  },
+  "warmupsPerCase": 3,
+  "coldCatalogManifestMs": {
+    "samples": 3,
+    "min": 11.093600000000151,
+    "median": 16.090200000000095,
+    "p95": 17.417999999999665,
+    "max": 17.417999999999665
+  },
+  "catalogLoadNotes": "Fresh catalog instance per workload. Manifest open and validation are timed separately. Each first transition includes lazy table reads. OS filesystem caches are uncontrolled.",
+  "cases": [
+    {
+      "routeId": "Flan1",
+      "fixtureId": "Flan1-0",
+      "firstTransitionMs": 128.6626000000001,
+      "warmTransitionMs": {
+        "samples": 15,
+        "min": 78.89920000000029,
+        "median": 82.88149999999996,
+        "p95": 102.70280000000002,
+        "max": 102.70280000000002
+      },
+      "browserCanvasRasterWithFlushMs": {
+        "samples": 15,
+        "min": 1.6999999999534339,
+        "median": 2.3999999999068677,
+        "p95": 3.4000000001396984,
+        "max": 3.4000000001396984
+      },
+      "commandCount": 294,
+      "stateBytes": 928066,
+      "publicDtoBytes": 108394,
+      "processMemoryBytes": {
+        "before": {
+          "rss": 273170432,
+          "heapTotal": 210153472,
+          "heapUsed": 92461272,
+          "external": 13938652,
+          "arrayBuffers": 9499175
+        },
+        "after": {
+          "rss": 325349376,
+          "heapTotal": 261107712,
+          "heapUsed": 158685408,
+          "external": 13938692,
+          "arrayBuffers": 9499175
+        },
+        "peakRss": 325349376,
+        "peakHeapUsed": 158685408
+      }
+    },
+    {
+      "routeId": "Flhb1",
+      "fixtureId": "Flhb1-0",
+      "firstTransitionMs": 423.02509999999984,
+      "warmTransitionMs": {
+        "samples": 15,
+        "min": 246.54260000000068,
+        "median": 280.96320000000014,
+        "p95": 304.8065000000006,
+        "max": 304.8065000000006
+      },
+      "browserCanvasRasterWithFlushMs": {
+        "samples": 15,
+        "min": 3.5,
+        "median": 7.300000000046566,
+        "p95": 10.899999999906868,
+        "max": 10.899999999906868
+      },
+      "commandCount": 1962,
+      "stateBytes": 2481337,
+      "publicDtoBytes": 345162,
+      "processMemoryBytes": {
+        "before": {
+          "rss": 446332928,
+          "heapTotal": 379273216,
+          "heapUsed": 262034912,
+          "external": 13662430,
+          "arrayBuffers": 9508991
+        },
+        "after": {
+          "rss": 557563904,
+          "heapTotal": 354889728,
+          "heapUsed": 260811376,
+          "external": 14200767,
+          "arrayBuffers": 9498917
+        },
+        "peakRss": 589619200,
+        "peakHeapUsed": 409863728
+      }
+    },
+    {
+      "routeId": "Psiz1",
+      "fixtureId": "Psiz1-0",
+      "firstTransitionMs": 61.7549999999992,
+      "warmTransitionMs": {
+        "samples": 15,
+        "min": 78.35729999999967,
+        "median": 80.1926999999996,
+        "p95": 91.15250000000015,
+        "max": 91.15250000000015
+      },
+      "browserCanvasRasterWithFlushMs": {
+        "samples": 15,
+        "min": 1.1999999999534339,
+        "median": 2.7000000001862645,
+        "p95": 4.899999999906868,
+        "max": 4.899999999906868
+      },
+      "commandCount": 440,
+      "stateBytes": 917568,
+      "publicDtoBytes": 125051,
+      "processMemoryBytes": {
+        "before": {
+          "rss": 564449280,
+          "heapTotal": 386793472,
+          "heapUsed": 290696584,
+          "external": 14022129,
+          "arrayBuffers": 9628072
+        },
+        "after": {
+          "rss": 582340608,
+          "heapTotal": 441524224,
+          "heapUsed": 359066032,
+          "external": 13901820,
+          "arrayBuffers": 9748381
+        },
+        "peakRss": 582475776,
+        "peakHeapUsed": 359066032
+      }
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "command": "npm run test:integration -- tests/integration/workspace-persistence.test.ts",
+  "tests": 2,
+  "scope": "Isolated PostgreSQL retention policy, authorized activity renewal, expiry cleanup, and cleanup concurrency",
+  "method": "Database timestamps were advanced in the test; this was not a seven-day live soak."
+}

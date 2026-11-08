@@ -1,0 +1,116 @@
+{
+  "schemaVersion": 1,
+  "task": 6,
+  "status": "complete",
+  "date": "2026-11-02",
+  "branch": "task/01-foundation",
+  "scope": "39 flange/gasket engine routes; retains accepted Flan1 desktop checkpoint only",
+  "routes": {
+    "flangeCount": 30,
+    "gasketCount": 9,
+    "ids": [
+      "Fl6b1",
+      "Fl6b2",
+      "Flaa1",
+      "Flaa2",
+      "Flan1",
+      "Flan2",
+      "Flan3",
+      "Flan4",
+      "Flan5",
+      "Flan6",
+      "Flan7",
+      "Flap1",
+      "Flap2",
+      "Flbs1",
+      "Flbx1",
+      "Flbx2",
+      "Flco1",
+      "Flco2",
+      "Flco3",
+      "Fldi1",
+      "Fldi2",
+      "Fldi3",
+      "Fldi4",
+      "Fldi5",
+      "Flhb1",
+      "Flre1",
+      "Flre2",
+      "Gflt1",
+      "Gflt2",
+      "Gflt3",
+      "Grtj1",
+      "Grtj2",
+      "Grtj3",
+      "Gspr1",
+      "Gspr2",
+      "Gspr3",
+      "Orif1",
+      "Orif2",
+      "Orif3"
+    ],
+    "searchOnlyNoDispatch": [
+      "Fl6b3"
+    ]
+  },
+  "references": {
+    "routeCards": 39,
+    "cases": 6044,
+    "unavailableCases": 668,
+    "path": "evidence/flanges-gaskets/"
+  },
+  "verification": {
+    "culture": "en-US",
+    "vitestMaxWorkers": 2,
+    "unit": {
+      "command": "npm test",
+      "passed": 7265,
+      "files": 14,
+      "durationSeconds": 488.3,
+      "log": ".task6-final-suite-green.log"
+    },
+    "typecheck": {
+      "command": "npm run typecheck",
+      "status": "passed",
+      "log": ".task6-final-typecheck.log"
+    },
+    "build": {
+      "command": "npm run build",
+      "status": "passed",
+      "log": ".task6-final-build.log"
+    },
+    "browser": {
+      "command": "npm run test:e2e -- tests/e2e/flan1-checkpoint.spec.ts",
+      "passed": 4,
+      "durationSeconds": 8.9,
+      "scope": "Flan1 desktop checkpoint and DPR2 only",
+      "log": ".task6-final-browser.log"
+    },
+    "evidence": {
+      "command": "npm run evidence:check",
+      "blocking": 0,
+      "pendingFunctional": 488,
+      "log": ".task6-final-evidence.log"
+    }
+  },
+  "originalSource": {
+    "databaseFiles": 1634,
+    "databaseBytes": 41852002,
+    "manifest": "evidence/catalog-source-manifest.json",
+    "allFileHashesUnchanged": true,
+    "executableSha256": "55a55522875ad7131d1367a08667ae653416c9be2decbd3bd5c54a9b8c04d03c",
+    "decompileSha256": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+    "originalExecutableExecutedOrLoaded": false
+  },
+  "review": {
+    "model": "gpt-6.1-sol",
+    "effort": "high",
+    "scope": "each of nine gasket routes, shared extractions, final assembly/tests",
+    "outstandingFindings": 0
+  },
+  "limitations": [
+    "Global product coverage remains incomplete for later tasks.",
+    "All-route/mobile/print UI remains Task11 work.",
+    "Original screenshot comparison remains unverified-visual-nonblocking."
+  ]
+}

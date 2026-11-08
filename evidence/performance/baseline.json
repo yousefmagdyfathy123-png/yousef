@@ -1,0 +1,1290 @@
+{
+  "candidate": {
+    "sourceTreeHash": "4a8bc55b287fb5531a2d76413794054f7ddb084494ba721a84e40477a637d2a4",
+    "catalogRevision": "0216f5e78e9e09f6808f65655979b2d9e45b1dabaeee9f5f8266c6e039b1431f",
+    "configFingerprint": "605b5f1102b980e446c6a31533c09d5799852cf2d991101df3ed77a0213e5ac8"
+  },
+  "schemaVersion": 1,
+  "environment": {
+    "node": "v24.15.0",
+    "os": "Windows 11 Pro 10.0.26300",
+    "cpu": "Intel(R) Core(TM) i5-10500H CPU @ 2.50GHz",
+    "logicalCpus": 12,
+    "ramBytes": 8354799616,
+    "browser": "Chrome 156.0.8078.74",
+    "viewport": {
+      "width": 1280,
+      "height": 720
+    },
+    "dpr": 1,
+    "transport": "loopback HTTPS",
+    "database": "isolated PostgreSQL",
+    "concurrency": 1
+  },
+  "method": {
+    "warmups": 3,
+    "measured": 15,
+    "first": "first observed workspace journey after verification and trial setup",
+    "latency": "Playwright action through asserted DOM and two animation frames, in milliseconds",
+    "request": "Browser requestStart to responseStart, in milliseconds, includes server and network",
+    "bytes": "Playwright request and received encoded response body bytes, excludes headers"
+  },
+  "scenarios": [
+    "Flan1-0 reference weight 19.9 kg",
+    "Flan1 class 600",
+    "elbow search and Ftbw1 selection",
+    "committed revision after reload"
+  ],
+  "phases": {
+    "first.create": {
+      "samples": 1,
+      "p50": 980.5002999999997,
+      "p95": 980.5002999999997,
+      "max": 980.5002999999997
+    },
+    "first.changeClass": {
+      "samples": 1,
+      "p50": 883.5761000000002,
+      "p95": 883.5761000000002,
+      "max": 883.5761000000002
+    },
+    "first.search": {
+      "samples": 1,
+      "p50": 1049.3926000000001,
+      "p95": 1049.3926000000001,
+      "max": 1049.3926000000001
+    },
+    "first.selectSearchHit": {
+      "samples": 1,
+      "p50": 899.7861000000003,
+      "p95": 899.7861000000003,
+      "max": 899.7861000000003
+    },
+    "first.reload": {
+      "samples": 1,
+      "p50": 331.2007999999987,
+      "p95": 331.2007999999987,
+      "max": 331.2007999999987
+    },
+    "create": {
+      "samples": 15,
+      "p50": 928.3260000000009,
+      "p95": 973.3518999999942,
+      "max": 973.3518999999942
+    },
+    "changeClass": {
+      "samples": 15,
+      "p50": 866.8888000000006,
+      "p95": 884.1157999999996,
+      "max": 884.1157999999996
+    },
+    "search": {
+      "samples": 15,
+      "p50": 983.1059999999998,
+      "p95": 1614.6157999999996,
+      "max": 1614.6157999999996
+    },
+    "selectSearchHit": {
+      "samples": 15,
+      "p50": 914.6215999999986,
+      "p95": 933.7681000000011,
+      "max": 933.7681000000011
+    },
+    "reload": {
+      "samples": 15,
+      "p50": 328.83840000000055,
+      "p95": 464.4704000000056,
+      "max": 464.4704000000056
+    }
+  },
+  "samples": {
+    "first.create": [
+      980.5002999999997
+    ],
+    "first.changeClass": [
+      883.5761000000002
+    ],
+    "first.search": [
+      1049.3926000000001
+    ],
+    "first.selectSearchHit": [
+      899.7861000000003
+    ],
+    "first.reload": [
+      331.2007999999987
+    ],
+    "create": [
+      942.5231000000022,
+      934.6276999999973,
+      928.3260000000009,
+      921.4196999999986,
+      417.89650000000256,
+      963.0613000000012,
+      919.8200999999972,
+      430.83140000000276,
+      927.8134999999966,
+      971.0941999999995,
+      936.7329000000027,
+      973.3518999999942,
+      379.6307000000088,
+      413.8947999999946,
+      956.8997999999992
+    ],
+    "changeClass": [
+      867.0419000000002,
+      867.7148000000016,
+      866.1296000000002,
+      853.0188000000053,
+      868.1407000000036,
+      865.7255000000005,
+      866.8888000000006,
+      864.1065999999992,
+      881.4233999999997,
+      848.0632000000041,
+      866.9140000000043,
+      850.2440999999963,
+      849.7978000000003,
+      884.1157999999996,
+      868.8092000000033
+    ],
+    "search": [
+      1017.3981000000022,
+      983.1059999999998,
+      966.4587000000029,
+      1614.6157999999996,
+      966.0626000000047,
+      1000.3168000000005,
+      966.6280999999944,
+      981.3643999999986,
+      1018.8836999999985,
+      1001.4743999999992,
+      1016.3375999999917,
+      985.6224999999977,
+      950.2382999999973,
+      982.1482000000105,
+      949.1119000000035
+    ],
+    "selectSearchHit": [
+      915.8542000000016,
+      932.7036999999982,
+      917.5358999999953,
+      933.7479999999996,
+      899.0950999999986,
+      933.7681000000011,
+      899.7810000000027,
+      883.7010999999984,
+      931.6826000000001,
+      898.8286000000007,
+      900.6085000000021,
+      914.6215999999986,
+      901.4673000000039,
+      882.8564000000042,
+      916.2786000000051
+    ],
+    "reload": [
+      297.65569999999934,
+      329.77089999999953,
+      432.61759999999776,
+      322.77530000000115,
+      348.8555999999953,
+      313.92089999999735,
+      363.83860000000277,
+      346.3142999999982,
+      312.55489999999554,
+      328.83840000000055,
+      310.18069999999716,
+      328.4458000000013,
+      322.96339999999327,
+      332.5816999999952,
+      464.4704000000056
+    ]
+  },
+  "rawRequests": [
+    {
+      "route": "POST",
+      "waitMs": 310.38,
+      "requestBodyBytes": 0,
+      "responseBodyBytes": 108425
+    },
+    {
+      "route": "actions",
+      "waitMs": 479.011,
+      "requestBodyBytes": 170,
+      "responseBodyBytes": 108431
+    },
+    {
+      "route": "search",
+      "waitMs": 156.643,
+      "requestBodyBytes": 17,
+      "responseBodyBytes": 805
+    },
+    {
+      "route": "actions",
+      "waitMs": 417.461,
+      "requestBodyBytes": 140,
+      "responseBodyBytes": 109234
+    },
+    {
+      "route": "actions",
+      "waitMs": 455.421,
+      "requestBodyBytes": 148,
+      "responseBodyBytes": 84782
+    },
+    {
+      "route": "GET",
+      "waitMs": 163.43800000000002,
+      "requestBodyBytes": 0,
+      "responseBodyBytes": 84782
+    },
+    {
+      "route": "POST",
+      "waitMs": 375.729,
+      "requestBodyBytes": 0,
+      "responseBodyBytes": 108425
+    },
+    {
+      "route": "actions",
+      "waitMs": 494.85,
+      "requestBodyBytes": 170,
+      "responseBodyBytes": 108431
+    },
+    {
+      "route": "search",
+      "waitMs": 142.45600000000002,
+      "requestBodyBytes": 17,
+      "responseBodyBytes": 805
+    },
+    {
+      "route": "actions",
+      "waitMs": 501.919,
+      "requestBodyBytes": 140,
+      "responseBodyBytes": 109234
+    },
+    {
+      "route": "actions",
+      "waitMs": 462.729,
+      "requestBodyBytes": 148,
+      "responseBodyBytes": 84782
+    },
+    {
+      "route": "GET",
+      "waitMs": 198.365,
+      "requestBodyBytes": 0,
+      "responseBodyBytes": 84782
+    },
+    {
+      "route": "POST",
+      "waitMs": 383.937,
+      "requestBodyBytes": 0,
+      "responseBodyBytes": 108425
+    },
+    {
+      "route": "actions",
+      "waitMs": 509.058,
+      "requestBodyBytes": 170,
+      "responseBodyBytes": 108431
+    },
+    {
+      "route": "search",
+      "waitMs": 162.761,
+      "requestBodyBytes": 17,
+      "responseBodyBytes": 805
+    },
+    {
+      "route": "actions",
+      "waitMs": 392.454,
+      "requestBodyBytes": 140,
+      "responseBodyBytes": 109234
+    },
+    {
+      "route": "actions",
+      "waitMs": 427.997,
+      "requestBodyBytes": 148,
+      "responseBodyBytes": 84782
+    },
+    {
+      "route": "GET",
+      "waitMs": 209.613,
+      "requestBodyBytes": 0,
+      "responseBodyBytes": 84782
+    },
+    {
+      "route": "POST",
+      "waitMs": 328.809,
+      "requestBodyBytes": 0,
+      "responseBodyBytes": 108425
+    },
+    {
+      "route": "actions",
+      "waitMs": 479.298,
+      "requestBodyBytes": 170,
+      "responseBodyBytes": 108431
+    },
+    {
+      "route": "search",
+      "waitMs": 270.87100000000004,
+      "requestBodyBytes": 17,
+      "responseBodyBytes": 805
+    },
+    {
+      "route": "actions",
+      "waitMs": 557.2850000000001,
+      "requestBodyBytes": 140,
+      "responseBodyBytes": 109234
+    },
+    {
+      "route": "actions",
+      "waitMs": 486.487,
+      "requestBodyBytes": 148,
+      "responseBodyBytes": 84782
+    },
+    {
+      "route": "GET",
+      "waitMs": 158.46699999999998,
+      "requestBodyBytes": 0,
+      "responseBodyBytes": 84782
+    },
+    {
+      "route": "POST",
+      "waitMs": 279.67400000000004,
+      "requestBodyBytes": 0,
+      "responseBodyBytes": 108425
+    },
+    {
+      "route": "actions",
+      "waitMs": 447.81300000000005,
+      "requestBodyBytes": 170,
+      "responseBodyBytes": 108431
+    },
+    {
+      "route": "search",
+      "waitMs": 145.248,
+      "requestBodyBytes": 17,
+      "responseBodyBytes": 805
+    },
+    {
+      "route": "actions",
+      "waitMs": 371.875,
+      "requestBodyBytes": 140,
+      "responseBodyBytes": 109234
+    },
+    {
+      "route": "actions",
+      "waitMs": 432.918,
+      "requestBodyBytes": 148,
+      "responseBodyBytes": 84782
+    },
+    {
+      "route": "GET",
+      "waitMs": 186.71900000000002,
+      "requestBodyBytes": 0,
+      "responseBodyBytes": 84782
+    },
+    {
+      "route": "POST",
+      "waitMs": 414.21000000000004,
+      "requestBodyBytes": 0,
+      "responseBodyBytes": 108425
+    },
+    {
+      "route": "actions",
+      "waitMs": 527.7570000000001,
+      "requestBodyBytes": 170,
+      "responseBodyBytes": 108431
+    },
+    {
+      "route": "search",
+      "waitMs": 143.291,
+      "requestBodyBytes": 17,
+      "responseBodyBytes": 805
+    },
+    {
+      "route": "actions",
+      "waitMs": 377.632,
+      "requestBodyBytes": 140,
+      "responseBodyBytes": 109234
+    },
+    {
+      "route": "actions",
+      "waitMs": 429.872,
+      "requestBodyBytes": 148,
+      "responseBodyBytes": 84782
+    },
+    {
+      "route": "GET",
+      "waitMs": 161.11700000000002,
+      "requestBodyBytes": 0,
+      "responseBodyBytes": 84782
+    },
+    {
+      "route": "POST",
+      "waitMs": 379.347,
+      "requestBodyBytes": 0,
+      "responseBodyBytes": 108425
+    },
+    {
+      "route": "actions",
+      "waitMs": 509.381,
+      "requestBodyBytes": 170,
+      "responseBodyBytes": 108431
+    },
+    {
+      "route": "search",
+      "waitMs": 179.852,
+      "requestBodyBytes": 17,
+      "responseBodyBytes": 805
+    },
+    {
+      "route": "actions",
+      "waitMs": 540.365,
+      "requestBodyBytes": 140,
+      "responseBodyBytes": 109234
+    },
+    {
+      "route": "actions",
+      "waitMs": 531.611,
+      "requestBodyBytes": 148,
+      "responseBodyBytes": 84782
+    },
+    {
+      "route": "GET",
+      "waitMs": 160.12800000000001,
+      "requestBodyBytes": 0,
+      "responseBodyBytes": 84782
+    },
+    {
+      "route": "POST",
+      "waitMs": 303.159,
+      "requestBodyBytes": 0,
+      "responseBodyBytes": 108425
+    },
+    {
+      "route": "actions",
+      "waitMs": 443.606,
+      "requestBodyBytes": 170,
+      "responseBodyBytes": 108431
+    },
+    {
+      "route": "search",
+      "waitMs": 124.053,
+      "requestBodyBytes": 17,
+      "responseBodyBytes": 805
+    },
+    {
+      "route": "actions",
+      "waitMs": 374.432,
+      "requestBodyBytes": 140,
+      "responseBodyBytes": 109234
+    },
+    {
+      "route": "actions",
+      "waitMs": 451.641,
+      "requestBodyBytes": 148,
+      "responseBodyBytes": 84782
+    },
+    {
+      "route": "GET",
+      "waitMs": 167.89700000000002,
+      "requestBodyBytes": 0,
+      "responseBodyBytes": 84782
+    },
+    {
+      "route": "POST",
+      "waitMs": 299.69,
+      "requestBodyBytes": 0,
+      "responseBodyBytes": 108425
+    },
+    {
+      "route": "actions",
+      "waitMs": 472.363,
+      "requestBodyBytes": 170,
+      "responseBodyBytes": 108431
+    },
+    {
+      "route": "search",
+      "waitMs": 140.583,
+      "requestBodyBytes": 17,
+      "responseBodyBytes": 805
+    },
+    {
+      "route": "actions",
+      "waitMs": 389.007,
+      "requestBodyBytes": 140,
+      "responseBodyBytes": 109234
+    },
+    {
+      "route": "actions",
+      "waitMs": 489.908,
+      "requestBodyBytes": 148,
+      "responseBodyBytes": 84782
+    },
+    {
+      "route": "GET",
+      "waitMs": 163.209,
+      "requestBodyBytes": 0,
+      "responseBodyBytes": 84782
+    },
+    {
+      "route": "POST",
+      "waitMs": 351.36899999999997,
+      "requestBodyBytes": 0,
+      "responseBodyBytes": 108425
+    },
+    {
+      "route": "actions",
+      "waitMs": 425.498,
+      "requestBodyBytes": 170,
+      "responseBodyBytes": 108431
+    },
+    {
+      "route": "search",
+      "waitMs": 155.614,
+      "requestBodyBytes": 17,
+      "responseBodyBytes": 805
+    },
+    {
+      "route": "actions",
+      "waitMs": 425.897,
+      "requestBodyBytes": 140,
+      "responseBodyBytes": 109234
+    },
+    {
+      "route": "actions",
+      "waitMs": 539.8470000000001,
+      "requestBodyBytes": 148,
+      "responseBodyBytes": 84782
+    },
+    {
+      "route": "GET",
+      "waitMs": 186.215,
+      "requestBodyBytes": 0,
+      "responseBodyBytes": 84782
+    },
+    {
+      "route": "POST",
+      "waitMs": 382.89500000000004,
+      "requestBodyBytes": 0,
+      "responseBodyBytes": 108425
+    },
+    {
+      "route": "actions",
+      "waitMs": 655.154,
+      "requestBodyBytes": 170,
+      "responseBodyBytes": 108431
+    },
+    {
+      "route": "search",
+      "waitMs": 187.229,
+      "requestBodyBytes": 17,
+      "responseBodyBytes": 805
+    },
+    {
+      "route": "actions",
+      "waitMs": 418.14500000000004,
+      "requestBodyBytes": 140,
+      "responseBodyBytes": 109234
+    },
+    {
+      "route": "actions",
+      "waitMs": 433.302,
+      "requestBodyBytes": 148,
+      "responseBodyBytes": 84782
+    },
+    {
+      "route": "GET",
+      "waitMs": 153.019,
+      "requestBodyBytes": 0,
+      "responseBodyBytes": 84782
+    },
+    {
+      "route": "POST",
+      "waitMs": 411.981,
+      "requestBodyBytes": 0,
+      "responseBodyBytes": 108425
+    },
+    {
+      "route": "actions",
+      "waitMs": 547.09,
+      "requestBodyBytes": 170,
+      "responseBodyBytes": 108431
+    },
+    {
+      "route": "search",
+      "waitMs": 123.685,
+      "requestBodyBytes": 17,
+      "responseBodyBytes": 805
+    },
+    {
+      "route": "actions",
+      "waitMs": 357.991,
+      "requestBodyBytes": 140,
+      "responseBodyBytes": 109234
+    },
+    {
+      "route": "actions",
+      "waitMs": 441.224,
+      "requestBodyBytes": 148,
+      "responseBodyBytes": 84782
+    },
+    {
+      "route": "GET",
+      "waitMs": 191.06300000000002,
+      "requestBodyBytes": 0,
+      "responseBodyBytes": 84782
+    },
+    {
+      "route": "POST",
+      "waitMs": 278.445,
+      "requestBodyBytes": 0,
+      "responseBodyBytes": 108425
+    },
+    {
+      "route": "actions",
+      "waitMs": 439.089,
+      "requestBodyBytes": 170,
+      "responseBodyBytes": 108431
+    },
+    {
+      "route": "search",
+      "waitMs": 149.172,
+      "requestBodyBytes": 17,
+      "responseBodyBytes": 805
+    },
+    {
+      "route": "actions",
+      "waitMs": 494.646,
+      "requestBodyBytes": 140,
+      "responseBodyBytes": 109234
+    },
+    {
+      "route": "actions",
+      "waitMs": 411.848,
+      "requestBodyBytes": 148,
+      "responseBodyBytes": 84782
+    },
+    {
+      "route": "GET",
+      "waitMs": 176.5,
+      "requestBodyBytes": 0,
+      "responseBodyBytes": 84782
+    },
+    {
+      "route": "POST",
+      "waitMs": 304.25,
+      "requestBodyBytes": 0,
+      "responseBodyBytes": 108425
+    },
+    {
+      "route": "actions",
+      "waitMs": 438.583,
+      "requestBodyBytes": 170,
+      "responseBodyBytes": 108431
+    },
+    {
+      "route": "search",
+      "waitMs": 126.939,
+      "requestBodyBytes": 17,
+      "responseBodyBytes": 805
+    },
+    {
+      "route": "actions",
+      "waitMs": 365.246,
+      "requestBodyBytes": 140,
+      "responseBodyBytes": 109234
+    },
+    {
+      "route": "actions",
+      "waitMs": 391.27099999999996,
+      "requestBodyBytes": 148,
+      "responseBodyBytes": 84782
+    },
+    {
+      "route": "GET",
+      "waitMs": 168.625,
+      "requestBodyBytes": 0,
+      "responseBodyBytes": 84782
+    },
+    {
+      "route": "POST",
+      "waitMs": 339.808,
+      "requestBodyBytes": 0,
+      "responseBodyBytes": 108425
+    },
+    {
+      "route": "actions",
+      "waitMs": 625.327,
+      "requestBodyBytes": 170,
+      "responseBodyBytes": 108431
+    },
+    {
+      "route": "search",
+      "waitMs": 127.66300000000001,
+      "requestBodyBytes": 17,
+      "responseBodyBytes": 805
+    },
+    {
+      "route": "actions",
+      "waitMs": 366.246,
+      "requestBodyBytes": 140,
+      "responseBodyBytes": 109234
+    },
+    {
+      "route": "actions",
+      "waitMs": 409.93399999999997,
+      "requestBodyBytes": 148,
+      "responseBodyBytes": 84782
+    },
+    {
+      "route": "GET",
+      "waitMs": 198.93599999999998,
+      "requestBodyBytes": 0,
+      "responseBodyBytes": 84782
+    }
+  ],
+  "restart": {
+    "restartReadyMs": 1557.5543000000034,
+    "resumeMs": 981.7246999999916,
+    "verified": true
+  },
+  "representativeDrawing": {
+    "fixture": "Flhb1-0",
+    "actionMs": 1968.0255000000034,
+    "verified": true
+  },
+  "serverMemory": [
+    {
+      "pid": 9696,
+      "atMs": 1793737923871,
+      "rss": 50520064,
+      "heapUsed": 4822864
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737924873,
+      "rss": 100306944,
+      "heapUsed": 31761568
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737925882,
+      "rss": 108183552,
+      "heapUsed": 33964920
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737926888,
+      "rss": 110469120,
+      "heapUsed": 36231632
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737927890,
+      "rss": 151592960,
+      "heapUsed": 67912816
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737928893,
+      "rss": 158543872,
+      "heapUsed": 60145736
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737929895,
+      "rss": 175194112,
+      "heapUsed": 73979192
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737930907,
+      "rss": 276758528,
+      "heapUsed": 130524128
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737932063,
+      "rss": 350961664,
+      "heapUsed": 139396536
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737933064,
+      "rss": 363974656,
+      "heapUsed": 157087616
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737934073,
+      "rss": 404676608,
+      "heapUsed": 216109952
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737935108,
+      "rss": 447422464,
+      "heapUsed": 250671808
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737936122,
+      "rss": 472363008,
+      "heapUsed": 106990584
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737937128,
+      "rss": 482811904,
+      "heapUsed": 132543304
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737938202,
+      "rss": 486764544,
+      "heapUsed": 216026120
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737939210,
+      "rss": 491536384,
+      "heapUsed": 218426192
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737940272,
+      "rss": 505741312,
+      "heapUsed": 294408968
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737941293,
+      "rss": 475496448,
+      "heapUsed": 152352888
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737942386,
+      "rss": 489709568,
+      "heapUsed": 188799344
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737943465,
+      "rss": 488898560,
+      "heapUsed": 218057896
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737944580,
+      "rss": 505425920,
+      "heapUsed": 293499872
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737945620,
+      "rss": 481492992,
+      "heapUsed": 148116512
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737946626,
+      "rss": 488603648,
+      "heapUsed": 186896336
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737947636,
+      "rss": 490811392,
+      "heapUsed": 209124128
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737948645,
+      "rss": 502149120,
+      "heapUsed": 256299160
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737949646,
+      "rss": 474435584,
+      "heapUsed": 115969408
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737950716,
+      "rss": 501178368,
+      "heapUsed": 232134480
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737951731,
+      "rss": 489148416,
+      "heapUsed": 208013400
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737952734,
+      "rss": 501051392,
+      "heapUsed": 234860776
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737953783,
+      "rss": 476520448,
+      "heapUsed": 114338448
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737954879,
+      "rss": 500473856,
+      "heapUsed": 230879600
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737955914,
+      "rss": 488730624,
+      "heapUsed": 206181312
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737956914,
+      "rss": 497610752,
+      "heapUsed": 226346368
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737958002,
+      "rss": 474132480,
+      "heapUsed": 114316472
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737959023,
+      "rss": 501153792,
+      "heapUsed": 231079664
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737960151,
+      "rss": 491311104,
+      "heapUsed": 206328568
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737961151,
+      "rss": 495054848,
+      "heapUsed": 226005880
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737962164,
+      "rss": 469983232,
+      "heapUsed": 83915408
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737963260,
+      "rss": 483516416,
+      "heapUsed": 153665696
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737964319,
+      "rss": 488927232,
+      "heapUsed": 213470608
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737965323,
+      "rss": 494764032,
+      "heapUsed": 247243768
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737966331,
+      "rss": 472727552,
+      "heapUsed": 83867752
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737967424,
+      "rss": 489615360,
+      "heapUsed": 187464904
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737968425,
+      "rss": 489816064,
+      "heapUsed": 183646800
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737969436,
+      "rss": 498311168,
+      "heapUsed": 225729616
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737970449,
+      "rss": 470564864,
+      "heapUsed": 84045568
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737971461,
+      "rss": 483987456,
+      "heapUsed": 153974120
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737972462,
+      "rss": 492396544,
+      "heapUsed": 215215632
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737973492,
+      "rss": 500998144,
+      "heapUsed": 287241752
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737974507,
+      "rss": 471961600,
+      "heapUsed": 84184528
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737975616,
+      "rss": 486555648,
+      "heapUsed": 154090576
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737976617,
+      "rss": 494227456,
+      "heapUsed": 221856432
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737977617,
+      "rss": 501252096,
+      "heapUsed": 234253872
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737978703,
+      "rss": 480129024,
+      "heapUsed": 148723808
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737979783,
+      "rss": 492847104,
+      "heapUsed": 186373904
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737980844,
+      "rss": 494301184,
+      "heapUsed": 213754504
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737981875,
+      "rss": 506769408,
+      "heapUsed": 288835048
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737982887,
+      "rss": 477732864,
+      "heapUsed": 148735032
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737983889,
+      "rss": 490262528,
+      "heapUsed": 163950920
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737984901,
+      "rss": 493862912,
+      "heapUsed": 208753632
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737985951,
+      "rss": 503664640,
+      "heapUsed": 254943408
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737986958,
+      "rss": 480305152,
+      "heapUsed": 123759712
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737988048,
+      "rss": 502317056,
+      "heapUsed": 231793552
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737989057,
+      "rss": 493703168,
+      "heapUsed": 208116216
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737990153,
+      "rss": 500080640,
+      "heapUsed": 254233824
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737991165,
+      "rss": 477421568,
+      "heapUsed": 116147016
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737992171,
+      "rss": 490143744,
+      "heapUsed": 164017344
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737993198,
+      "rss": 493682688,
+      "heapUsed": 207254352
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737994201,
+      "rss": 498372608,
+      "heapUsed": 226234800
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737995283,
+      "rss": 477667328,
+      "heapUsed": 115467072
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737996381,
+      "rss": 502464512,
+      "heapUsed": 232192312
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737997396,
+      "rss": 493170688,
+      "heapUsed": 207816528
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737998400,
+      "rss": 471232512,
+      "heapUsed": 96816024
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793737999409,
+      "rss": 482426880,
+      "heapUsed": 122133816
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793738000418,
+      "rss": 492417024,
+      "heapUsed": 214538912
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793738001418,
+      "rss": 501272576,
+      "heapUsed": 256114144
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793738002420,
+      "rss": 473620480,
+      "heapUsed": 85874448
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793738003460,
+      "rss": 490852352,
+      "heapUsed": 187984640
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793738004733,
+      "rss": 492896256,
+      "heapUsed": 207548312
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793738005736,
+      "rss": 498798592,
+      "heapUsed": 226461688
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793738006832,
+      "rss": 477966336,
+      "heapUsed": 115625752
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793738007880,
+      "rss": 502702080,
+      "heapUsed": 232374488
+    },
+    {
+      "pid": 9696,
+      "atMs": 1793738008888,
+      "rss": 493207552,
+      "heapUsed": 190977072
+    },
+    {
+      "pid": 3592,
+      "atMs": 1793738009212,
+      "rss": 52273152,
+      "heapUsed": 4822864
+    },
+    {
+      "pid": 3592,
+      "atMs": 1793738010488,
+      "rss": 102969344,
+      "heapUsed": 33064240
+    },
+    {
+      "pid": 3592,
+      "atMs": 1793738012050,
+      "rss": 156160000,
+      "heapUsed": 73664456
+    },
+    {
+      "pid": 3592,
+      "atMs": 1793738013050,
+      "rss": 198418432,
+      "heapUsed": 71225288
+    },
+    {
+      "pid": 3592,
+      "atMs": 1793738014239,
+      "rss": 325918720,
+      "heapUsed": 170154592
+    },
+    {
+      "pid": 3592,
+      "atMs": 1793738015357,
+      "rss": 359895040,
+      "heapUsed": 128137000
+    }
+  ]
+}

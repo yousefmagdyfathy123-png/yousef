@@ -1,0 +1,69 @@
+*{box-sizing:border-box}body{margin:0;background:#edf0f2;color:#062134;font-family:Tahoma,Arial,sans-serif}.workspace-heading{display:flex;align-items:center;justify-content:space-between;padding:12px 24px;background:white;border-bottom:1px solid #d6dde2}.workspace-heading h1{font-size:22px;margin:0}.workspace-heading select{padding:6px}.workspace-scroll{overflow:auto;padding:16px}.legacy-workspace{position:relative;background:white;isolation:isolate}.legacy-workspace canvas{position:absolute;left:0;top:0;z-index:-1}.legacy-selector,.legacy-navigation button,.legacy-navigation select{position:absolute;border:0;background:#278ce1;color:white;font:bold 9pt Tahoma;appearance:none;text-align:center;padding:0}.legacy-selector:focus,.legacy-navigation :focus{outline:2px solid #062134;outline-offset:1px}.legacy-navigation button,.legacy-navigation select{top:56px;height:33px}.legacy-navigation button{font-size:20px}.legacy-selector:disabled,.legacy-navigation button:disabled{opacity:.7}.legacy-header{position:absolute;left:10px;white-space:pre;font:bold 10pt Tahoma;pointer-events:none}.legacy-header-1{top:99px;font-size:15.75pt}.legacy-header-2{top:129px}.legacy-header-3{top:151px}.legacy-header-4{top:553px}.legacy-header-5{top:578px}.legacy-header-6{top:603px}.legacy-header-7{top:595px;left:518px;width:525px;text-align:right;font-size:15.75pt}.legacy-message{position:absolute;top:25px;left:10px;margin:0;font-size:10pt}main>p[role=alert]{margin:12px 24px;color:#9d2424}
+.workspace-screen>p[role=alert]{margin:12px 24px;color:#9d2424}.legacy-menu{display:flex;align-items:start;gap:4px;padding:6px 16px;background:white;position:relative;z-index:5;flex-wrap:wrap}.legacy-menu details{position:relative}.legacy-menu summary,.legacy-menu button{padding:6px 10px;font:inherit;font-size:13px;cursor:pointer}.legacy-menu-children{position:absolute;min-width:240px;max-height:65vh;overflow:auto;background:white;box-shadow:0 3px 12px #0004;padding:6px;z-index:6}.legacy-menu-children button{display:block;text-align:left;width:100%}.legacy-menu-children details>.legacy-menu-children{position:static;box-shadow:none;margin-left:8px}.legacy-menu summary[aria-disabled=true]{pointer-events:none;opacity:.6}.viewport-tools{display:flex;gap:12px;align-items:center;padding:8px 16px}.viewport-tools button{min-height:36px;min-width:36px}.workspace-scroll{max-height:78vh;overscroll-behavior:auto}.workspace-scroll canvas{touch-action:pan-x pan-y}.legacy-input{position:absolute}.legacy-input input{width:100%;height:100%;font:inherit}.results-panel,.product-information{margin:16px;padding:12px;background:white;max-width:100%;overflow:auto}.results-panel summary,.product-information summary{cursor:pointer;font-weight:bold}.results-panel table{border-collapse:collapse;user-select:text;margin-top:12px}.results-panel th,.results-panel td{padding:8px;border:1px solid #b2c1cd;text-align:left;white-space:pre-wrap}.results-panel button{min-height:32px}.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%)}dialog{max-width:min(640px,94vw);max-height:85vh;overflow:auto;border:1px solid #8ba1af;border-radius:8px;padding:24px}dialog::backdrop{background:#001b3488}dialog label{display:flex;justify-content:space-between;gap:16px;margin:12px 0}dialog input,dialog select{min-width:140px;max-width:60%;padding:6px}.dialog-actions{display:flex;gap:12px;justify-content:end}.dialog-actions button{min-height:36px}.document-block{white-space:pre-wrap;overflow-wrap:anywhere}.parameters-link{position:absolute;top:525px;left:10px}.print-view{display:none}button:focus-visible,summary:focus-visible,input:focus-visible,select:focus-visible,[tabindex]:focus-visible{outline:2px solid #075f9d;outline-offset:2px}@media(max-width:600px){.workspace-heading{padding:12px}.legacy-menu{padding:6px}.results-panel,.product-information{margin:8px}.workspace-scroll{padding:8px}}
+/* Responsive screen composition. */
+.screen-workspace{margin:16px;min-width:0;max-width:100%;border:1px solid #d6dde2;border-radius:8px;overflow:hidden}
+.engineering-toolbar{display:flex;align-items:center;flex-wrap:wrap;gap:8px;padding:12px;background:#f6f9fc;border-bottom:1px solid #d6dde2}
+.screen-workspace .legacy-navigation{display:flex;flex:1 1 360px;max-width:600px;min-width:0;gap:2px}
+.screen-workspace .legacy-navigation button,.screen-workspace .legacy-navigation select,.screen-workspace .legacy-selector{position:static;min-height:36px;padding:6px 8px;border-radius:3px}
+.screen-workspace .legacy-navigation button{flex:0 0 32px;width:32px;height:auto}
+.screen-workspace .legacy-navigation select{flex:1;min-width:0;width:0;height:auto}
+.screen-workspace .legacy-selector{flex:0 1 auto;min-width:80px;max-width:100%;white-space:normal}
+.screen-workspace .parameters-link{position:static;max-width:100%;min-height:36px}
+.engineering-headers{display:flex;flex-direction:column;gap:4px;padding:12px 16px}
+.screen-workspace .legacy-header{position:static;white-space:pre-wrap;overflow-wrap:anywhere;pointer-events:auto;width:auto;text-align:left}
+.screen-workspace .legacy-header-1,.screen-workspace .legacy-header-7{font-size:clamp(16px,2vw,21px);line-height:1.3}
+.screen-workspace .legacy-message{position:static;white-space:pre-wrap;overflow-wrap:anywhere}
+.screen-workspace .viewport-tools{flex-wrap:wrap;border-top:1px solid #d6dde2;gap:8px}
+.screen-workspace .workspace-scroll{height:clamp(240px,60vh,680px);max-height:none;overflow:auto;padding:0;touch-action:pan-x pan-y;border-top:1px solid #d6dde2;scroll-behavior:auto;min-width:0}
+.screen-workspace .drawing-surface{position:relative;background:white}
+.screen-workspace canvas{display:block;position:static;z-index:auto;max-width:none}
+@media(max-width:600px){.screen-workspace{margin:8px}.engineering-toolbar{padding:8px;gap:6px}.screen-workspace .legacy-navigation{flex-basis:100%}.engineering-headers{padding:12px}.screen-workspace .legacy-selector{flex-grow:1}}
+
+/* Keep the same measurable sheet before opening native print preview. */
+.print-view{display:flex;flex-direction:column;position:fixed;left:-100000px;top:0;visibility:hidden;width:273mm;height:186mm;background:white;color:#062134;font:10pt Tahoma,Arial,sans-serif}
+.print-identity{flex:none;padding:0 0 8px;overflow-wrap:anywhere}
+.print-identity h1{font-size:16pt;line-height:1.2;margin:0 0 4px;white-space:pre-wrap}
+.print-component,.print-message{margin:4px 0;white-space:pre-wrap}
+.print-identity dl{display:flex;flex-wrap:wrap;gap:4px 16px;margin:6px 0 0;line-height:1.3}
+.print-identity dl>div{display:flex;gap:5px;min-width:0;max-width:100%;flex-wrap:wrap}
+.print-identity dt{font-weight:bold}.print-identity dd{margin:0;white-space:pre-wrap}
+.print-drawing{flex:1;min-height:0;min-width:0;position:relative}
+.print-drawing canvas{display:block;position:static;max-width:none}
+@page{size:A4 landscape;margin:12mm}
+@media print{
+  html,body{margin:0;padding:0;background:white}
+  /* An embedded workspace also has account/page content above its root.
+     Retain only the sheet and its ancestor chain in print flow. */
+  body:has(.print-view) :not(.print-view):not(.print-view *):not(:has(.print-view)){display:none!important}
+  .workspace-screen{display:none!important}
+  .print-view{display:flex!important;position:static;visibility:visible;width:273mm;height:186mm;break-inside:avoid;print-color-adjust:exact}
+}
+
+.screen-workspace .drawing-surface canvas{position:sticky;left:0;top:0}
+.viewport-hint{margin:0;padding:0 16px 10px;font-size:12px;line-height:1.5;color:#38566b}
+.viewport-tools output[aria-label="Drawing view"]{font-size:12px;color:#38566b;padding:4px 8px;background:#edf5fc;border-radius:4px}
+.viewport-tools button[aria-pressed="true"]{border:1px solid #075f9d;background:#edf5fc;color:#062134}
+
+/* Keep Find controls and actions visible while a long result list scrolls. */
+.search-dialog {width:min(640px,94vw);box-sizing:border-box;padding:20px;overflow:hidden;max-height:90dvh}
+.search-dialog form {display:flex;flex-direction:column;max-height:calc(90dvh - 42px);min-height:0}
+.search-dialog h2 {margin:0 0 8px}
+.search-dialog label {align-items:center;flex-shrink:0}
+.search-dialog [role=status] {margin:8px 0;flex-shrink:0;overflow-wrap:anywhere}
+.search-results {list-style:none;margin:4px 0 12px;padding:0;overflow-y:auto;min-height:0;overscroll-behavior:contain}
+.search-results button {display:block;width:100%;text-align:left;padding:10px 12px;min-height:44px;border:1px solid #b2c1cd;background:white;font:inherit;cursor:pointer;overflow-wrap:anywhere}
+.search-result-title {display:block;font-weight:600}
+.search-result-context {display:block;color:#41586a;font-size:.875em;margin-top:4px}
+.search-dialog .dialog-actions {flex-shrink:0;padding-top:8px}
+@media(max-width:600px){.search-dialog {padding:14px}.search-dialog form {max-height:calc(90dvh - 30px)}}
+
+/* Visible labels stay paired with screen inputs outside drawing coordinates. */
+.screen-workspace .engineering-toolbar {align-items:flex-end}
+.screen-workspace .engineering-control {display:flex;flex-direction:column;gap:4px;min-width:96px;max-width:100%;flex:0 1 auto}
+.screen-workspace .engineering-control[hidden] {display:none}
+.engineering-control-label {display:block;font:600 12px/1.4 Tahoma,Arial,sans-serif;color:#244458;overflow-wrap:anywhere}
+.screen-workspace .engineering-control>.legacy-selector {width:100%;flex:none}
+.screen-workspace .legacy-navigation {align-items:flex-end}
+.screen-workspace .legacy-navigation>.engineering-control {flex:1;min-width:0}
+.screen-workspace .legacy-navigation select {width:100%;flex:none}
+@media(max-width:600px){.screen-workspace .engineering-toolbar>.engineering-control {flex:1 1 125px}}

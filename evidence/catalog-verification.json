@@ -1,0 +1,105 @@
+{
+  "recordedAt": "2026-11-01T13:42:26.791Z",
+  "scope": "task2",
+  "baseCommit": "a1b12e0",
+  "source": {
+    "files": 1634,
+    "bytes": 41852002,
+    "changedFiles": 0,
+    "independentChecks": [
+      "original audit manifest verified before import and after final implementation",
+      "independent reviewer rehashed all1634 files with zero mismatches"
+    ]
+  },
+  "catalog": {
+    "revision": "654e1907186f5d97147a0350a8017c4c1adb37cb8616a06e23d7ada4bfdcc178",
+    "sourceInventoryHash": "3cccc413d5c74a26a5c3e14de6aa5fe3f7bc8579662885a4ee17b65ecfd76a3b",
+    "tableCount": 935,
+    "templateSources": 245,
+    "uiImageDerivatives": 156,
+    "engineeringTextFiles": 5,
+    "notSelected": 293,
+    "countMarkerIssues": [
+      {
+        "id": "Flhb/Flhb1.csv",
+        "issues": [
+          "invalid-count"
+        ]
+      },
+      {
+        "id": "Ftsw/FTSW120.csv",
+        "issues": [
+          "invalid-count"
+        ]
+      },
+      {
+        "id": "Ftsw/FTSW130.csv",
+        "issues": [
+          "invalid-count"
+        ]
+      },
+      {
+        "id": "Ftsw/FTSW1430 - Copy.csv",
+        "issues": [
+          "invalid-count"
+        ]
+      },
+      {
+        "id": "Ftsw/FTSW160.csv",
+        "issues": [
+          "invalid-count"
+        ]
+      },
+      {
+        "id": "Ftsw/Ftsw1_Socketwelded_90_Deg_Elbow_2000_Millimetres.csv",
+        "issues": [
+          "invalid-count"
+        ]
+      },
+      {
+        "id": "Ftsw/FTSW8_SW_Red_Cplg_3000_Millimetres.csv",
+        "issues": [
+          "invalid-count"
+        ]
+      },
+      {
+        "id": "Vlfl/Vlv8150_.csv",
+        "issues": [
+          "invalid-count"
+        ]
+      }
+    ]
+  },
+  "independentReference": {
+    "runtime": "Framework v4.0.30319, mscorlib4",
+    "tableFingerprints": 935,
+    "helper": {
+      "path": "tools/evidence/catalog-framework-reference.ps1",
+      "sha256": "b4384ef462961bc47e8fe2c8afa17c2ab956665e55d7498ce6580d88c57bc299"
+    },
+    "selectedCellFixtures": 8,
+    "invalidUtf8Cases": 3
+  },
+  "verification": {
+    "targetedTests": {
+      "passed": 21,
+      "failed": 0
+    },
+    "fullSuite": {
+      "files": 4,
+      "passed": 26,
+      "failed": 0
+    },
+    "typecheck": "passed",
+    "productionBuild": "passed",
+    "clientImportBoundary": "Next production compiler rejected actual server-only client import; owned probe removed",
+    "evidenceCheck": "passed",
+    "independentReview": "no actionable findings or deferred minors",
+    "privateOutputIgnored": true,
+    "routeFunctionalCards": "495 remain pending; not promoted by import tests"
+  },
+  "limitations": [
+    "Template parsing belongs to task5; only exact private DXF bytes available here.",
+    "No original full application runtime or screenshot equivalence claimed."
+  ]
+}

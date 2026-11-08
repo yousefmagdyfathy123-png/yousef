@@ -1,0 +1,15 @@
+import { Ftsw1 } from './ftsw/Ftsw1';
+import { Ftsw2 } from './ftsw/Ftsw2';
+import { Ftsw3 } from './ftsw/Ftsw3';
+import { Ftsw4 } from './ftsw/Ftsw4';
+import { Ftsw5 } from './ftsw/Ftsw5';
+import { Ftsw6 } from './ftsw/Ftsw6';
+import { Ftsw7 } from './ftsw/Ftsw7';
+import { Ftsw8 } from './ftsw/Ftsw8';
+import { Ftsw9 } from './ftsw/Ftsw9';
+import { Ftsw10 } from './ftsw/Ftsw10';
+import { Ftsw11 } from './ftsw/Ftsw11';
+import { Ftsw12 } from './ftsw/Ftsw12';
+import { Ftsw13 } from './ftsw/Ftsw13';
+import { Ftsw14 } from './ftsw/Ftsw14';
+export const ftswRoutes=[Ftsw1,Ftsw2,Ftsw3,Ftsw4,Ftsw5,Ftsw6,Ftsw7,Ftsw8,Ftsw9,Ftsw10,Ftsw11,Ftsw12,Ftsw13,Ftsw14];

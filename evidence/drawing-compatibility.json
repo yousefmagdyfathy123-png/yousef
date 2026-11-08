@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "scope": "Task5 shared drawing protocol; no completed engineering route or browser renderer",
+  "methods": [
+    {
+      "method": "GotoForm",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 39760,
+        "token": "0x06000739",
+        "rva": 3618080
+      },
+      "ilSha256": "123c54641c4f4a862fd4f9fc3673783a89b7e6c9a6307a75b6c1dd8a13beb647"
+    },
+    {
+      "method": "LoadDrawing",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 39778,
+        "token": "0x0600073a",
+        "rva": 3618160
+      },
+      "ilSha256": "a4e602de7b2af2893dbd39a118b8d4ebd85b4f3d38dccbc1a44448ce89d0d5a4"
+    },
+    {
+      "method": "Drawlines1",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 40809,
+        "token": "0x06000743",
+        "rva": 3622304
+      },
+      "ilSha256": "13d514f5b0c444cc1feab0a121b9a3e9f68a003ac42f23799d27132ee0d6f567"
+    },
+    {
+      "method": "DoDrawing",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 40913,
+        "token": "0x06000744",
+        "rva": 3623668
+      },
+      "ilSha256": "4d38598296307a3a2f8469a15b80d8aa335ef9143465443ec4cbbe7965587171"
+    },
+    {
+      "method": "GetSubTab",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 36818,
+        "token": "0x06000726",
+        "rva": 3567640
+      },
+      "ilSha256": "7fe830d0baafcfd0edeec8ce30ecbba940c2a69a5e80748f2cd6cbd4e81097bb"
+    },
+    {
+      "method": "DropSubTab",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 39170,
+        "token": "0x06000728",
+        "rva": 3606504
+      },
+      "ilSha256": "9e51d3c158edda0de6a2e019191b0f088454a65ba2dd5cd7071575709a4a4e7c"
+    },
+    {
+      "method": "FormatDim",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 39366,
+        "token": "0x0600072c",
+        "rva": 3611568
+      },
+      "ilSha256": "2f4c7cfc01db4144198e24cf67ef7135cbee1331c480644077304bc5317aeaf9"
+    },
+    {
+      "method": "ImperialiseWereNecessary",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 28033,
+        "token": "0x060006e8",
+        "rva": 3424852
+      },
+      "ilSha256": "3314564558279e1e6c05ef7030b7327ee1dbd00c8af12d4954305cb69aa9de8c"
+    },
+    {
+      "method": "FractionizeIfNeccessary",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 58370,
+        "token": "0x0600085d",
+        "rva": 3849868
+      },
+      "ilSha256": "7701d5c4581fc74c8fe9c6cffe720a1adeaaae1f8c225ddcd9f37a1978951026"
+    }
+  ],
+  "artifact": {
+    "hash": "55a55522875ad7131d1367a08667ae653416c9be2decbd3bd5c54a9b8c04d03c",
+    "mvid": "948a0d3b-1670-4555-9843-5e7ed73785db"
+  },
+  "reaReuse": {
+    "path": "evidence/catalog-load-evidence.json",
+    "scope": "same artifact, all1481 raw IL bodies crosschecked; extended by source and display IL anchors"
+  },
+  "sourcePreservation": {
+    "files": 1634,
+    "changed": 0,
+    "executableUnchanged": true
+  },
+  "profile": {
+    "initial": "Fresh c/colr/linetype=0 per file; no runtime-global claim",
+    "files": 245,
+    "records": 80280,
+    "markers": 1701
+  },
+  "fixtures": {
+    "path": "tests/reference/drawing/corpus.json",
+    "hash": "d09ce94a25ec60f974a773cce5eba0a766def7a48a450e630b2fa604065a74ae"
+  },
+  "framework": {
+    "path": "tests/reference/drawing/temperature.json",
+    "hash": "9d98a0891ffbb674879792917330ef2c141db60cb8478fdafaf68fb1f332a847",
+    "helperHash": "03ac4be137cf35dfc9fd05be174e8c02d2d404a759ef27989f79fab0120ebb34",
+    "runtime": "4.0.30319.42000",
+    "cases": 6
+  },
+  "visualVerification": "unverified-visual-nonblocking",
+  "stateSchema": 3,
+  "codecVersion": 1
+}

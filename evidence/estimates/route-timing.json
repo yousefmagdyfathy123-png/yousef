@@ -1,0 +1,9 @@
+{
+  "Flan2": {
+    "investigationStartedAt": "2026-11-01T19:11:16.633895+00:00",
+    "scope": "New route work starts after Task6a acceptance; initial source-only investigation",
+    "completedAt": "2026-11-01T19:21:07.069766+00:00",
+    "fullSuiteSeconds": 27.91,
+    "focusedPhaseEffort": "Not separately instrumented; timestamps are elapsed observation only"
+  }
+}

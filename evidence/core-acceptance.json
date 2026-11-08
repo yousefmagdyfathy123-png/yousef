@@ -1,0 +1,205 @@
+{
+  "schemaVersion": 1,
+  "scope": "Task 12 core engine and workspace handoff for protected application integration",
+  "sourceRevision": {
+    "path": "Pipedata-Pro 14.1.exe",
+    "hash": "55a55522875ad7131d1367a08667ae653416c9be2decbd3bd5c54a9b8c04d03c",
+    "mvid": "948a0d3b-1670-4555-9843-5e7ed73785db"
+  },
+  "catalogRevision": "0216f5e78e9e09f6808f65655979b2d9e45b1dabaeee9f5f8266c6e039b1431f",
+  "culture": "en-US",
+  "sourceIntegrity": {
+    "command": "python tools/evidence/core-source-check.py",
+    "pinnedComparison": {
+      "files": 1638,
+      "catalogFiles": 1634,
+      "differences": 0,
+      "snapshotSha256": "68a9df6380f3d6051bb82bb039b92aca6ec60c5b2a34d48bfd1ab16fba3ec70b"
+    },
+    "finalComparison": {
+      "files": 1638,
+      "catalogFiles": 1634,
+      "differences": 0,
+      "snapshotSha256": "68a9df6380f3d6051bb82bb039b92aca6ec60c5b2a34d48bfd1ab16fba3ec70b"
+    }
+  },
+  "coverage": {
+    "command": "npm run coverage:check",
+    "requiredEntries": 495,
+    "implementedDispatchRoutes": 167,
+    "testedCards": 498,
+    "functionalGaps": [],
+    "visualWaivers": [
+      "unverified-visual-nonblocking"
+    ]
+  },
+  "sequenceEvidence": [
+    {
+      "scenario": "Non-Find dispatch for Psiz1, Comp1 and Piwt1, with Comp1 exercised in the visible browser menu",
+      "sourceRefs": [
+        {
+          "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+          "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+          "line": 17791,
+          "endLine": 17794
+        },
+        {
+          "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+          "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+          "line": 17811,
+          "endLine": 17814
+        },
+        {
+          "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+          "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+          "line": 17980,
+          "endLine": 17983
+        },
+        {
+          "path": "audit/executable/Pipedata_Pro_14_1.frmPipedata.cs",
+          "hash": "e5c29a6a4b1bcd0bedd7f780d69665e96baab68892178b3cf5f257d265190f34",
+          "line": 8863,
+          "endLine": 8864
+        },
+        {
+          "path": "audit/executable/Pipedata_Pro_14_1.frmPipedata.cs",
+          "hash": "e5c29a6a4b1bcd0bedd7f780d69665e96baab68892178b3cf5f257d265190f34",
+          "line": 8933,
+          "endLine": 8934
+        }
+      ]
+    },
+    {
+      "scenario": "Blnd1 through Blnd4 have Find rows. Clicker runs shared checks, clears six labels and has no matching dispatch",
+      "sourceRefs": [
+        {
+          "path": "Database/Gensets/SearchFile.csv",
+          "hash": "f655fb3fb33b2b0302c7a7e34c67ea311498f2332e308273fb957fb48a2d5480",
+          "line": 144,
+          "endLine": 147
+        },
+        {
+          "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+          "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+          "line": 17782,
+          "endLine": 17794
+        },
+        {
+          "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+          "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+          "line": 17791,
+          "endLine": 18565
+        },
+        {
+          "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+          "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+          "line": 19019,
+          "endLine": 19024
+        }
+      ]
+    },
+    {
+      "scenario": "Gpas1 token 92 inherits colr, Flan1 token 4 sets it, and the trailing line-memory row leaves colr at zero for the next draw",
+      "sourceRefs": [
+        {
+          "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+          "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+          "line": 40832,
+          "endLine": 40894
+        },
+        {
+          "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+          "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+          "line": 41061,
+          "endLine": 41076
+        }
+      ],
+      "independentGeometry": "audit/recheck-2026-11-01/drawing-parser-accepted-lines.json"
+    },
+    {
+      "scenario": "Drawing scratch clears only its declared source ranges. Database loading overwrites loaded cells and retains the rest",
+      "sourceRefs": [
+        {
+          "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+          "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+          "line": 39778,
+          "endLine": 39805
+        },
+        {
+          "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+          "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+          "line": 40809,
+          "endLine": 40827
+        },
+        {
+          "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+          "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+          "line": 36366,
+          "endLine": 36415
+        }
+      ]
+    },
+    {
+      "scenario": "Repeated Flan1/Gpas1 selection and unit changes preserve per-family state and the source unique history order",
+      "sourceRefs": [
+        {
+          "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+          "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+          "line": 17753,
+          "endLine": 17770
+        },
+        {
+          "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+          "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+          "line": 49160,
+          "endLine": 49192
+        }
+      ],
+      "references": [
+        "tests/reference/flanges-gaskets/Flan1.json",
+        "tests/reference/calculators/Gpas1.json"
+      ]
+    }
+  ],
+  "verification": {
+    "coreSuite": {
+      "command": "npm run test -- tests/legacy tests/workspace",
+      "filesPassed": 28,
+      "testsPassed": 39449,
+      "note": "The full run began before the new sequence file was added. The final focused run covered all eight new sequence and coverage tests."
+    },
+    "focusedSuite": {
+      "command": "npm run test -- tests/evidence tests/legacy/navigation-sequences.test.ts",
+      "filesPassed": 3,
+      "testsPassed": 13
+    },
+    "typecheck": {
+      "command": "npm run typecheck",
+      "status": "passed"
+    },
+    "productionBuild": {
+      "command": "npm run build",
+      "status": "passed"
+    },
+    "browser": {
+      "command": "npm run test:e2e -- tests/e2e/core-acceptance.spec.ts",
+      "testsPassed": 1
+    },
+    "productionLoopbackSmoke": {
+      "workspaceStatus": 200,
+      "access": "fail-closed",
+      "checkpointActionStatus": 404
+    },
+    "performance": {
+      "command": "npm run perf:core",
+      "status": "passed",
+      "result": "evidence/performance/core-baseline.json"
+    }
+  },
+  "rulings": [
+    "Use Comp1 in the browser for non-Find dispatch. Psiz1 is hidden in the source designer and is verified at the engine entry point.",
+    "The performance gate checks exact headers and drawings and ordered bank identities. Warm calls may skip repeated source loads after selector normalization.",
+    "The author reviewed the change directly under the user’s no-subagent instruction."
+  ],
+  "handoff": "The built workspace fails closed and the checkpoint action path returns 404. Plan 2 owns authenticated access."
+}

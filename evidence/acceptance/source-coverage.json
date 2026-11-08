@@ -1,0 +1,47 @@
+{
+  "evidence": {
+    "artifact": {
+      "path": "Pipedata-Pro 14.1.exe",
+      "hash": "55a55522875ad7131d1367a08667ae653416c9be2decbd3bd5c54a9b8c04d03c",
+      "mvid": "948a0d3b-1670-4555-9843-5e7ed73785db"
+    },
+    "requiredEntries": 495,
+    "dispatchRoutes": 167,
+    "testedCards": 498,
+    "staticRecipeBranches": 505,
+    "searchOnly": [
+      "Blnd1",
+      "Blnd2",
+      "Blnd3",
+      "Blnd4",
+      "Fl6b3"
+    ],
+    "dispatchNotInSearch": [
+      "Comp1",
+      "Piwt1",
+      "Psiz1"
+    ],
+    "dormantCalculators": [
+      "Pwal1",
+      "Ptem1"
+    ],
+    "exclusions": [
+      "ToolStripComboBox6",
+      "ToolStripComboBox6",
+      "ToolStripComboBox6",
+      "ToolStripComboBox6",
+      "MenuStrip1_DoubleClick",
+      "mnuCheckForUpdates_Click",
+      "frmStartup"
+    ],
+    "functionalGaps": []
+  },
+  "commands": [
+    {
+      "command": "coverage-check",
+      "exitCode": 0,
+      "seconds": 7.35,
+      "summary": []
+    }
+  ]
+}

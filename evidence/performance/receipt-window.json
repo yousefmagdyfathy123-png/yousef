@@ -1,0 +1,33 @@
+{
+  "scope": "PostgreSQL sequenced transaction and logical restoration with injected deterministic transition",
+  "operations": 2000,
+  "maximumLiveReceipts": 100,
+  "cursorBytes": 8,
+  "elapsedMs": 45019.977100000004,
+  "before": {
+    "receiptHeapBytes": "0",
+    "receiptIndexBytes": "16384",
+    "receiptTotalBytes": "24576",
+    "estimatedDeadTuples": "0",
+    "stateJsonBytes": 7832,
+    "liveReceiptJsonBytes": null,
+    "wal": "0/4B723880"
+  },
+  "after": {
+    "receiptHeapBytes": "221184",
+    "receiptIndexBytes": "212992",
+    "receiptTotalBytes": "12443648",
+    "estimatedDeadTuples": "1145",
+    "stateJsonBytes": 7835,
+    "liveReceiptJsonBytes": "7089600",
+    "wal": "0/4D508FF0"
+  },
+  "walBytes": "31348592",
+  "logicalWorkspaceAndReceiptExportBytes": 6279466,
+  "verified": [
+    "live bounds after every commit",
+    "retained replay",
+    "evicted replay denial",
+    "cursor and buffers after logical restoration"
+  ]
+}

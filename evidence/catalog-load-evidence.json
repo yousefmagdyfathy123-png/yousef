@@ -1,0 +1,124 @@
+{
+  "artifact": {
+    "path": "Pipedata-Pro 14.1.exe",
+    "sha256": "55a55522875ad7131d1367a08667ae653416c9be2decbd3bd5c54a9b8c04d03c",
+    "mvid": "948a0d3b-1670-4555-9843-5e7ed73785db"
+  },
+  "reaCrosscheck": {
+    "compared": 1481,
+    "matched": 1481,
+    "mismatches": [],
+    "scope": "Same artifact/MVID, method RVA and raw IL SHA256; no runtime or C# semantics verification."
+  },
+  "methods": [
+    {
+      "method": "LoadDataBase1",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 36366,
+        "token": "0x06000722",
+        "rva": 3562000
+      },
+      "ilSha256": "ccee075f3f89b6f20da1bccf2168f16e48890151dc055cc5012b349295ee1330",
+      "level": "observed-static"
+    },
+    {
+      "method": "LoadDataBase2",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 36538,
+        "token": "0x06000723",
+        "rva": 3564288
+      },
+      "ilSha256": "2cbd82f8302a48bd26913c052161b4e8eef8c42da2ddaa2a4caffab1021d14de",
+      "level": "observed-static"
+    },
+    {
+      "method": "LoadDataBase3",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 36630,
+        "token": "0x06000724",
+        "rva": 3565376
+      },
+      "ilSha256": "73d81574e607b3227c9f91cab8b88160c459e20c0ae4b67f96e704b4ab2b8cf9",
+      "level": "observed-static"
+    },
+    {
+      "method": "LoadDataBase4",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 36724,
+        "token": "0x06000725",
+        "rva": 3566508
+      },
+      "ilSha256": "80addd647652abbd978bc1c11e593448426da8c22ce5d6f6196bde3a05e26739",
+      "level": "observed-static"
+    },
+    {
+      "method": "LoadSearchFile",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 56104,
+        "token": "0x06000841",
+        "rva": 3820656
+      },
+      "ilSha256": "c9116d64b4ab32371f10b5ff0fc4b8839c4b5f7b57cf1137197bb3476f5d2fb5",
+      "level": "observed-static"
+    },
+    {
+      "method": "LoadDxf",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 36001,
+        "token": "0x0600071b",
+        "rva": 3560388
+      },
+      "ilSha256": "1a491df299c7d252f3b19ea5d40a7126d63b1d31cc21aa9cf65219f4085c1cc7",
+      "level": "observed-static"
+    },
+    {
+      "method": "LoadIcons",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 59332,
+        "token": "0x0600087e",
+        "rva": 3862448
+      },
+      "ilSha256": "c7436ad9d3a0f046a2ecc1b68c43d5dbaaca71575b141d2d33c3f88ce9dc7bfe",
+      "level": "observed-static"
+    },
+    {
+      "method": "LoadSectors",
+      "sourceRef": {
+        "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+        "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+        "line": 43134,
+        "token": "0x06000748",
+        "rva": 3643520
+      },
+      "ilSha256": "1f98feaaf737025d2a594d1d2aeb219f40f4d395ea9170c15fdc826c80dbdd61",
+      "level": "observed-static"
+    }
+  ],
+  "rules": [
+    "ReadLine physical rows and Split comma; no RFC CSV quotes or trimming.",
+    "First count row remains bank row1; header metadata is descriptive and never removes rows.",
+    "N/A and fraction transformations happen after raw loading in route/state code; raw catalog must retain original cells.",
+    "Default StreamReader UTF8 replaces invalid bytes; three audited cp1252 candidates confirmed independently on .NET Framework.",
+    "Template-source bytes remain private for task5; no fabricated empty display records.",
+    "No normal read established for unselected source artifacts; inventory does not promote them to required UI tables."
+  ],
+  "officialReferences": [
+    "https://learn.microsoft.com/en-us/dotnet/api/system.io.streamreader.-ctor?view=netframework-4.8.1",
+    "https://github.com/microsoft/referencesource/blob/main/mscorlib/system/io/streamreader.cs",
+    "https://nextjs.org/docs/app/getting-started/server-and-client-components#preventing-environment-poisoning"
+  ]
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "exitCode": 0,
+    "log": ".drawing-final-test.log",
+    "command": "npm test"
+  },
+  {
+    "exitCode": 0,
+    "log": ".drawing-final-typecheck.log",
+    "command": "npm run typecheck"
+  },
+  {
+    "exitCode": 0,
+    "log": ".drawing-final-build.log",
+    "command": "npm run build"
+  },
+  {
+    "exitCode": 0,
+    "log": ".drawing-final-evidence-check.log",
+    "command": "npm run evidence:check"
+  }
+]

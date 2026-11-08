@@ -1,0 +1,591 @@
+{
+  "candidate": {
+    "sourceTreeHash": "d78de872492f7a36d1aadabb064fe2f26b8af5c0c2d321c0437a0c94f7f2db2f",
+    "catalogRevision": "0216f5e78e9e09f6808f65655979b2d9e45b1dabaeee9f5f8266c6e039b1431f",
+    "configFingerprint": "1f00b1db4b11060908dcc6196594ef44a2bc5bbca46788581a6d883a4834f6f7"
+  },
+  "evidence": [
+    {
+      "project": "chrome-windows",
+      "versions": [
+        "156.0.8078.74"
+      ],
+      "runnerErrors": 0,
+      "passed": true,
+      "tests": [
+        {
+          "file": "desktop.spec.ts",
+          "title": "all-route navigation, settings cancellation, search and public identity",
+          "project": "chrome-windows",
+          "status": "passed",
+          "browser": "156.0.8078.74"
+        },
+        {
+          "file": "desktop.spec.ts",
+          "title": "source menus open calculator and parameter documents without private markup",
+          "project": "chrome-windows",
+          "status": "passed",
+          "browser": "156.0.8078.74"
+        },
+        {
+          "file": "desktop.spec.ts",
+          "title": "wide source toolbar keeps its400px title and selector offset without wrapping",
+          "project": "chrome-windows",
+          "status": "passed",
+          "browser": "156.0.8078.74"
+        },
+        {
+          "file": "full-journey.spec.ts",
+          "title": "protected text results match the drawing revision through copy, settings and reload",
+          "project": "chrome-windows",
+          "status": "passed",
+          "browser": "156.0.8078.74"
+        },
+        {
+          "file": "mobile.spec.ts",
+          "title": "narrow layout scrolls, zooms and remains operable without reordering controls",
+          "project": "chrome-windows",
+          "status": "passed",
+          "browser": "156.0.8078.74"
+        },
+        {
+          "file": "mobile.spec.ts",
+          "title": "two touch pointers zoom and release cleanly; pan preserves the selectors",
+          "project": "chrome-windows",
+          "status": "passed",
+          "browser": "156.0.8078.74"
+        },
+        {
+          "file": "preferences.spec.ts",
+          "title": "account defaults persist and a stale form must reload the saved snapshot",
+          "project": "chrome-windows",
+          "status": "passed"
+        },
+        {
+          "file": "print.spec.ts",
+          "title": "print snapshot has source width and notice, cancellation/failure restores live workspace",
+          "project": "chrome-windows",
+          "status": "passed",
+          "browser": "156.0.8078.74"
+        },
+        {
+          "file": "workspace-network.spec.ts",
+          "title": "reconciles a lost committed response without dispatching the action again",
+          "project": "chrome-windows",
+          "status": "passed"
+        },
+        {
+          "file": "workspace-recovery.spec.ts",
+          "title": "reload recovers the workspace, cloned tabs stay isolated, and guests and expired workspaces are denied",
+          "project": "chrome-windows",
+          "status": "passed"
+        },
+        {
+          "file": "workspace-session-resume.spec.ts",
+          "title": "a new login can explicitly resume the same workspace and its confirmed revision",
+          "project": "chrome-windows",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "project": "edge-windows",
+      "versions": [
+        "156.0.4314.58"
+      ],
+      "runnerErrors": 0,
+      "passed": true,
+      "tests": [
+        {
+          "file": "desktop.spec.ts",
+          "title": "all-route navigation, settings cancellation, search and public identity",
+          "status": "passed",
+          "project": "edge-windows",
+          "browser": "156.0.4314.58"
+        },
+        {
+          "file": "desktop.spec.ts",
+          "title": "source menus open calculator and parameter documents without private markup",
+          "status": "passed",
+          "project": "edge-windows",
+          "browser": "156.0.4314.58"
+        },
+        {
+          "file": "desktop.spec.ts",
+          "title": "wide source toolbar keeps its400px title and selector offset without wrapping",
+          "status": "passed",
+          "project": "edge-windows",
+          "browser": "156.0.4314.58"
+        },
+        {
+          "file": "full-journey.spec.ts",
+          "title": "protected text results match the drawing revision through copy, settings and reload",
+          "status": "passed",
+          "project": "edge-windows",
+          "browser": "156.0.4314.58"
+        },
+        {
+          "file": "mobile.spec.ts",
+          "title": "narrow layout scrolls, zooms and remains operable without reordering controls",
+          "status": "passed",
+          "project": "edge-windows",
+          "browser": "156.0.4314.58"
+        },
+        {
+          "file": "mobile.spec.ts",
+          "title": "two touch pointers zoom and release cleanly; pan preserves the selectors",
+          "status": "passed",
+          "project": "edge-windows",
+          "browser": "156.0.4314.58"
+        },
+        {
+          "file": "preferences.spec.ts",
+          "title": "account defaults persist and a stale form must reload the saved snapshot",
+          "status": "passed",
+          "project": "edge-windows"
+        },
+        {
+          "file": "print.spec.ts",
+          "title": "print snapshot has source width and notice, cancellation/failure restores live workspace",
+          "status": "passed",
+          "project": "edge-windows",
+          "browser": "156.0.4314.58"
+        },
+        {
+          "file": "workspace-network.spec.ts",
+          "title": "reconciles a lost committed response without dispatching the action again",
+          "status": "passed",
+          "project": "edge-windows"
+        },
+        {
+          "file": "workspace-recovery.spec.ts",
+          "title": "reload recovers the workspace, cloned tabs stay isolated, and guests and expired workspaces are denied",
+          "status": "passed",
+          "project": "edge-windows"
+        },
+        {
+          "file": "workspace-session-resume.spec.ts",
+          "title": "a new login can explicitly resume the same workspace and its confirmed revision",
+          "status": "passed",
+          "project": "edge-windows"
+        }
+      ],
+      "reverification": "evidence/acceptance/ui-edge-reverification.json"
+    },
+    {
+      "project": "chromium-windows",
+      "versions": [
+        "156.0.8078.4"
+      ],
+      "runnerErrors": 0,
+      "passed": true,
+      "tests": [
+        {
+          "file": "desktop.spec.ts",
+          "title": "all-route navigation, settings cancellation, search and public identity",
+          "project": "chromium-windows",
+          "status": "passed",
+          "browser": "156.0.8078.4"
+        },
+        {
+          "file": "desktop.spec.ts",
+          "title": "source menus open calculator and parameter documents without private markup",
+          "project": "chromium-windows",
+          "status": "passed",
+          "browser": "156.0.8078.4"
+        },
+        {
+          "file": "desktop.spec.ts",
+          "title": "wide source toolbar keeps its400px title and selector offset without wrapping",
+          "project": "chromium-windows",
+          "status": "passed",
+          "browser": "156.0.8078.4"
+        },
+        {
+          "file": "full-journey.spec.ts",
+          "title": "protected text results match the drawing revision through copy, settings and reload",
+          "project": "chromium-windows",
+          "status": "passed",
+          "browser": "156.0.8078.4"
+        },
+        {
+          "file": "mobile.spec.ts",
+          "title": "narrow layout scrolls, zooms and remains operable without reordering controls",
+          "project": "chromium-windows",
+          "status": "passed",
+          "browser": "156.0.8078.4"
+        },
+        {
+          "file": "mobile.spec.ts",
+          "title": "two touch pointers zoom and release cleanly; pan preserves the selectors",
+          "project": "chromium-windows",
+          "status": "passed",
+          "browser": "156.0.8078.4"
+        },
+        {
+          "file": "preferences.spec.ts",
+          "title": "account defaults persist and a stale form must reload the saved snapshot",
+          "project": "chromium-windows",
+          "status": "passed"
+        },
+        {
+          "file": "print.spec.ts",
+          "title": "print snapshot has source width and notice, cancellation/failure restores live workspace",
+          "project": "chromium-windows",
+          "status": "passed",
+          "browser": "156.0.8078.4"
+        },
+        {
+          "file": "workspace-network.spec.ts",
+          "title": "reconciles a lost committed response without dispatching the action again",
+          "project": "chromium-windows",
+          "status": "passed"
+        },
+        {
+          "file": "workspace-recovery.spec.ts",
+          "title": "reload recovers the workspace, cloned tabs stay isolated, and guests and expired workspaces are denied",
+          "project": "chromium-windows",
+          "status": "passed"
+        },
+        {
+          "file": "workspace-session-resume.spec.ts",
+          "title": "a new login can explicitly resume the same workspace and its confirmed revision",
+          "project": "chromium-windows",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "project": "firefox-windows",
+      "versions": [
+        "157.0"
+      ],
+      "runnerErrors": 0,
+      "passed": true,
+      "tests": [
+        {
+          "file": "desktop.spec.ts",
+          "title": "all-route navigation, settings cancellation, search and public identity",
+          "project": "firefox-windows",
+          "status": "passed",
+          "browser": "157.0"
+        },
+        {
+          "file": "desktop.spec.ts",
+          "title": "source menus open calculator and parameter documents without private markup",
+          "project": "firefox-windows",
+          "status": "passed",
+          "browser": "157.0"
+        },
+        {
+          "file": "desktop.spec.ts",
+          "title": "wide source toolbar keeps its400px title and selector offset without wrapping",
+          "project": "firefox-windows",
+          "status": "passed",
+          "browser": "157.0"
+        },
+        {
+          "file": "full-journey.spec.ts",
+          "title": "protected text results match the drawing revision through copy, settings and reload",
+          "project": "firefox-windows",
+          "status": "passed",
+          "browser": "157.0"
+        },
+        {
+          "file": "mobile.spec.ts",
+          "title": "narrow layout scrolls, zooms and remains operable without reordering controls",
+          "project": "firefox-windows",
+          "status": "passed",
+          "browser": "157.0"
+        },
+        {
+          "file": "mobile.spec.ts",
+          "title": "two touch pointers zoom and release cleanly; pan preserves the selectors",
+          "project": "firefox-windows",
+          "status": "passed",
+          "browser": "157.0"
+        },
+        {
+          "file": "preferences.spec.ts",
+          "title": "account defaults persist and a stale form must reload the saved snapshot",
+          "project": "firefox-windows",
+          "status": "passed"
+        },
+        {
+          "file": "print.spec.ts",
+          "title": "print snapshot has source width and notice, cancellation/failure restores live workspace",
+          "project": "firefox-windows",
+          "status": "passed",
+          "browser": "157.0"
+        },
+        {
+          "file": "workspace-network.spec.ts",
+          "title": "reconciles a lost committed response without dispatching the action again",
+          "project": "firefox-windows",
+          "status": "passed"
+        },
+        {
+          "file": "workspace-recovery.spec.ts",
+          "title": "reload recovers the workspace, cloned tabs stay isolated, and guests and expired workspaces are denied",
+          "project": "firefox-windows",
+          "status": "passed"
+        },
+        {
+          "file": "workspace-session-resume.spec.ts",
+          "title": "a new login can explicitly resume the same workspace and its confirmed revision",
+          "project": "firefox-windows",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "project": "webkit-windows",
+      "versions": [
+        "27.2"
+      ],
+      "runnerErrors": 0,
+      "passed": true,
+      "tests": [
+        {
+          "file": "desktop.spec.ts",
+          "title": "all-route navigation, settings cancellation, search and public identity",
+          "project": "webkit-windows",
+          "status": "passed",
+          "browser": "27.2"
+        },
+        {
+          "file": "desktop.spec.ts",
+          "title": "source menus open calculator and parameter documents without private markup",
+          "project": "webkit-windows",
+          "status": "passed",
+          "browser": "27.2"
+        },
+        {
+          "file": "desktop.spec.ts",
+          "title": "wide source toolbar keeps its400px title and selector offset without wrapping",
+          "project": "webkit-windows",
+          "status": "passed",
+          "browser": "27.2"
+        },
+        {
+          "file": "full-journey.spec.ts",
+          "title": "protected text results match the drawing revision through copy, settings and reload",
+          "project": "webkit-windows",
+          "status": "passed",
+          "browser": "27.2"
+        },
+        {
+          "file": "mobile.spec.ts",
+          "title": "narrow layout scrolls, zooms and remains operable without reordering controls",
+          "project": "webkit-windows",
+          "status": "passed",
+          "browser": "27.2"
+        },
+        {
+          "file": "mobile.spec.ts",
+          "title": "two touch pointers zoom and release cleanly; pan preserves the selectors",
+          "project": "webkit-windows",
+          "status": "passed",
+          "browser": "27.2"
+        },
+        {
+          "file": "preferences.spec.ts",
+          "title": "account defaults persist and a stale form must reload the saved snapshot",
+          "project": "webkit-windows",
+          "status": "passed"
+        },
+        {
+          "file": "print.spec.ts",
+          "title": "print snapshot has source width and notice, cancellation/failure restores live workspace",
+          "project": "webkit-windows",
+          "status": "passed",
+          "browser": "27.2"
+        },
+        {
+          "file": "workspace-network.spec.ts",
+          "title": "reconciles a lost committed response without dispatching the action again",
+          "project": "webkit-windows",
+          "status": "passed"
+        },
+        {
+          "file": "workspace-recovery.spec.ts",
+          "title": "reload recovers the workspace, cloned tabs stay isolated, and guests and expired workspaces are denied",
+          "project": "webkit-windows",
+          "status": "passed"
+        },
+        {
+          "file": "workspace-session-resume.spec.ts",
+          "title": "a new login can explicitly resume the same workspace and its confirmed revision",
+          "project": "webkit-windows",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "project": "android-chrome-emulation",
+      "versions": [
+        "156.0.8078.74"
+      ],
+      "runnerErrors": 0,
+      "passed": true,
+      "tests": [
+        {
+          "file": "desktop.spec.ts",
+          "title": "all-route navigation, settings cancellation, search and public identity",
+          "project": "android-chrome-emulation",
+          "status": "passed",
+          "browser": "156.0.8078.74"
+        },
+        {
+          "file": "desktop.spec.ts",
+          "title": "source menus open calculator and parameter documents without private markup",
+          "project": "android-chrome-emulation",
+          "status": "passed",
+          "browser": "156.0.8078.74"
+        },
+        {
+          "file": "desktop.spec.ts",
+          "title": "wide source toolbar keeps its400px title and selector offset without wrapping",
+          "project": "android-chrome-emulation",
+          "status": "passed",
+          "browser": "156.0.8078.74"
+        },
+        {
+          "file": "full-journey.spec.ts",
+          "title": "protected text results match the drawing revision through copy, settings and reload",
+          "project": "android-chrome-emulation",
+          "status": "passed",
+          "browser": "156.0.8078.74"
+        },
+        {
+          "file": "mobile.spec.ts",
+          "title": "narrow layout scrolls, zooms and remains operable without reordering controls",
+          "project": "android-chrome-emulation",
+          "status": "passed",
+          "browser": "156.0.8078.74"
+        },
+        {
+          "file": "mobile.spec.ts",
+          "title": "two touch pointers zoom and release cleanly; pan preserves the selectors",
+          "project": "android-chrome-emulation",
+          "status": "passed",
+          "browser": "156.0.8078.74"
+        },
+        {
+          "file": "preferences.spec.ts",
+          "title": "account defaults persist and a stale form must reload the saved snapshot",
+          "project": "android-chrome-emulation",
+          "status": "passed"
+        },
+        {
+          "file": "print.spec.ts",
+          "title": "print snapshot has source width and notice, cancellation/failure restores live workspace",
+          "project": "android-chrome-emulation",
+          "status": "passed",
+          "browser": "156.0.8078.74"
+        },
+        {
+          "file": "workspace-network.spec.ts",
+          "title": "reconciles a lost committed response without dispatching the action again",
+          "project": "android-chrome-emulation",
+          "status": "passed"
+        },
+        {
+          "file": "workspace-recovery.spec.ts",
+          "title": "reload recovers the workspace, cloned tabs stay isolated, and guests and expired workspaces are denied",
+          "project": "android-chrome-emulation",
+          "status": "passed"
+        },
+        {
+          "file": "workspace-session-resume.spec.ts",
+          "title": "a new login can explicitly resume the same workspace and its confirmed revision",
+          "project": "android-chrome-emulation",
+          "status": "passed"
+        }
+      ]
+    },
+    {
+      "project": "iphone-webkit-emulation",
+      "versions": [
+        "27.2"
+      ],
+      "runnerErrors": 0,
+      "passed": true,
+      "tests": [
+        {
+          "file": "desktop.spec.ts",
+          "title": "all-route navigation, settings cancellation, search and public identity",
+          "project": "iphone-webkit-emulation",
+          "status": "passed",
+          "browser": "27.2"
+        },
+        {
+          "file": "desktop.spec.ts",
+          "title": "source menus open calculator and parameter documents without private markup",
+          "project": "iphone-webkit-emulation",
+          "status": "passed",
+          "browser": "27.2"
+        },
+        {
+          "file": "desktop.spec.ts",
+          "title": "wide source toolbar keeps its400px title and selector offset without wrapping",
+          "project": "iphone-webkit-emulation",
+          "status": "passed",
+          "browser": "27.2"
+        },
+        {
+          "file": "full-journey.spec.ts",
+          "title": "protected text results match the drawing revision through copy, settings and reload",
+          "project": "iphone-webkit-emulation",
+          "status": "passed",
+          "browser": "27.2"
+        },
+        {
+          "file": "mobile.spec.ts",
+          "title": "narrow layout scrolls, zooms and remains operable without reordering controls",
+          "project": "iphone-webkit-emulation",
+          "status": "passed",
+          "browser": "27.2"
+        },
+        {
+          "file": "mobile.spec.ts",
+          "title": "two touch pointers zoom and release cleanly; pan preserves the selectors",
+          "project": "iphone-webkit-emulation",
+          "status": "passed",
+          "browser": "27.2"
+        },
+        {
+          "file": "preferences.spec.ts",
+          "title": "account defaults persist and a stale form must reload the saved snapshot",
+          "project": "iphone-webkit-emulation",
+          "status": "passed"
+        },
+        {
+          "file": "print.spec.ts",
+          "title": "print snapshot has source width and notice, cancellation/failure restores live workspace",
+          "project": "iphone-webkit-emulation",
+          "status": "passed",
+          "browser": "27.2"
+        },
+        {
+          "file": "workspace-network.spec.ts",
+          "title": "reconciles a lost committed response without dispatching the action again",
+          "project": "iphone-webkit-emulation",
+          "status": "passed"
+        },
+        {
+          "file": "workspace-recovery.spec.ts",
+          "title": "reload recovers the workspace, cloned tabs stay isolated, and guests and expired workspaces are denied",
+          "project": "iphone-webkit-emulation",
+          "status": "passed"
+        },
+        {
+          "file": "workspace-session-resume.spec.ts",
+          "title": "a new login can explicitly resume the same workspace and its confirmed revision",
+          "project": "iphone-webkit-emulation",
+          "status": "passed"
+        }
+      ]
+    }
+  ]
+}

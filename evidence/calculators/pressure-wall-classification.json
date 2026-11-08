@@ -1,0 +1,51 @@
+{
+  "routes": [
+    "Pwal1",
+    "Ptem1"
+  ],
+  "behavior": "no-dispatch; prior drawing retained; shared Clicker title/settings/checks still run",
+  "menuChain": [
+    "constructed ToolStripMenuItem.Click -> ActiveSubSector -> LoadActiveSubSector -> SaveActiveTab -> Clicker"
+  ],
+  "wall": "Pwal1 has no caller; PwalCalculate only called by Pwal1_Headers, whose sole caller is unreachable Pwal1",
+  "pressure": "PtemCalculate has no caller",
+  "pipeWeight": "Piwt1 performs lexical bore/wall lookup and weight headers; no Pwal/Ptem helper calls",
+  "deadHelpersNotActivated": true,
+  "sourceRefs": [
+    {
+      "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+      "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+      "line": 17748
+    },
+    {
+      "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+      "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+      "line": 2918
+    },
+    {
+      "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+      "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+      "line": 54029
+    },
+    {
+      "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+      "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+      "line": 54071
+    },
+    {
+      "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+      "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+      "line": 54087
+    },
+    {
+      "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+      "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+      "line": 54502
+    },
+    {
+      "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+      "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a",
+      "line": 44926
+    }
+  ]
+}

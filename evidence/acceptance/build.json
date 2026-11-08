@@ -1,0 +1,14 @@
+{
+  "evidence": {
+    "verifiedAfterBrowserTestCorrections": true
+  },
+  "commands": [
+    {
+      "command": "npm run build",
+      "exitCode": 0,
+      "summary": [
+        "✓ Compiled successfully in 1907ms"
+      ]
+    }
+  ]
+}

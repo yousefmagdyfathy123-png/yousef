@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "artifact": {
+    "path": "Pipedata-Pro 14.1.exe",
+    "hash": "55a55522875ad7131d1367a08667ae653416c9be2decbd3bd5c54a9b8c04d03c",
+    "mvid": "948a0d3b-1670-4555-9843-5e7ed73785db"
+  },
+  "sourceRefs": [
+    {
+      "path": "audit/executable/Pipedata_Pro_14_1.frmPipedata.cs",
+      "hash": "e5c29a6a4b1bcd0bedd7f780d69665e96baab68892178b3cf5f257d265190f34"
+    },
+    {
+      "path": "audit/executable/Pipedata_Pro_14_1.Module1.cs",
+      "hash": "ae2389a910a610523c4e012acf3e65be4f7458c7ca9fdbb0d83d5e2c63d13c6a"
+    },
+    {
+      "path": "audit/executable/Pipedata_Pro_14_1.frmDataInput_Fxly.cs",
+      "hash": "3ee1b14bba2f00dac568a5fc81fa371168ffa178a935103ca518c59965f64c51"
+    }
+  ],
+  "reaEvidenceIds": [
+    "ev_c91111d646a2ad7a8be56a792c562697336fbded1edd4a4f9c5271f92ecb6377",
+    "ev_660044f26b35a686e19a3021147f624ed60e819abe159b2d9dcc67b1f6636744"
+  ],
+  "reaLimitations": [
+    "frmPipedata static coverage complete. Module1 additional summary hit the64MiB representation budget; use the already pinned decompilation/IL inventory for the listed methods. No target assembly was executed."
+  ],
+  "methodAnchors": [
+    {
+      "type": "Pipedata_Pro_14_1.frmPipedata",
+      "name": "ToolStripButton17_Click",
+      "token": "[Method:0x052c]",
+      "rva": 3983828,
+      "il_sha256": "8d79a1240fe9e4e69db0bff18523469e79c0d31ca2574f12af88dc0d1cc9c8e8"
+    },
+    {
+      "type": "Pipedata_Pro_14_1.Module1",
+      "name": "Clicker",
+      "token": "[Method:0x0632]",
+      "rva": 3287072,
+      "il_sha256": "049e5003d8a596c43b90db7d4a36e84450620b8c94689c02c2195cc503af791a"
+    },
+    {
+      "type": "Pipedata_Pro_14_1.Module1",
+      "name": "SortNavigationButtons",
+      "token": "[Method:0x0633]",
+      "rva": 3291588,
+      "il_sha256": "1304815767269031585b4687d71c5f208057e9f44607a8a5bba072e479253431"
+    },
+    {
+      "type": "Pipedata_Pro_14_1.Module1",
+      "name": "WhiteBlock",
+      "token": "[Method:0x06fe]",
+      "rva": 3441204,
+      "il_sha256": "571a5953df3c78a5da369b3c7d57c5265660c7b46c0dfd315d8bb118c961142f"
+    },
+    {
+      "type": "Pipedata_Pro_14_1.Module1",
+      "name": "GetTitle",
+      "token": "[Method:0x0727]",
+      "rva": 3570892,
+      "il_sha256": "a93407a6e60c8b554f7a1217ee3e4e1695b0d3a167f33452a86000b983a2bdce"
+    },
+    {
+      "type": "Pipedata_Pro_14_1.Module1",
+      "name": "GotoForm",
+      "token": "[Method:0x0739]",
+      "rva": 3618080,
+      "il_sha256": "123c54641c4f4a862fd4f9fc3673783a89b7e6c9a6307a75b6c1dd8a13beb647"
+    }
+  ],
+  "sourceUi": {
+    "clientSize": [
+      1599,
+      582
+    ],
+    "clientSizeLines": [
+      11048,
+      11054
+    ],
+    "logicalDrawing": [
+      1067,
+      690
+    ],
+    "logicalDrawingBasis": "Existing Task5/6a reference viewport; not an inferred outer Windows frame.",
+    "navigationLines": [
+      18470,
+      18559
+    ],
+    "navigationWidths": {
+      "default": 220,
+      "Gflt/Gspr": 400,
+      "Gpas/Ftsw/Ftsc/Blnu/Vlbw/Flbx": 275,
+      "Srr*": 270
+    },
+    "controlLayout": "Recipe coordinates retain their220px navigation baseline. Renderer translates the selector group by navigationWidth-220; drawing coordinates are unchanged.",
+    "runtimeVisibility": "GotoForm/SortNavigationButtons uses TabbQty>1 for arrows/title; Gpas4 hides settings/find/print. WhiteBlock/no-dispatch retain prior widths/arrow visibility. Search/rejected input retain all source UI state.",
+    "printLines": [
+      14072,
+      14098
+    ],
+    "printWidth": 650,
+    "printHidden": [
+      "MenuStrip1",
+      "StatusStrip1",
+      "StatusStrip2",
+      "StatusStrip3",
+      "Label7"
+    ],
+    "fonts": "Point fonts are recorded in public drawing strings and explicitly converted at96/72 logical pixels; Pixel fonts retain their size.",
+    "unavailable": "Semantic status and original headers/messages; no invented result rows.",
+    "srrb3": "Dispatch exists, but GetTitle only supplies Srrb1/Srrb2. Preserve prior caption separately from menu choice; never invent a third title option."
+  },
+  "publicBoundary": {
+    "schemas": "src/shared/public-schemas.ts",
+    "mapper": "src/server/engineering/public-result.ts",
+    "uiProjection": "src/server/engineering/public-ui.ts",
+    "receiptPolicy": "No persisted operation receipts exist. Old Task6a DTOs without ui remain readable; all new managed responses carry ui/inputAccepted. Future receipt replay must call parsePublicWorkResult. UI-aware private states carry scalar UiNavigation*/UiCombo*/UiTools*/UiTab*/UiSelected* fields through the existing codec; older persistent UI sessions need explicit replay/reinitialization, never guessed historical geometry.",
+    "privateUiAdvance": "Call advanceWorkspaceUi(previous,result) after a transition and before projection/commit; the loopback harness does this. Account/session persistence is plan2."
+  },
+  "newWebFunctions": [
+    "Viewport zoom/pan controls",
+    "Collapsible semantic Results panel and clipboard feedback",
+    "Immutable print snapshot",
+    "Alfadata public reference-use notice"
+  ],
+  "tests": [
+    "tests/workspace/access.test.ts",
+    "tests/workspace/canvas.test.ts",
+    "tests/workspace/navigation.test.ts",
+    "tests/workspace/print.test.ts",
+    "tests/workspace/public-result.test.ts",
+    "tests/workspace/results-panel.test.ts",
+    "tests/workspace/ui-routes.test.ts",
+    "tests/workspace/ui.test.ts",
+    "tests/e2e/workspace.spec.ts",
+    "tests/e2e/results-accessibility.spec.ts",
+    "tests/e2e/flan1-checkpoint.spec.ts"
+  ],
+  "verification": {
+    "legacyRegression": {
+      "files": 24,
+      "tests": 39271,
+      "result": "passed",
+      "log": ".task11-baseline.log"
+    },
+    "finalWorkspaceAndAssembly": {
+      "files": 10,
+      "tests": 377,
+      "result": "passed",
+      "log": ".task11-final-verified.log"
+    },
+    "browserMatrix": {
+      "projects": 7,
+      "tests": 83,
+      "result": "passed",
+      "log": ".task11-matrix-verified.log"
+    },
+    "wideToolbarBrowser": {
+      "projects": 7,
+      "tests": 7,
+      "result": "passed",
+      "log": ".task11-wide-browser.log"
+    },
+    "typecheck": "passed (.task11-typecheck-verified.log)",
+    "build": "passed (.task11-build-verified.log)",
+    "sourceCoverage": {
+      "cards": 498,
+      "pendingFunctional": 0,
+      "blocking": 0,
+      "log": ".task11-coverage-final.log"
+    },
+    "finalContractBrowser": {
+      "projects": 3,
+      "tests": 5,
+      "result": "passed",
+      "log": ".task11-contract-browser-final.log"
+    }
+  },
+  "runtimeMatrix": "evidence/task11-browser-runtime.json",
+  "review": "Author self-review; no subagent per explicit user instruction.",
+  "originalComparison": "unverified-visual-nonblocking",
+  "remainingQa": [
+    "Manual screen-reader testing is not performed; automated semantic HTML, live messages, labels, modal focus and keyboard checks are recorded separately.",
+    "Physical Android Chrome not tested.",
+    "Physical iPhone Safari not tested, under the approved WebKit/mobile-emulation waiver.",
+    "Final full-product/device/print acceptance remains delivery Task21."
+  ],
+  "verificationStatus": "Automated implementation checks passed; manual screen-reader/device limits recorded separately.",
+  "clientBoundaryBuild": "evidence/task11-client-boundary.json"
+}

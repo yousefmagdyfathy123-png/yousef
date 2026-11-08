@@ -1,0 +1,14 @@
+import { Wbol1 } from './wbol/Wbol1';
+import { Wbol2 } from './wbol/Wbol2';
+import { Wbol3 } from './wbol/Wbol3';
+import { Wbol4 } from './wbol/Wbol4';
+import { Wbol5 } from './wbol/Wbol5';
+import { Wbol6 } from './wbol/Wbol6';
+import { Wbol7 } from './wbol/Wbol7';
+import { Wbol8 } from './wbol/Wbol8';
+import { Wbol9 } from './wbol/Wbol9';
+import { Wbol10 } from './wbol/Wbol10';
+import { Wbol11 } from './wbol/Wbol11';
+import { Wbol12 } from './wbol/Wbol12';
+import { Wbol13 } from './wbol/Wbol13';
+export const wbolRoutes=[Wbol1,Wbol2,Wbol3,Wbol4,Wbol5,Wbol6,Wbol7,Wbol8,Wbol9,Wbol10,Wbol11,Wbol12,Wbol13];

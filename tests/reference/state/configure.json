@@ -1,0 +1,48 @@
+{
+    "runtime":  "4.0.30319.42000",
+    "culture":  "en-US",
+    "scope":  "Isolated Framework Single/G7 registry-value operations, independently transcribed wired Button4_Click shared-family traversal and final reload; Task9 platform probe verifies string storage",
+    "cases":  [
+                  {
+                      "input":  20,
+                      "target":  "Celsius",
+                      "expected":  -21.481479644775391
+                  },
+                  {
+                      "input":  86,
+                      "target":  "Celsius",
+                      "expected":  -1.111111044883728
+                  },
+                  {
+                      "input":  100,
+                      "target":  "Celsius",
+                      "expected":  3.2098770141601563
+                  },
+                  {
+                      "input":  176,
+                      "target":  "Celsius",
+                      "expected":  26.666669845581055
+                  },
+                  {
+                      "input":  20,
+                      "target":  "Fahrenheit",
+                      "expected":  154.39999389648438
+                  },
+                  {
+                      "input":  86,
+                      "target":  "Fahrenheit",
+                      "expected":  368.239990234375
+                  },
+                  {
+                      "input":  100,
+                      "target":  "Fahrenheit",
+                      "expected":  413.60000610351563
+                  },
+                  {
+                      "input":  176,
+                      "target":  "Fahrenheit",
+                      "expected":  659.84002685546875
+                  }
+              ],
+    "helperHash":  "2d143f15c15b5129d4987ba4a61a2bbd67abf8cc1be75fc4eebd9d46886d07b2"
+}

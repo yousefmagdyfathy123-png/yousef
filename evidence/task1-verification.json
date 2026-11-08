@@ -1,0 +1,32 @@
+{
+  "recordedAt": "2026-11-01T13:15:30.463Z",
+  "scope": "task1",
+  "tdd": {
+    "runnerProbe": "passed then removed",
+    "coverageRed": "behavioral assertions failed before implementation",
+    "cultureRed": "missing explicit culture did not throw before implementation",
+    "reviewRegressionRed": "developer controls wrongly included; invalid source coordinates accepted"
+  },
+  "results": {
+    "tests": {
+      "files": 2,
+      "passed": 5,
+      "failed": 0
+    },
+    "typecheck": "passed",
+    "build": "passed",
+    "evidenceCheck": "passed",
+    "coverageCheck": {
+      "exitCode": 1,
+      "expected": true,
+      "pendingFunctional": 495
+    },
+    "startupCultureRejections": 6,
+    "testStartupMissingCulture": "rejected",
+    "http": {
+      "root": 200,
+      "privateDatabase": 404
+    },
+    "independentReview": "findings corrected; no deferred minors"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "scope": "Source transition mechanics with explicitly test-only renderer adapters; not route calculation acceptance",
+  "actions": [{"type":"select-route","routeId":"Pipe1"},{"type":"select-route","routeId":"Blnd1"}],
+  "expected": {"routeId":"Blnd1","history":{"ids":["Flan1","Pipe1","Blnd1"],"index":2},"revision":3,"Title":"Pipe","MainSize":16,"headers":["","","","","",""]},
+  "resumeActions": [{"type":"select-route","routeId":"Flan2"},{"type":"back"}],
+  "resumeExpected": {"routeId":"Blnd1","history":{"ids":["Flan1","Pipe1","Blnd1","Flan2"],"index":2},"revision":5,"Title":"Slip-on Flange"}
+}

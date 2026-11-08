@@ -1,0 +1,1014 @@
+{
+  "candidate": {
+    "sourceTreeHash": "d78de872492f7a36d1aadabb064fe2f26b8af5c0c2d321c0437a0c94f7f2db2f",
+    "catalogRevision": "0216f5e78e9e09f6808f65655979b2d9e45b1dabaeee9f5f8266c6e039b1431f",
+    "configFingerprint": "1f00b1db4b11060908dcc6196594ef44a2bc5bbca46788581a6d883a4834f6f7"
+  },
+  "browser": "156.0.8078.74",
+  "scope": "Protected route API dispatch followed by reloading and inspecting each actual workspace render",
+  "required": 167,
+  "routes": [
+    {
+      "id": "Fl6b1",
+      "revision": "2",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Fl6b2",
+      "revision": "3",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Flaa1",
+      "revision": "4",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Flaa2",
+      "revision": "5",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Flan1",
+      "revision": "6",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Flan2",
+      "revision": "7",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Flan3",
+      "revision": "8",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Flan4",
+      "revision": "9",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Flan5",
+      "revision": "10",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Flan6",
+      "revision": "11",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Flan7",
+      "revision": "12",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Flap1",
+      "revision": "13",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Flap2",
+      "revision": "14",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Flbs1",
+      "revision": "15",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Flbx1",
+      "revision": "16",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Flbx2",
+      "revision": "17",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Flco1",
+      "revision": "18",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Flco2",
+      "revision": "19",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Flco3",
+      "revision": "20",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Fldi1",
+      "revision": "21",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Fldi2",
+      "revision": "22",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Fldi3",
+      "revision": "23",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Fldi4",
+      "revision": "24",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Fldi5",
+      "revision": "25",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Flhb1",
+      "revision": "26",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Flre1",
+      "revision": "27",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Flre2",
+      "revision": "28",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Orif1",
+      "revision": "29",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Orif2",
+      "revision": "30",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Orif3",
+      "revision": "31",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Gflt1",
+      "revision": "32",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Gflt2",
+      "revision": "33",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Gflt3",
+      "revision": "34",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Grtj1",
+      "revision": "35",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Grtj2",
+      "revision": "36",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Grtj3",
+      "revision": "37",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Gspr1",
+      "revision": "38",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Gspr2",
+      "revision": "39",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Gspr3",
+      "revision": "40",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Ftbw1",
+      "revision": "41",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Ftbw2",
+      "revision": "42",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Ftbw3",
+      "revision": "43",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Ftbw4",
+      "revision": "44",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Ftbw5",
+      "revision": "45",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Ftbw6",
+      "revision": "46",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Ftbw7",
+      "revision": "47",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Ftbw8",
+      "revision": "48",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Ftbw9",
+      "revision": "49",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Ftbw10",
+      "revision": "50",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Ftbw11",
+      "revision": "51",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Ftsc1",
+      "revision": "52",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Ftsc2",
+      "revision": "53",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Ftsc3",
+      "revision": "54",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Ftsc4",
+      "revision": "55",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Ftsc5",
+      "revision": "56",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Ftsc6",
+      "revision": "57",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Ftsc7",
+      "revision": "58",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Ftsc8",
+      "revision": "59",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Ftsc9",
+      "revision": "60",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Ftsc10",
+      "revision": "61",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Ftsc11",
+      "revision": "62",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Ftsc12",
+      "revision": "63",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Ftsc13",
+      "revision": "64",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Ftsc14",
+      "revision": "65",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Ftsc15",
+      "revision": "66",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Ftsc16",
+      "revision": "67",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Ftsc17",
+      "revision": "68",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Ftsc18",
+      "revision": "69",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Ftsc19",
+      "revision": "70",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Ftsc20",
+      "revision": "71",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Ftsc21",
+      "revision": "72",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Ftsc22",
+      "revision": "73",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Ftsc23",
+      "revision": "74",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Ftsc24",
+      "revision": "75",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Ftsc25",
+      "revision": "76",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Ftsw1",
+      "revision": "77",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Ftsw2",
+      "revision": "78",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Ftsw3",
+      "revision": "79",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Ftsw4",
+      "revision": "80",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Ftsw5",
+      "revision": "81",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Ftsw6",
+      "revision": "82",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Ftsw7",
+      "revision": "83",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Ftsw8",
+      "revision": "84",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Ftsw9",
+      "revision": "85",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Ftsw10",
+      "revision": "86",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Ftsw11",
+      "revision": "87",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Ftsw12",
+      "revision": "88",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Ftsw13",
+      "revision": "89",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Ftsw14",
+      "revision": "90",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Fswa1",
+      "revision": "91",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Fswa2",
+      "revision": "92",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Fswa3",
+      "revision": "93",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Pipe1",
+      "revision": "94",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Piwt1",
+      "revision": "95",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Wbol1",
+      "revision": "96",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Wbol2",
+      "revision": "97",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Wbol3",
+      "revision": "98",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Wbol4",
+      "revision": "99",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Wbol5",
+      "revision": "100",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Wbol6",
+      "revision": "101",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Wbol7",
+      "revision": "102",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Wbol8",
+      "revision": "103",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Wbol9",
+      "revision": "104",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Wbol10",
+      "revision": "105",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Wbol11",
+      "revision": "106",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Wbol12",
+      "revision": "107",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Wbol13",
+      "revision": "108",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Wbpi1",
+      "revision": "109",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Wbpi2",
+      "revision": "110",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Wbpi3",
+      "revision": "111",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Wbpi4",
+      "revision": "112",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Wbpi5",
+      "revision": "113",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Wbpi6",
+      "revision": "114",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Wbpi7",
+      "revision": "115",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Wbpi8",
+      "revision": "116",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Wbpi9",
+      "revision": "117",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Wbpi10",
+      "revision": "118",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Wbpi11",
+      "revision": "119",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Wbpi12",
+      "revision": "120",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Vlfl1",
+      "revision": "121",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Vlfl2",
+      "revision": "122",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Vlfl3",
+      "revision": "123",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Vlfl4",
+      "revision": "124",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Vlfl5",
+      "revision": "125",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Vlfl6",
+      "revision": "126",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Vlfl7",
+      "revision": "127",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Vlfl8",
+      "revision": "128",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Vlbw1",
+      "revision": "129",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Vlbw2",
+      "revision": "130",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Vlbw3",
+      "revision": "131",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Vlbw4",
+      "revision": "132",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Vlsc1",
+      "revision": "133",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Vlsc2",
+      "revision": "134",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Vlsc3",
+      "revision": "135",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Vlsc4",
+      "revision": "136",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Vlsc5",
+      "revision": "137",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Vlsw1",
+      "revision": "138",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Vlsw2",
+      "revision": "139",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Vlsw3",
+      "revision": "140",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Vlsw4",
+      "revision": "141",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Vlsw5",
+      "revision": "142",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Srra1",
+      "revision": "143",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Srra2",
+      "revision": "144",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Srra3",
+      "revision": "145",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Srra4",
+      "revision": "146",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Srrb1",
+      "revision": "147",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Srrb2",
+      "revision": "148",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Srrb3",
+      "revision": "149",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Srrc1",
+      "revision": "150",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Srrd1",
+      "revision": "151",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Srre1",
+      "revision": "152",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Blnu1",
+      "revision": "153",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Blnu2",
+      "revision": "154",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Blnu3",
+      "revision": "155",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Blnu4",
+      "revision": "156",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Nuts1",
+      "revision": "157",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Nuts2",
+      "revision": "158",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Gpas1",
+      "revision": "159",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Gpas2",
+      "revision": "160",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Gpas3",
+      "revision": "161",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Gpas4",
+      "revision": "162",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Comp1",
+      "revision": "163",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Span1",
+      "revision": "164",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Span2",
+      "revision": "165",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Fxly1",
+      "revision": "166",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Fxly2",
+      "revision": "167",
+      "drawing": true,
+      "textTable": true
+    },
+    {
+      "id": "Psiz1",
+      "revision": "168",
+      "drawing": true,
+      "textTable": true
+    }
+  ]
+}

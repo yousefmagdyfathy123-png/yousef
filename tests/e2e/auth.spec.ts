@@ -1,0 +1,34 @@
+import { randomUUID } from 'node:crypto';
+import { expect, test } from '@playwright/test';
+import { mailLink, signIn, signUp } from './auth-fixture';
+
+test('a user confirms their email, recovers their account and signs out', async ({ page }) => {
+  const email = randomUUID() + '@example.invalid';
+  await signUp(page, email);
+  await page.goto('/workspace');
+  await expect(page).toHaveURL(/\/sign-in$/);
+  const confirmation = await mailLink(email, 'verify-email');
+  await page.goto(confirmation);
+  await expect(page.getByText('Email confirmed.')).toBeVisible();
+  await page.goto(confirmation);
+  await expect(page.getByText('This confirmation link is invalid, expired, or already used.')).toBeVisible();
+  await signIn(page, email);
+  await expect(page).toHaveURL(/\/account$/);
+  await page.goto('/forgot-password');
+  await page.getByLabel('Email').fill(email);
+  await page.getByRole('button', { name: 'Send reset link' }).click();
+  await expect(page.getByRole('status')).toContainText('check your email');
+  await page.goto(await mailLink(email, 'reset-password/'));
+  const password = 'A different long password';
+  await page.getByLabel('New password').fill(password);
+  await page.getByRole('button', { name: 'Reset password' }).click();
+  await expect(page.getByRole('status')).toContainText('Your password was reset.');
+  await page.goto('/account');
+  await expect(page).toHaveURL(/\/sign-in$/);
+  await signIn(page, email, password);
+  await expect(page).toHaveURL(/\/account$/);
+  await page.getByRole('button', { name: 'Sign out' }).click();
+  await expect(page).toHaveURL(/\/sign-in$/);
+  await page.goto('/account');
+  await expect(page).toHaveURL(/\/sign-in$/);
+});

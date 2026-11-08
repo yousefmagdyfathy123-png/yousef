@@ -1,0 +1,31 @@
+{
+  "evidence": {
+    "before": {
+      "files": 1638,
+      "catalogFiles": 1634,
+      "differences": 0,
+      "snapshotSha256": "68a9df6380f3d6051bb82bb039b92aca6ec60c5b2a34d48bfd1ab16fba3ec70b"
+    },
+    "after": {
+      "files": 1638,
+      "catalogFiles": 1634,
+      "differences": 0,
+      "snapshotSha256": "68a9df6380f3d6051bb82bb039b92aca6ec60c5b2a34d48bfd1ab16fba3ec70b"
+    },
+    "equal": true
+  },
+  "commands": [
+    {
+      "command": "original-source-hashes",
+      "exitCode": 0,
+      "seconds": 1.843,
+      "summary": []
+    },
+    {
+      "command": "original-source-hashes",
+      "exitCode": 0,
+      "seconds": 2.201,
+      "summary": []
+    }
+  ]
+}
